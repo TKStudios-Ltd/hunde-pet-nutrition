@@ -2633,9 +2633,8 @@ input[type='checkbox'] {
 }
 
 .header__icon--search .svg-wrapper {
-  width: 21px;
-  height: 21px;
-  padding: 10px;
+  width: 21px !important;
+  height: 21px !important;
 }
 
 .header__icon .svg-wrapper {
