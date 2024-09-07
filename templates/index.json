@@ -9,48 +9,6 @@
 */
 {
   "sections": {
-    "rich_text_DgKRD3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9VUJKk": {
-          "type": "heading",
-          "settings": {
-            "heading": "FRESH FOOD FOR PETS, EFFORTLESSLEY",
-            "heading_size": "hxxl"
-          }
-        },
-        "text_HQFCAW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>HUNDE is transforming pet care by enabling you to confidently feed \u2028your pets a nutritious homemade diet.<\/p>"
-          }
-        },
-        "button_LMjVpy": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop All",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_9VUJKk",
-        "text_HQFCAW",
-        "button_LMjVpy"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -81,7 +39,6 @@
     }
   },
   "order": [
-    "rich_text_DgKRD3",
     "featured_collection"
   ]
 }
