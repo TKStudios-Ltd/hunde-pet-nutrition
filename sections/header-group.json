@@ -18,49 +18,56 @@
           "type": "announcement",
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
-            "link": ""
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
         },
         "announcement_jhnJ3p": {
           "type": "announcement",
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
-            "link": ""
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
         },
         "announcement_rxbgzA": {
           "type": "announcement",
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
-            "link": ""
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
         },
         "announcement_fnjnxM": {
           "type": "announcement",
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
-            "link": ""
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
         },
         "announcement_zrmNbj": {
           "type": "announcement",
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
-            "link": ""
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
         },
         "announcement_4W6TdR": {
           "type": "announcement",
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
-            "link": ""
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
         },
         "announcement_fJQ36z": {
           "type": "announcement",
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
-            "link": ""
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
         }
       },
@@ -74,13 +81,7 @@
         "announcement_fJQ36z"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "color_scheme": "scheme-3"
       }
     },
     "header": {
