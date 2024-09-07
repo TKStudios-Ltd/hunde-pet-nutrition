@@ -7,13 +7,12 @@
 
 .announcement-bar__scroll-wrapper {
   display: flex;
-  flex-wrap: nowrap;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .announcement-bar__scroll-content {
   display: flex;
-  flex-wrap: nowrap;
   animation: infiniteScroll 20s linear infinite;
 }
 
@@ -23,15 +22,21 @@
   white-space: nowrap;
 }
 
-/* Keyframes for smooth, infinite scrolling */
 @keyframes infiniteScroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+
+/* Pseudo-element to duplicate content for smooth scrolling */
+.announcement-bar__scroll-content::after {
+  content: attr(data-duplicate);
+  display: inline-flex;
+}
+
 
 {%- endstyle -%}
 
@@ -75,6 +80,7 @@
     {%- endif -%}
   </div>
 </div>
+
 
 {% schema %}
 {
