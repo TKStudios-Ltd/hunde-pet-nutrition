@@ -6,6 +6,41 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'TT Neoris';
+    src: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-Bd.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Neoris';
+    src: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-Md.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Neoris';
+    src: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-DmBd.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-Md.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Neoris';
+    src: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-Rg.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/TTNeoris-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 :root {
