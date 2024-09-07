@@ -325,13 +325,15 @@ h5,
 
 .hxxl {
   font-family: 'Nineties Headliner', san-serif;
-  font-size: 20vw;
+  font-size: 7vw;
   line-height: 0.95;
   letter-spacing: -1.07px;
 }
 @media only screen and (min-width: 990px) {
-  font-size: 120px;
-  line-height: 108px;
+  .hxxl {
+    font-size: 120px;
+    line-height: 108px;
+  }
 }
 
 .hxl {
