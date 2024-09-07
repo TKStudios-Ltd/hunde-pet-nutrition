@@ -17,17 +17,40 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Free Domestic Shipping On Orders Over $150",
+            "link": ""
+          }
+        },
+        "announcement_jhnJ3p": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $150",
+            "link": ""
+          }
+        },
+        "announcement_rxbgzA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $150",
+            "link": ""
+          }
+        },
+        "announcement_fnjnxM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $150",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_jhnJ3p",
+        "announcement_rxbgzA",
+        "announcement_fnjnxM"
       ],
-      "disabled": true,
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
