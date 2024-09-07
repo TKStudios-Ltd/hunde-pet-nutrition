@@ -305,6 +305,7 @@ h5,
 
 h1,
 .h1 {
+  font-family: 'Nineties Headliner', san-serif;
   font-size: calc(var(--font-heading-scale) * 3rem);
 }
 
