@@ -97,6 +97,15 @@
   </div>
 </div>
 
+{% javascript %}
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollContent = document.querySelector('.announcement-bar__scroll-content');
+  if (scrollContent) {
+    const clone = scrollContent.cloneNode(true);
+    scrollContent.appendChild(clone);
+  }
+});
+{% endjavascript %}
 
 {% schema %}
 {
