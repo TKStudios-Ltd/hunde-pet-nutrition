@@ -38,7 +38,9 @@
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha384-JfHU5WIbkVR/K8R1dOpI6y3do8XjIzQtO6d+7onF/Vtde/rCrRuIs2+csjr7w3u3g" crossorigin="anonymous">
+
 
     {{ content_for_header }}
 
