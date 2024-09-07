@@ -22,21 +22,21 @@
   }
   .icon-cat-top {
     position: absolute;
-    top: 100px;
+    top: 0;
     right: 5vw;
     width: 67px !important;
     height: 119px !important;
     z-index: 2;
   }
   .hero-section img[data-aos] {
-    opacity: 1; /* Ensure the image is visible */
-    transition: opacity 1s ease-in-out;
+    opacity: 1;
+    /* transition: opacity 1s ease-in-out; */
   }
   .hero-section img[data-aos].aos-animate {
-    opacity: 1; /* AOS will handle this, but this is a fallback */
+    opacity: 1;
   }
   .hero-section img[data-aos]:not(.aos-animate) {
-    opacity: 0; /* Initially hidden until AOS applies the animation */
+    opacity: 0;
   }
 
 {%- endstyle -%}
@@ -47,7 +47,7 @@
     height="100%" 
     data-aos="fade-down" 
     data-aos-duration="1000" 
-    data-aos-delay="2000" 
+    data-aos-delay="1000" 
     data-aos-once="true"
   >
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
