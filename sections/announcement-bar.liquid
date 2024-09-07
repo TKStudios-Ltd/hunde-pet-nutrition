@@ -2,28 +2,37 @@
 .announcement-bar--autoscroll {
   overflow: hidden;
   position: relative;
-}
-.announcement-bar__scroll-wrapper {
-  display: flex;
-  overflow: hidden;
   white-space: nowrap;
 }
+
+.announcement-bar__scroll-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
 .announcement-bar__scroll-content {
-  display: inline-flex;
-  animation: scroll 20s linear infinite;
+  display: flex;
+  flex-wrap: nowrap;
+  animation: infiniteScroll 20s linear infinite;
 }
+
 .announcement-bar__item {
-  display: inline-block;
+  flex: 0 0 auto;
   padding: 0 2rem;
+  white-space: nowrap;
 }
-@keyframes scroll {
+
+/* Keyframes for smooth, infinite scrolling */
+@keyframes infiniteScroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-100%);
   }
 }
+
 {%- endstyle -%}
 
 
