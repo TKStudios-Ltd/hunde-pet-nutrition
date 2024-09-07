@@ -128,6 +128,10 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
+.color-scheme-1 {
+  color: rgba(var(--color-foreground), 1);
+}
+
 /* base */
 
 .page-width {
