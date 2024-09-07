@@ -28,6 +28,17 @@
     height: 119px !important;
     z-index: 2;
   }
+  .hero-section img[data-aos] {
+    opacity: 1; /* Ensure the image is visible */
+    transition: opacity 1s ease-in-out;
+  }
+  .hero-section img[data-aos].aos-animate {
+    opacity: 1; /* AOS will handle this, but this is a fallback */
+  }
+  .hero-section img[data-aos]:not(.aos-animate) {
+    opacity: 0; /* Initially hidden until AOS applies the animation */
+  }
+
 {%- endstyle -%}
 
 <div class="homepage_hero isolate{% unless section.settings.full_width %} page-width{% endunless %}">
