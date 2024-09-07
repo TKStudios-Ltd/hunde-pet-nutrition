@@ -1,21 +1,21 @@
 {%- style -%}
+.utility-bar__padding {
+  padding: 4px 0;
+}
 .announcement-bar--autoscroll {
   overflow: hidden;
   position: relative;
   white-space: nowrap;
 }
-
 .announcement-bar__scroll-wrapper {
   display: flex;
   overflow: hidden;
   white-space: nowrap;
 }
-
 .announcement-bar__scroll-content {
   display: flex;
   animation: infiniteScroll 30s linear infinite;
 }
-
 .announcement-bar__item {
   flex: 0 0 auto;
   padding: 0 1.5rem;
@@ -23,13 +23,11 @@
   display: inline-flex;
   align-items: center;
 }
-
 .announcement-bar__message {
   font-family: 'TT Neoris';
   font-size: 13px;
   font-weight: 500;
 }
-  
 .announcement-bar__image {
   width: 16px !important;
   margin-left: 3rem;
@@ -58,7 +56,7 @@
   class="utility-bar color-{{ section.settings.color_scheme }}"
   {{ block.shopify_attributes }}
 >
-  <div class="utility-bar__grid">
+  <div class="utility-bar__padding">
 
     {%- if section.blocks.size > 0 -%}
       <div
