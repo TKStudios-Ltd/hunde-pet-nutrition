@@ -296,6 +296,10 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   background-color: rgba(var(--color-foreground), 0.2);
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   font-family: 'TT Neoris', san-serif !important;
   font-weight: 400 !important;
