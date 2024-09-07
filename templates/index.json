@@ -43,7 +43,7 @@
         "button_AXBzMz"
       ],
       "custom_css": [
-        "p {max-width: 550px; margin: 0 auto;}"
+        "p {max-width: 580px; margin: 0 auto; font-size: 20px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
