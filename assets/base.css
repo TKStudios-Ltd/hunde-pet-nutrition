@@ -297,9 +297,10 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 body {
-  font-family: 'TT Neoris';
-  font-weight: 400;
-  line-height: 1.8;
+  font-family: 'TT Neoris', san-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;
+  letter-spacing: 0.27px;
 }
 
 .text-body {
