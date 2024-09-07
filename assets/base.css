@@ -2637,6 +2637,11 @@ input[type='checkbox'] {
   height: 21px !important;
 }
 
+.header__icon--account .svg-wrapper {
+  width: 31px;
+  height: 31px;
+}
+
 .header__icon .svg-wrapper {
   width: 31px;
   height: 31px;
