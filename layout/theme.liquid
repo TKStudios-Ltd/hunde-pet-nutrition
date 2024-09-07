@@ -378,9 +378,10 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         AOS.init({
-          duration: 1000,
-          once: true,
-          startEvent: 'DOMContentLoaded', // Start animation on DOM load
+          duration: 1000, // Animation duration
+          delay: 2000,    // Delay before animation starts
+          once: true,     // Only animate once
+          startEvent: 'load', // Ensure animation starts after all content is loaded
         });
       });
     </script>
