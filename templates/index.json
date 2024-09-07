@@ -22,7 +22,7 @@
         "text_LWfqMH": {
           "type": "text",
           "settings": {
-            "text": "<p>HUNDE is transforming pet care by enabling you to confidently feed \u2028your pets a nutritious homemade diet.<\/p>"
+            "text": "<p>HUNDE is transforming pet care by enabling you to confidently feed your pets a nutritious homemade diet.<\/p>"
           }
         },
         "button_AXBzMz": {
@@ -41,6 +41,9 @@
         "heading_YTMtzy",
         "text_LWfqMH",
         "button_AXBzMz"
+      ],
+      "custom_css": [
+        "p {max-width: 550px; margin: 0 auto;}"
       ],
       "settings": {
         "desktop_content_position": "center",
