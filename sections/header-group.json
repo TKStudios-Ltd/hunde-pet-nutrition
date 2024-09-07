@@ -55,6 +55,13 @@
             "text": "Free Domestic Shipping On Orders Over $150",
             "link": ""
           }
+        },
+        "announcement_fJQ36z": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $150",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -63,7 +70,8 @@
         "announcement_rxbgzA",
         "announcement_fnjnxM",
         "announcement_zrmNbj",
-        "announcement_4W6TdR"
+        "announcement_4W6TdR",
+        "announcement_fJQ36z"
       ],
       "settings": {
         "color_scheme": "scheme-3",
