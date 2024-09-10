@@ -43,12 +43,14 @@
     .featured-collection-grid {
       display: flex;
     }
-    .featured-collection-grid__view-all,
-    .featured-collection-grid__product {
-      flex: 0 0 50%;
+    .featured-collection-grid__view-all {
+      flex: 0 0 calc(50% - 1rem);
     }
     .featured-collection-grid__view-all {
       margin-right: 1rem;
+    }
+    .featured-collection-grid__product {
+      flex: 0 0 50%;
     }
     .featured-collection-grid__product .grid {
       margin-top: 0;
