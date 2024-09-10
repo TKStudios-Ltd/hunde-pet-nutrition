@@ -44,6 +44,11 @@
     .featured-collection-grid__product {
       flex: 0 0 50%;
     }
+    .featured-collection-grid__product .grid__item {
+        width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+        max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+      }
+    }
   }
 {%- endstyle -%}
 
