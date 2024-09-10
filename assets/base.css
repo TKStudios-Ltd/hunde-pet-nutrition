@@ -355,6 +355,13 @@ h5,
   line-height: 0.95;
   letter-spacing: -1.07px;
 }
+@media only screen and (max-width: 749px) {
+  .hxxl {
+    font-size: 59px;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+}
 @media only screen and (min-width: 990px) {
   .hxxl {
     font-size: 120px;
