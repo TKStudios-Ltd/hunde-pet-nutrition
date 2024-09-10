@@ -326,7 +326,7 @@ body {
 }
 
 .italic-heading {
-  font-family: 'Perfectly Nineties';
+  font-family: 'Perfectly Nineties' !important;
 }
 
 h1,
