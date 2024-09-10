@@ -106,7 +106,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 4,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "collage_rWNzwH": {
@@ -115,7 +115,6 @@
         "collection_gL6TK7": {
           "type": "collection",
           "settings": {
-            "collection": ""
           }
         },
         "product_WUWtdq": {
@@ -145,8 +144,8 @@
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
