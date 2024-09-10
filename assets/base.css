@@ -325,6 +325,10 @@ body {
   /* font-weight: var(--font-body-weight); */
 }
 
+.italic-heading {
+  font-family: 'Perfectly Nineties';
+}
+
 h1,
 h2,
 h3,
