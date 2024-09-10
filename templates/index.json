@@ -134,12 +134,28 @@
             "product": "",
             "second_image": false
           }
+        },
+        "product_FTPKNg": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "product_XENpXm": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
         }
       },
       "block_order": [
         "collection_gL6TK7",
         "product_WUWtdq",
-        "product_cLfUEW"
+        "product_cLfUEW",
+        "product_FTPKNg",
+        "product_XENpXm"
       ],
       "settings": {
         "heading": "",
