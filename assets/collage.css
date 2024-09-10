@@ -32,16 +32,12 @@
   .collage__item--small:nth-child(2),
   .collage__item--small:nth-child(3) {
     grid-column: 2 / 3; /* Align small items in the second column */
+    grid-row: span 1;   /* Each small item spans one row */
   }
-  
-  .collage__item--small:nth-child(4) {
-    grid-column: 2 / 3;
-  }
-  
-  /* Create a 2x2 grid inside the right column */
+
   .collage__item--small-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* Create two columns inside the small items container */
     grid-gap: var(--grid-desktop-vertical-spacing);
   }
 }
