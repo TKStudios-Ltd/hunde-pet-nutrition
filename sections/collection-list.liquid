@@ -21,6 +21,14 @@
   .collection-list-wrapper .card .card__inner .card__media {
     border-radius: calc(var(--border-radius) - var(--border-width) - var(--image-padding)) calc(var(--border-radius) - var(--border-width) - var(--image-padding)) 0 0 !important;
   }
+  .collection-list-wrapper .card .card__information {
+    border: var(--border-width) solid rgba(var(--color-foreground),var(--border-opacity));
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+  }
+  .collection-list-wrapper .card .card__information .card__heading {
+    text-align: center;
+    text-transform: uppercase;
+  }
 {%- endstyle -%}
 
 {%- liquid
