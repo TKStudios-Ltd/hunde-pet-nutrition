@@ -115,6 +115,10 @@
         "collection_gL6TK7": {
           "type": "collection",
           "settings": {
+            "heading": "MEAL",
+            "caption": "Balancers",
+            "button_label": "Shop ALL MEAL BALANCERS",
+            "button_link": "#"
           }
         },
         "product_WUWtdq": {
