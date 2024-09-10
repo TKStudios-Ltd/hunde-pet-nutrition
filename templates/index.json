@@ -59,7 +59,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 150,
-        "padding_bottom": 120
+        "padding_bottom": 100
       }
     },
     "collection_list_wk6pQ6": {
@@ -105,7 +105,7 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 4,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -133,8 +133,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
