@@ -40,6 +40,10 @@
     .featured-collection-grid {
       display: flex;
     }
+    .featured-collection-grid__view-all,
+    .featured-collection-grid__product {
+      flex: 0 0 50%;
+    }
   }
 {%- endstyle -%}
 
@@ -63,16 +67,15 @@
   endif
 -%}
 
-<div
-  class="color-{{ section.settings.color_scheme }} isolate gradient"
->
+<div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div
     class="collection{% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %} section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}"
     id="collection-{{ section.id }}"
     data-id="{{ section.id }}"
   >
     <div class="featured-collection-grid {% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}">
-      <div class="featured-collection-grid__view-all"
+
+      <div class="featured-collection-grid__view-all">
         <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
           {%- if section.settings.title != blank -%}
             <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -85,7 +88,7 @@
         </a>
       </div>
 
-      <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="featured-collection-grid__product {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <ul
           id="Slider-{{ section.id }}"
           data-id="{{ section.id }}"
@@ -145,13 +148,14 @@
             {%- endfor -%}
           {%- endfor -%}
         </ul>
-      </slider-component>
+      </div>
       
     </div>
 
   </div>
   
 </div>
+
 
 {% schema %}
 {
