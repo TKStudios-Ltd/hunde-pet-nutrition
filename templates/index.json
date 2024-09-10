@@ -23,8 +23,7 @@
           "type": "caption",
           "settings": {
             "caption": "Meal balancers and functional toppers for dogs + cats",
-            "text_style": "subtitle",
-            "text_size": "medium"
+            "text_style": "subtitle"
           }
         },
         "text_LWfqMH": {
@@ -69,19 +68,19 @@
         "featured_collection_6KWhyF": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "dogs"
           }
         },
         "featured_collection_9EwLQK": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cats"
           }
         },
         "featured_collection_tMBGU3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "bundles"
           }
         },
         "featured_collection_zbmVk8": {
