@@ -1454,6 +1454,7 @@ button.shopify-payment-button__button--unbranded {
 .button--arrow {
   display: flex;
   align-items: center;
+  color: rgb(var(--color-foreground));
   font-family: Nineties Headliner, san-serif;
   font-size: 17px;
   letter-spacing: 0.2px;
