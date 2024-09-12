@@ -35,6 +35,25 @@
     border: 3px solid #000000;
     padding: 5rem 2rem 0;
   }
+  .featured-collection-grid h1.title {
+    color: white;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .featured-collection-grid h2.italic-heading {
+    font-size: 58px !important;
+    color: white;
+    margin: 0;
+    line-height: 1;
+    position: relative;
+  }
+  .featured-collection-grid h2.italic-heading:after {
+    position: absolute;
+    content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/Underline_06.svg');
+    leftt: 0px;
+    bottom: 6px;
+    transform: translate(-50%, 50%);
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
