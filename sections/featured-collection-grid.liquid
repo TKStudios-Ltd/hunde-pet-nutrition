@@ -98,6 +98,11 @@
               {{ section.settings.title }}
             </h2>
           {%- endif -%}
+          {%- if section.settings.subtitle != blank -%}
+            <h2 class="rich-text__caption italic-heading{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              {{ section.settings.subtitle }}
+            </h2>
+          {%- endif -%}
         </div>
         <a href="{{ section.settings.collection.url }}" class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}" aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}">
           {{ 'sections.featured_collection.view_all' | t }} {{ section.settings.collection.title | escape }}
@@ -215,6 +220,12 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subtitle",
+      "default": "t:sections.featured-collection.settings.title.default",
+      "label": "Subtite"
     },
     {
       "type": "richtext",
