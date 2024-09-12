@@ -114,6 +114,7 @@
       "settings": {
         "title": "MEAL",
         "heading_size": "hxl",
+        "subtitle": "Balancers",
         "description": "",
         "show_description": false,
         "description_style": "body",
