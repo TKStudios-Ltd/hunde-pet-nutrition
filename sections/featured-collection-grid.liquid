@@ -116,7 +116,7 @@
   >
     <div class="featured-collection-grid {% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}">
 
-      <a href="{{ section.settings.collection.url }}" class="featured-collection-grid__view-all {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}">
+      <div class="featured-collection-grid__view-all {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="collection__title title-wrapper title-wrapper--no-top-margin">
           {%- if section.settings.title != blank -%}
             <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -129,10 +129,10 @@
             </h2>
           {%- endif -%}
         </div>
-        <span class="button--arrow button--arrow-white {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <a href="{{ section.settings.collection.url }}" class="button--arrow button--arrow-white {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"  aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}">
           Shop All {{ section.settings.collection.title | escape }} <span class="svg-wrapper">{{ 'icon-arrow-white.svg' | inline_asset_content }}</span>
-        </span>
-      </a>
+        </a>
+      </div>
 
       <div class="featured-collection-grid__product {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <ul
