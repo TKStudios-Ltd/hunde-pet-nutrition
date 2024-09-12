@@ -11,11 +11,45 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_wz6aB7": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_CYAKL8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want 10% off your first order?",
+            "heading_size": "hxl"
+          }
+        },
+        "paragraph_RaMxaM": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for special offers and pet nutrition news.<\/p>"
+          }
+        },
+        "email_form_jEXpUL": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_CYAKL8",
+        "paragraph_RaMxaM",
+        "email_form_jEXpUL"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
         "color_scheme": "scheme-3",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
@@ -30,6 +64,7 @@
     }
   },
   "order": [
+    "newsletter_wz6aB7",
     "footer"
   ]
 }
