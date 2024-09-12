@@ -130,7 +130,7 @@
           {%- endif -%}
         </div>
         <span class="button--arrow button--arrow-white {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          Shop All {{ section.settings.collection.title | escape }}
+          Shop All {{ section.settings.collection.title | escape }} <span class="svg-wrapper">{{ 'icon-arrow-white.svg' | inline_asset_content }}</span>
         </span>
       </a>
 
