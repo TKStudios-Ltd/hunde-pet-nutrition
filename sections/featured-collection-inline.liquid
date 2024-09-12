@@ -115,8 +115,8 @@
             </h2>
           {%- endif -%}
         </div>
-        <a href="{{ section.settings.collection.url }}" class="button--arrow button--arrow-white {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"  aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}">
-          Shop All {{ section.settings.collection.title | escape }} <span class="svg-wrapper">{{ 'icon-arrow-white.svg' | inline_asset_content }}</span>
+        <a href="{{ section.settings.collection.url }}" class="button--arrow {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"  aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}">
+          Shop All {{ section.settings.collection.title | escape }} <span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span>
         </a>
       </div>
 
