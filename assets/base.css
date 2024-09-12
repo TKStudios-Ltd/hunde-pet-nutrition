@@ -1460,6 +1460,9 @@ button.shopify-payment-button__button--unbranded {
   text-decoration: none;
   text-transform: uppercase;
 }
+.button--arrow span {
+  margin-left: 10px;
+}
 
 .button--arrow-white {
   color: white;
