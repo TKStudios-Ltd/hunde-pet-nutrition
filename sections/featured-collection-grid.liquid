@@ -129,9 +129,9 @@
             </h2>
           {%- endif -%}
         </div>
-        <a href="{{ section.settings.collection.url }}" class="button--arrow button--arrow-white" aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}">
+        <span class="button--arrow button--arrow-white" aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}">
           Shop All {{ section.settings.collection.title | escape }}
-        </a>
+        </span>
       </a>
 
       <div class="featured-collection-grid__product {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
