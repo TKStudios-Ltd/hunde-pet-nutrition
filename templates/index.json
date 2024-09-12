@@ -113,7 +113,7 @@
       "type": "featured-collection-grid",
       "settings": {
         "title": "MEAL",
-        "heading_size": "h1",
+        "heading_size": "hxl",
         "description": "",
         "show_description": false,
         "description_style": "body",
