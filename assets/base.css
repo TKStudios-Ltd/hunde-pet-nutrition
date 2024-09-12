@@ -3095,6 +3095,7 @@ details-disclosure > details {
 .badge.color-scheme-5:after {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_soldout.svg');
   position: absolute;
+  right: 10px;
 }
 
 .gradient {
