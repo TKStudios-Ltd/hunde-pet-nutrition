@@ -378,9 +378,14 @@
     padding-bottom: 0;
     padding-top: 0;
   }
-
   .footer-block__details-content > :first-child .list-menu__item--link {
     padding-top: 0;
+  }
+  .footer__blocks-wrapper .footer-block--menu {
+    width: calc(20% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
+  }
+  .footer__blocks-wrapper .footer-block {
+    width: calc(40% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
   }
 }
 
