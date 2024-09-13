@@ -20,7 +20,7 @@ img.icon-animals {
   left: 0;
   width: 100%;
   height: 81px !important;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .newsletter__wrapper > * {
