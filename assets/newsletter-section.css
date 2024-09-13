@@ -1,5 +1,8 @@
 .newsletter__wrapper {
+  position: relative;
   border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin-bottom: 3rem;
   padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));
 }
