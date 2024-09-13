@@ -53,7 +53,7 @@
   font-family: 'Nineties Headliner', san-serif;
   font-size: 17px;
   letter-spacing: .2px;
-  width: inherit;
+  width: auto;
   justify-content: flex-end;
   margin: 0;
   right: var(--inputs-border-width);
