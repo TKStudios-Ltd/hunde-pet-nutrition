@@ -292,6 +292,10 @@
   }
 }
 
+.footer__content-bottom-copyright {
+  padding-top: 3rem;
+}
+
 .footer__content-bottom-wrapper--center {
   justify-content: center;
 }
