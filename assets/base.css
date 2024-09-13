@@ -58,6 +58,10 @@
     font-display: swap;
 }
 
+[data-aos^=fade][data-aos^=fade] {
+    transition-property: transform !important;
+}
+
 
 :root {
   --alpha-button-background: 1;
