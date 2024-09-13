@@ -50,6 +50,9 @@
 }
 
 .newsletter-form__button {
+  font-family: 'Nineties Headliner', san-serif;
+  font-size: 17px;
+  letter-spacing: .2px;
   width: inherit;
   justify-content: flex-end;
   margin: 0;
