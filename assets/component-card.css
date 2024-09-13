@@ -270,11 +270,6 @@
   }
 }
 
-.card-collection .card__information {
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
 .card__badge {
   align-self: flex-end;
   grid-row-start: 3;
