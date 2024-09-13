@@ -47,6 +47,42 @@
     },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_cfH8a6": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "footer-shop"
+          }
+        },
+        "link_list_6YjCMJ": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Who We Are",
+            "menu": "footer-who-we-are"
+          }
+        },
+        "link_list_fUFgMG": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Support",
+            "menu": "footer-support"
+          }
+        },
+        "text_JkxALe": {
+          "type": "text",
+          "settings": {
+            "heading": "Country",
+            "subtext": "<p>We acknowledge the Widjabul Wia-bal people of the Bundjalung Nation as the traditional owners of the land on which we live and work. We <a href=\"https:\/\/paytherent.net.au\/\" target=\"_blank\" title=\"https:\/\/paytherent.net.au\/\">pay the rent<\/a> each month.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_cfH8a6",
+        "link_list_6YjCMJ",
+        "link_list_fUFgMG",
+        "text_JkxALe"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": false,
