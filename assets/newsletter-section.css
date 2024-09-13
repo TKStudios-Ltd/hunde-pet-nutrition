@@ -41,7 +41,7 @@ img.icon-animals {
 
 .newsletter__wrapper > * + * {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .newsletter__wrapper > * + .newsletter-form {
