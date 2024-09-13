@@ -382,10 +382,10 @@
     padding-top: 0;
   }
   .footer__blocks-wrapper .footer-block--menu {
-    width: calc(22% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
+    width: calc(21% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
   }
   .footer__blocks-wrapper .footer-block {
-    width: calc(34% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+    width: calc(37% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
   }
 }
 
