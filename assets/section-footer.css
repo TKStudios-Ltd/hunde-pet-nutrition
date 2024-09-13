@@ -376,6 +376,7 @@
     letter-spacing: 0.2px;
     line-height: 1.8;
     padding-bottom: 0;
+    padding-top: 0;
   }
 
   .footer-block__details-content > :first-child .list-menu__item--link {
