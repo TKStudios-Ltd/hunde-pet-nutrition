@@ -21,6 +21,8 @@
 
 .newsletter-form__field-wrapper .field__input {
   padding-right: 5rem;
+  height: 6rem;
+  padding: 2rem;
   background: white;
 }
 
