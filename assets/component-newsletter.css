@@ -50,12 +50,18 @@
 }
 
 .newsletter-form__button {
-  width: 4.4rem;
+  width: inherit;
+  justify-content: flex-end;
   margin: 0;
   right: var(--inputs-border-width);
   top: 0;
   height: 100%;
   z-index: 2;
+}
+.newsletter-form__button > .svg-wrapper {
+  height: 16px;
+  width: 16px;
+  margin: 0 2rem 0 1rem;
 }
 
 .newsletter-form__button:focus-visible {
