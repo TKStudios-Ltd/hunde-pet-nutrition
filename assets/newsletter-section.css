@@ -1,4 +1,5 @@
 .newsletter__wrapper {
+  border-top: 3px solid #000;
   padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));
 }
