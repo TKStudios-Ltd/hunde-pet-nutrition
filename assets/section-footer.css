@@ -288,7 +288,7 @@
 
 @media screen and (min-width: 750px) {
   .footer__payment {
-    margin-top: 3rem;
+    margin-top: 0;
   }
 }
 
