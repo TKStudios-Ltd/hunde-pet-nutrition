@@ -486,13 +486,16 @@
 } */
 
 .policies li a {
-  padding: 0.6rem 0;
+  padding: 0 0 0 1rem;
   display: block;
+  font-size: 1.1rem;
+  color: inherit;
+  text-decoration: 0;
 }
 
 @media screen and (min-width: 750px) {
   .policies li a {
-    padding: 0;
+    padding: 0 0 0 1rem;
   }
 }
 @keyframes animateLocalization {
