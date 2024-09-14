@@ -58,3 +58,7 @@
     }
   }
 }
+
+.featured--article .card {
+  flex-direction: row-reverse !important;
+}
