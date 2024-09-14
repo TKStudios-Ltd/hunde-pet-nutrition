@@ -62,3 +62,11 @@
 .featured--article .card {
   flex-direction: row-reverse !important;
 }
+.featured--article .card__heading {
+  font-family: 'Nineties Headliner', san-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+}
+
+
