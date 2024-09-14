@@ -58,6 +58,7 @@
     font-display: swap;
 }
 
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -134,12 +135,7 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
-body, 
-.color-scheme-1, 
-.color-scheme-2, 
-.color-scheme-3, 
-.color-scheme-4, 
-.color-scheme-5 {
+.color-scheme-1 {
   color: rgba(var(--color-foreground), 1);
 }
 
@@ -1875,8 +1871,8 @@ details[open] > .share-button__fallback {
   pointer-events: none;
   position: absolute;
   transition: top var(--duration-short) ease, font-size var(--duration-short) ease;
-  color: rgba(var(--color-foreground), 1);
-  letter-spacing: 0.2px;
+  color: rgba(var(--color-foreground), 0.75);
+  letter-spacing: 0.1rem;
   line-height: 1.5;
 }
 
@@ -3766,4 +3762,10 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+/* Instagram Feed */
+
+.instafeed-new-layout-item-container {
+  border: 3px solid #000;
 }
