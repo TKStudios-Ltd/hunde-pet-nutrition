@@ -70,7 +70,7 @@
   text-align: left;
 }
 .featured--article .card h2.italic-heading {
-  display: block;
+  display: block !important;
 }
 .featured--article .card__heading {
   font-family: 'Nineties Headliner', san-serif;
