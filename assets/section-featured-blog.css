@@ -71,6 +71,8 @@
 }
 .featured--article .card h2.italic-heading {
   display: block !important;
+  margin: 0 0 1.5rem;
+  letter-spacing: 0.2px;
 }
 .featured--article .card__heading {
   font-family: 'Nineties Headliner', san-serif;
