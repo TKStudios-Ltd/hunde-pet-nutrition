@@ -63,7 +63,7 @@
   flex-direction: row-reverse !important;
 }
 .featured--article .card__information {
-  padding: 2rem 4rem 2rem 0;
+  padding: 2rem 4rem 2rem 0 !important;
   text-align: left;
 }
 .featured--article .card__heading {
@@ -71,6 +71,8 @@
   font-size: 60px;
   text-transform: uppercase;
   letter-spacing: 0.35px;
+  font-weight: inherit;
+  line-height: 0.9;
 }
 .featured--article .article-card__excerpt,
 .featured--article .article-card__footer {
