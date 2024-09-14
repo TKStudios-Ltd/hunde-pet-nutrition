@@ -59,12 +59,18 @@
   }
 }
 
+.featured--article .title-wrapper-with-link {
+  display: none;
+}
 .featured--article .card {
   flex-direction: row-reverse !important;
 }
 .featured--article .card__information {
   padding: 2rem 4rem 2rem 0 !important;
   text-align: left;
+}
+.featured--article .card h2.italic-heading {
+  display: block;
 }
 .featured--article .card__heading {
   font-family: 'Nineties Headliner', san-serif;
