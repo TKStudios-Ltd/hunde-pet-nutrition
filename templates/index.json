@@ -187,6 +187,33 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_tQfJwH": {
+      "type": "rich-text",
+      "blocks": {
+        "button_LGBU3W": {
+          "type": "button",
+          "settings": {
+            "button_label": "Follow us on Instagram",
+            "button_link": "https:\/\/www.instagram.com\/hunde.au\/",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_LGBU3W"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -194,6 +221,7 @@
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "featured_collection_inline_cEayYb",
-    "172619133319155516"
+    "172619133319155516",
+    "rich_text_tQfJwH"
   ]
 }
