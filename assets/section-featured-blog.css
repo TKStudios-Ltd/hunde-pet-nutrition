@@ -82,8 +82,7 @@
   font-weight: inherit;
   line-height: 0.9;
 }
-.featured--article .article-card__excerpt,
-.featured--article .article-card__footer {
+.featured--article .article-card__excerpt {
   display: none;
 }
 
