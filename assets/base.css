@@ -3862,8 +3862,16 @@ details-disclosure > details {
   color: white;
   margin: 10px 0 5px;
 }
-.js .stamped-reviews-ul {
-  color: white;
+.js .stamped-pagination .page.active {
+  text-decoration: none;
+  position: relative;
+}
+.js .stamped-pagination .page.active:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: white;
+  position: absolute;
 }
 .js .stamped-pagination a {
   color: white;
@@ -3871,6 +3879,7 @@ details-disclosure > details {
   font-weight: 400;
   font-size: 18px;
   letter-spacing: .2px;
+  padding: 15px;
 }
 
 
