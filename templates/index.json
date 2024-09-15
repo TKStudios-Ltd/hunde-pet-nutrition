@@ -216,6 +216,15 @@
         "padding_bottom": 80
       }
     },
+    "custom_liquid_JPaN66": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"icon-row\"><img src-\"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0884\/4170\/files\/HUNDE_IconRow.svg\" class=\"hide-mob\" width=\"100%\" height=\"100%\"><img src-\"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0884\/4170\/files\/HUNDE_IconRow_Mob.svg\" class=\"hide-desk\" width=\"100%\" height=\"100%\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
     "scrolling_image_slider_wDbnnh": {
       "type": "scrolling-image-slider",
       "blocks": {
@@ -325,6 +334,7 @@
     "featured_collection_grid_3Xr3wa",
     "featured_collection_inline_cEayYb",
     "multicolumn_MB4Ncx",
+    "custom_liquid_JPaN66",
     "scrolling_image_slider_wDbnnh",
     "featured_blog_XYzgPt",
     "172619133319155516",
