@@ -49,8 +49,7 @@
 }
 
 .multicolumn .button:before {
-  box-shadow: 4px var(--shadow-vertical-offset) var(--shadow-blur-radius)
-    rgba(var(--color-shadow), var(--shadow-opacity));
+  z-index: 0;
 }
 
 @media screen and (min-width: 750px) {
