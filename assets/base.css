@@ -3846,6 +3846,15 @@ details-disclosure > details {
   font-weight: 400;
   font-family: 'Nineties Headliner', san-serif;
 }
+.js .stamped-review .author,
+.js .stamped-review-header .review-location,
+.js .stamped-review-header .created {
+  color: white;
+}
+.js .stamped-review-header-title {
+  color: white;
+  
+}
 
 
 
