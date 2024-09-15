@@ -175,7 +175,7 @@
           "settings": {
             "title": "I AM NEW TO RAW FEEDING",
             "block_heading_size": "h0",
-            "text": "<p>Where do I start?<\/p>",
+            "text": "<p><em>Where do I start?<\/em><\/p>",
             "link_label": "",
             "link": ""
           }
