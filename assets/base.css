@@ -3850,7 +3850,8 @@ details-disclosure > details {
 .js .stamped-review-header .review-location,
 .js .stamped-review-header .created,
 .js p.stamped-review-content-body,
-.js .stamped-container[data-widget-show-product-variant=true] .stamped-review-product a {
+.js .stamped-container[data-widget-show-product-variant=true] .stamped-review-product a,
+.js .stamped-container[data-widget-show-product-variant=true] .stamped-review-variant {
   color: white;
 }
 .js .stamped-review-header-title {
