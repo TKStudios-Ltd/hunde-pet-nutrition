@@ -3791,6 +3791,15 @@ details-disclosure > details {
 #shopify-section-template--17348005724298__172637089614ee2655 {
   background: grey;
 }
+.js .stamped-header-title {
+  font-family: Nineties Headliner, san-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: .35px;
+  line-height: .9;
+  color: white;
+}
+
 
 
 /* Instagram Feed */
