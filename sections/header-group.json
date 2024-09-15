@@ -61,22 +61,6 @@
             "link": "",
             "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
           }
-        },
-        "announcement_fJQ36z": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_78XL8K": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
-          }
         }
       },
       "block_order": [
@@ -85,9 +69,7 @@
         "announcement_rxbgzA",
         "announcement_fnjnxM",
         "announcement_zrmNbj",
-        "announcement_4W6TdR",
-        "announcement_fJQ36z",
-        "announcement_78XL8K"
+        "announcement_4W6TdR"
       ],
       "settings": {
         "color_scheme": "scheme-3"
