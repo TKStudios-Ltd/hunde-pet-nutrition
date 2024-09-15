@@ -167,6 +167,43 @@
         "padding_bottom": 80
       }
     },
+    "scrolling_image_slider_wDbnnh": {
+      "type": "scrolling-image-slider",
+      "blocks": {
+        "image_block_T67RpK": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_1.png"
+          }
+        },
+        "image_block_yiEf7d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_2.png"
+          }
+        },
+        "image_block_PbNiMT": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_3.png"
+          }
+        },
+        "image_block_bHheXm": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_4.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_T67RpK",
+        "image_block_yiEf7d",
+        "image_block_PbNiMT",
+        "image_block_bHheXm"
+      ],
+      "settings": {
+      }
+    },
     "featured_blog_XYzgPt": {
       "type": "featured-blog",
       "settings": {
@@ -238,6 +275,7 @@
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "featured_collection_inline_cEayYb",
+    "scrolling_image_slider_wDbnnh",
     "featured_blog_XYzgPt",
     "172619133319155516",
     "rich_text_tQfJwH"
