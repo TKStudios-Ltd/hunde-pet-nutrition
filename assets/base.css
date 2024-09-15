@@ -3833,6 +3833,10 @@ details-disclosure > details {
   color: white;
   margin-top: 0;
 }
+.js .stamped-reviews-filter,
+.js .stamped-tab-container {
+  display: none;
+}
 
 
 
