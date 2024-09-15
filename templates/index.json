@@ -174,7 +174,7 @@
           "type": "column",
           "settings": {
             "title": "I AM NEW TO RAW FEEDING",
-            "block_heading_size": "h1",
+            "block_heading_size": "h0",
             "text": "<p>Where do I start?<\/p>",
             "link_label": "",
             "link": ""
