@@ -195,6 +195,10 @@
         "column_nRgUFw",
         "column_yDd4nz"
       ],
+      "custom_css": [
+        ".grid {justify-content: space-between;}",
+        ".grid .grid__item {max-width: 450px;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h0",
