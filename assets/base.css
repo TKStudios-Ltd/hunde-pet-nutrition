@@ -386,24 +386,28 @@ h5,
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 0.35px;
+  line-height: 0.9;
 }
 
 @media only screen and (min-width: 750px) {
   .h0 {
-    font-size: 60px;
+    font-size: 80px;
   }
 }
 
 h1,
 .h1 {
   font-family: 'Nineties Headliner', san-serif;
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+  line-height: 0.9;
 }
 
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: 60px;
   }
 }
 
