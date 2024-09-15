@@ -167,6 +167,57 @@
         "padding_bottom": 80
       }
     },
+    "parallax_images_text_4zxyNq": {
+      "type": "parallax-images-text",
+      "blocks": {
+        "heading_HaFPXE": {
+          "type": "heading",
+          "settings": {
+            "heading": "healthy + happy \u2028lives together",
+            "heading_size": "h0"
+          }
+        },
+        "caption_M7KxwR": {
+          "type": "caption",
+          "settings": {
+            "caption": "Pet Nutrition Essentials",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_CcMqHi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HUNDE was born from the belief that the food we feed our pets should be as unconditionally good as their love for us. Our range features balanced blends, recipes, and supplementary extras, ensuring your pets enjoy the benefits of a homemade, fresh food diet. HUNDE empowers people to make informed choices for their pets, so they can live long, healthy, and happy lives together.<\/p>"
+          }
+        },
+        "button_DGWFHN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Who We are",
+            "button_link": "shopify:\/\/pages\/about",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HaFPXE",
+        "caption_M7KxwR",
+        "text_CcMqHi",
+        "button_DGWFHN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "172637089614ee2655": {
       "type": "apps",
       "blocks": {
@@ -390,6 +441,7 @@
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "featured_collection_inline_cEayYb",
+    "parallax_images_text_4zxyNq",
     "172637089614ee2655",
     "featured_collection_FArktn",
     "multicolumn_MB4Ncx",
