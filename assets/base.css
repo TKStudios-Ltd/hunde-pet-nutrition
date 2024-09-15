@@ -3848,12 +3848,18 @@ details-disclosure > details {
 }
 .js .stamped-review .author,
 .js .stamped-review-header .review-location,
-.js .stamped-review-header .created {
+.js .stamped-review-header .created,
+.js p.stamped-review-content-body,
+.js .stamped-container[data-widget-show-product-variant=true] .stamped-review-product a {
   color: white;
 }
 .js .stamped-review-header-title {
+  font-family: 'TT Neoris';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: white;
-  
+  margin: 10px 0 5px;
 }
 
 
