@@ -3811,9 +3811,9 @@ details-disclosure > details {
 .js .stamped-header {
   flex: 0 0 50%;
 }
-.js .stamped-header .summary-overview {
+/* .js .stamped-header .summary-overview {
   float: inline-end;
-}
+} */
 .js .stamped-header .summary-overview .stamped-summary-text-1 {
   font-family: Nineties Headliner, san-serif;
   font-size: 60px;
