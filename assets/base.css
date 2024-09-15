@@ -3821,14 +3821,17 @@ details-disclosure > details {
   text-transform: uppercase;
   letter-spacing: .35px;
   line-height: .9;
-  font-weight: 400 !important;
   color: white;
+}
+.js .stamped-header .summary-overview .stamped-summary-text-1 strong {
+  font-weight: 400 !important;
 }
 .js .stamped-summary-caption .stamped-summary-text {
   font-family: 'Perfectly Nineties' !important;
   font-size: 20px;
   letter-spacing: 0.2px;
   color: white;
+  margin-top: 0;
 }
 
 
