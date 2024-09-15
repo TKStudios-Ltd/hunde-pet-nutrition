@@ -120,6 +120,20 @@
 }
 {%- endstyle -%}
 
+<script>
+  document.addEventListener('scroll', function() {
+  const scrollTop = window.scrollY;
+  const parallaxImages = document.querySelectorAll('.parallax-image');
+
+  parallaxImages.forEach((image, index) => {
+    // Adjust the rate of movement for each image; you can fine-tune the factor as needed
+    const speedFactor = 0.2 + (index * 0.05);
+    image.style.transform = `translateY(${scrollTop * speedFactor}px)`;
+  });
+});
+
+</script>
+
 <div class="parallax-image--section isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
 
