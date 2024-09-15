@@ -85,5 +85,10 @@
 .featured--article .article-card__excerpt {
   display: none;
 }
+.article-card__footer p {
+  color: #2552A3;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+}
 
 
