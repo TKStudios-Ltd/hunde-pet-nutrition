@@ -49,7 +49,7 @@
 }
 
 .multicolumn .button:before {
-  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
+  box-shadow: 4px var(--shadow-vertical-offset) var(--shadow-blur-radius)
     rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
