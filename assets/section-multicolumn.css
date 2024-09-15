@@ -48,6 +48,11 @@
   margin-top: 2rem !important;
 }
 
+.multicolumn .button:before {
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
+    rgba(var(--color-shadow), var(--shadow-opacity));
+}
+
 @media screen and (min-width: 750px) {
   .multicolumn .button {
     margin-top: 3rem !important;
