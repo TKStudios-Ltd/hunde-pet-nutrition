@@ -3789,7 +3789,7 @@ details-disclosure > details {
 /* Reviews */
 
 #shopify-section-template--17348005724298__172637089614ee2655 {
-  background: grey;
+  background: #000;
 }
 .js #stamped-main-widget {
   margin: 0;
@@ -3812,8 +3812,8 @@ details-disclosure > details {
   flex: 0 0 50%;
 }
 .js .stamped-header .summary-overview {
-  float: inline-end;
-  width: 240px;
+  float: inline-end !important;
+  width: 240px !important;
 }
 .js .stamped-header .summary-overview .stamped-summary-text-1 {
   font-family: 'Nineties Headliner', san-serif;
