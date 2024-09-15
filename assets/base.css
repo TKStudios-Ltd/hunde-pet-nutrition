@@ -3822,7 +3822,7 @@ details-disclosure > details {
   line-height: .9;
   color: white;
 }
-.js .stamped-header .stamped-summary-caption .stamped-summary-text {
+.js .stamped-summary-caption .stamped-summary-text {
   font-family: 'Perfectly Nineties' !important;
   font-size: 20px;
   letter-spacing: 0.2px;
