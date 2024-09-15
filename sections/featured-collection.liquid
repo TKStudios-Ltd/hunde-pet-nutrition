@@ -35,6 +35,14 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .standard--collection .title {
+      margin-bottom: 8rem;
+      position: relative;
+    }
+    . standard--collection.title:after {
+      content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Bundles-Icon.svg');
+      position: absolute;
+    }
   }
 {%- endstyle -%}
 
@@ -62,7 +70,7 @@
   class="color-{{ section.settings.color_scheme }} isolate gradient"
 >
   <div
-    class="collection{% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %} section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}"
+    class="standard--collection collection{% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %} section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}"
     id="collection-{{ section.id }}"
     data-id="{{ section.id }}"
   >
