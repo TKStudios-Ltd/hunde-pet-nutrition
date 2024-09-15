@@ -3791,6 +3791,9 @@ details-disclosure > details {
 #shopify-section-template--17348005724298__172637089614ee2655 {
   background: grey;
 }
+.js div.stamped-container[data-widget-style] {
+  display: flex;
+}
 .js .stamped-header-title {
   font-family: Nineties Headliner, san-serif;
   font-size: 60px;
@@ -3798,6 +3801,7 @@ details-disclosure > details {
   letter-spacing: .35px;
   line-height: .9;
   color: white;
+  flex: 0 0 50%;
 }
 
 
