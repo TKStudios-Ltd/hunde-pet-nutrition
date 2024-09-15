@@ -3811,6 +3811,23 @@ details-disclosure > details {
 .js .stamped-header {
   flex: 0 0 50%;
 }
+.js .stamped-header .summary-overview {
+  float: inline-end;
+}
+.js .stamped-header .summary-overview .stamped-summary-text-1 {
+  font-family: Nineties Headliner, san-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: .35px;
+  line-height: .9;
+  color: white;
+}
+.js .stamped-header .stamped-summary-caption .stamped-summary-text {
+  font-family: 'Perfectly Nineties' !important;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: white;
+}
 
 
 
