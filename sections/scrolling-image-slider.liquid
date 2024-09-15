@@ -35,21 +35,15 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
-}
-
-/* Pseudo-element to duplicate content for smooth scrolling */
-.infinite-slider-content::after {
-  content: attr(data-duplicate);
-  display: inline-flex;
 }
 {%- endstyle -%}
 
 <section class="infinite-slider-section">
   {% if section.blocks.size > 0 %}
     <div class="infinite-slider" role="region" aria-label="Infinite Image Slider">
-      <div class="infinite-slider-content" data-duplicate="">
+      <div class="infinite-slider-content">
         {% for block in section.blocks %}
           {% if block.settings.image != blank %}
             <div class="slider-item">
@@ -64,10 +58,14 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const slider = document.querySelector('.infinite-slider-content');
-  if (slider) {
-    // Duplicate the content for seamless infinite scrolling
-    slider.setAttribute('data-duplicate', slider.innerHTML);
+  const sliderContent = document.querySelector('.infinite-slider-content');
+  if (sliderContent) {
+    // Clone the slider items for seamless infinite scrolling
+    const items = Array.from(sliderContent.children);
+    items.forEach(item => {
+      const clone = item.cloneNode(true);
+      sliderContent.appendChild(clone);
+    });
   }
 });
 </script>
