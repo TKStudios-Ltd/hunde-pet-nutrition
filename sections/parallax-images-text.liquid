@@ -102,8 +102,8 @@
                 {{ block.settings.heading }}
               </h2>
             {%- when 'caption' -%}
-              <p
-                class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              <h2
+                class="rich-text__caption italic-heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -111,7 +111,7 @@
                 {% endif %}
               >
                 {{ block.settings.caption | escape }}
-              </p>
+              </h2>
             {%- when 'text' -%}
               <div
                 class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
