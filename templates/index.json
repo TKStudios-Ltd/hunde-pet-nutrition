@@ -174,7 +174,7 @@
           "type": "column",
           "settings": {
             "title": "I AM NEW TO RAW FEEDING",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Where do I start?<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -182,10 +182,10 @@
         "column_yDd4nz": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "",
+            "text": "<p>It's great to hear that you're interested in providing your furry friend with a healthy and natural diet. At HUNDE, our freeze-dried pet blends are specifically formulated to meet the nutritional needs of your pet, and are made using high-quality, human grade ingredients sourced from local Australian farms.<\/p>",
+            "link_label": "Use our feeding calculator",
+            "link": "#"
           }
         }
       },
