@@ -127,7 +127,7 @@
 
   parallaxImages.forEach((image, index) => {
     // Adjust the rate of movement for each image; you can fine-tune the factor as needed
-    const speedFactor = 0.2 + (index * 0.05);
+    const speedFactor = 0.01 + (index * 0.05);
     image.style.transform = `translateY(${scrollTop * speedFactor}px)`;
   });
 });
