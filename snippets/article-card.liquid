@@ -100,7 +100,7 @@
                 </p>
               {%- endif -%}
               <div class="article-card__footer">
-                <p>{{ article.metafields.custom.read_time }} read time</p>
+                <p>{{ article.metafields.custom.read_time }} min read</p>
                 {% comment %}
                 {%- if article.comments_count > 0 and blog.comments_enabled? -%}
                   <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
@@ -143,7 +143,7 @@
               </p>
             {%- endif -%}
             <div class="article-card__footer">
-              <p>{{ article.metafields.custom.read_time }} read time</p>
+              <p>{{ article.metafields.custom.read_time }} min read</p>
               {% comment %}
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
