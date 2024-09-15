@@ -215,7 +215,10 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "background_image_1": "shopify:\/\/shop_images\/HUNDE_Parallax1.png",
+        "background_image_2": "shopify:\/\/shop_images\/HUNDE_Parallax2.png",
+        "background_image_3": "shopify:\/\/shop_images\/HUNDE_Parallax3.png"
       }
     },
     "172637089614ee2655": {
