@@ -3800,7 +3800,7 @@ details-disclosure > details {
   flex-wrap: wrap;
 }
 .js .stamped-header-title {
-  font-family: Nineties Headliner, san-serif;
+  font-family: 'Nineties Headliner', san-serif;
   font-size: 60px;
   text-transform: uppercase;
   letter-spacing: .35px;
@@ -3816,7 +3816,7 @@ details-disclosure > details {
   width: 240px;
 }
 .js .stamped-header .summary-overview .stamped-summary-text-1 {
-  font-family: Nineties Headliner, san-serif;
+  font-family: 'Nineties Headliner', san-serif;
   font-size: 60px;
   text-transform: uppercase;
   letter-spacing: .35px;
@@ -3836,6 +3836,15 @@ details-disclosure > details {
 .js .stamped-reviews-filter,
 .js .stamped-tab-container {
   display: none;
+}
+.js .stamped-review-avatar {
+  color: #EB6A4B;
+  background: white;
+  text-shadow: none;
+}
+.js .stamped-review-avatar-content {
+  font-weight: 400;
+  font-family: 'Nineties Headliner', san-serif;
 }
 
 
