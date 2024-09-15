@@ -95,8 +95,8 @@
 .multicolumn-list h3.h0:after {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Help-Icon.svg');
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -4px;
+  bottom: -42px;
 }
 
 .multicolumn-card-spacing {
