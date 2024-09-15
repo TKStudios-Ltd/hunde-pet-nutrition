@@ -1,6 +1,101 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<!-- sections/infinite-image-slider.liquid -->
+{%- style -%}
+.infinite-slider-section {
+  overflow: hidden;
+  position: relative;
+}
+
+.infinite-slider {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.infinite-slider-content {
+  display: flex;
+  animation: infiniteScroll 30s linear infinite;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  padding: 0 1rem;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+}
+
+.slider-item img {
+  max-width: 100%;
+  display: block;
+}
+
+@keyframes infiniteScroll {
+  0% {
+    transform: translateX(0);
   }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pseudo-element to duplicate content for smooth scrolling */
+.infinite-slider-content::after {
+  content: attr(data-duplicate);
+  display: inline-flex;
+}
+{%- endstyle -%}
+
+<section class="infinite-slider-section">
+  {% if section.blocks.size > 0 %}
+    <div class="infinite-slider" role="region" aria-label="Infinite Image Slider">
+      <div class="infinite-slider-content" data-duplicate="">
+        {% for block in section.blocks %}
+          {% if block.settings.image != blank %}
+            <div class="slider-item">
+              <img src="{{ block.settings.image | image_url: '720x' }}" alt="Meal Suggestions" width="100%" height="100%">
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const slider = document.querySelector('.infinite-slider-content');
+  if (slider) {
+    // Duplicate the content for seamless infinite scrolling
+    slider.setAttribute('data-duplicate', slider.innerHTML);
+  }
+});
+</script>
+
+{% schema %}
+{
+  "name": "Infinite Image Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image_block",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
+
