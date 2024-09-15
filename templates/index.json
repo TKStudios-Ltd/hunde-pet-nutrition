@@ -167,6 +167,49 @@
         "padding_bottom": 80
       }
     },
+    "multicolumn_MB4Ncx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nRgUFw": {
+          "type": "column",
+          "settings": {
+            "title": "I AM NEW TO RAW FEEDING",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yDd4nz": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nRgUFw",
+        "column_yDd4nz"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "scrolling_image_slider_wDbnnh": {
       "type": "scrolling-image-slider",
       "blocks": {
@@ -275,6 +318,7 @@
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "featured_collection_inline_cEayYb",
+    "multicolumn_MB4Ncx",
     "scrolling_image_slider_wDbnnh",
     "featured_blog_XYzgPt",
     "172619133319155516",
