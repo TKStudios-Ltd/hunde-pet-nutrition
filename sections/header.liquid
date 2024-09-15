@@ -224,12 +224,15 @@
           </localization-form>
         {%- endif -%}
       </div>
+      <a id="HeaderMenu-feeding-guide" href="#" class="header__menu-item list-menu__item link link--text focus-inset">
+          <span>Feeding Guide</span>
+      </a>
+      <a id="HeaderMenu-blog" href="#" class="header__menu-item list-menu__item link link--text focus-inset">
+          <span>Blog</span>
+      </a>
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
       {%- if shop.customer_accounts_enabled -%}
-        <a id="HeaderMenu-blog" href="/blog" class="header__menu-item list-menu__item link link--text focus-inset">
-            <span>Blog</span>
-        </a>
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {%- if section.settings.enable_customer_avatar -%}
             <account-icon>
