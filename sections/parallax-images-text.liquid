@@ -48,25 +48,25 @@
       transition: transform 0.1s ease-out;
   }
   .parallax-image-1 {
-      top: 0%;
+      top: -40%;
       left: 5%;
       width: 292px;
       height: 340px;
   }
   .parallax-image-2 {
-      top: 20%;
+      top: -20%;
       right: 10%;
       width: 292px;
       height: 340px;
   }
   .parallax-image-3 {
-      top: 50%;
+      top: 0%;
       left: 5%;
       width: 240px;
       height: 279px;
   }
   .parallax-image-4 {
-    top: 55%;
+    top: 5%;
     right: 0%;
     width: 270px;
     height: 314px;
@@ -127,7 +127,7 @@
 
   parallaxImages.forEach((image, index) => {
     // Adjust the rate of movement for each image; you can fine-tune the factor as needed
-    const speedFactor = 0.01 + (index * 0.05);
+    const speedFactor = 0.1 + (index * 0.05);
     image.style.transform = `translateY(${scrollTop * speedFactor}px)`;
   });
 });
