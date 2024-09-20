@@ -3897,7 +3897,7 @@ details-disclosure > details {
   div[data-widget-style=two-columns] .stamped-review {
     padding: 2rem 0!important;
   }
-  .stamped-review:nth-child(2 {
+  div[data-widget-style=two-columns] .stamped-review:nth-child(2) {
     border-top: 1px solid #eee !important;
   }
 }
