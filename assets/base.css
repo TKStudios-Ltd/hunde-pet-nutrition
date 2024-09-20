@@ -3895,7 +3895,10 @@ details-disclosure > details {
     text-align: left;
   }
   div[data-widget-style=two-columns] .stamped-review {
-    padding: 0 !important;
+    padding: 2rem 0!important;
+  }
+  .stamped-review:nth-child(2 {
+    border-top: 1px solid #eee !important;
   }
 }
 
