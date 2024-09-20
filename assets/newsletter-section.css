@@ -23,14 +23,19 @@
   }
 }
 
-img.icon-animals {
-  position: absolute;
-  bottom: -3rem;
-  left: 0;
-  width: 100%;
-  height: 22vw;
-  max-height: 181px !important;
-  z-index: 2;
+@media (max-width: 749px) {
+  img.icon-animals {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    height: 22vw;
+    max-height: 181px !important;
+    z-index: 2;
+  }
+  .newsletter__wrapper {
+    padding: 2rem 1.5rem;
+  }
 }
 
 .newsletter__wrapper > * {
