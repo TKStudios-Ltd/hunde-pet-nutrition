@@ -99,6 +99,20 @@
   bottom: -42px;
 }
 
+@media (max-width: 749px) {
+  .multicolumn-list h3 {
+    max-width: 300px;
+  }
+  .multicolumn-list h3.h0:after {
+    right: 5px;
+    bottom: -42px;
+    transform: scale(0.7);
+  }
+  .multicolumn-list p em {
+    font-size: 24px;
+  }
+}
+
 .multicolumn-card-spacing {
   padding-top: 2.5rem;
   margin-left: 2.5rem;
