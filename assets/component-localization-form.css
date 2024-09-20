@@ -60,6 +60,9 @@
   .localization-form__currency {
     opacity: 1;
   }
+  .localization-form:only-child .localization-form__select {
+    margin: 0;
+  }
 }
 
 .localization-form__select {
