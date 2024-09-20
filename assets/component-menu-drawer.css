@@ -260,6 +260,9 @@ details[open].menu-opening > .menu-drawer__submenu {
   transform: scale(0.6);
   height: auto;
 }
+details[open]>.header__menu-item .icon-caret {
+    transform: rotate(180deg) scale(0.6);
+}
 
 @media screen and (max-width: 749px) {
   .menu-drawer.country-selector-open {
