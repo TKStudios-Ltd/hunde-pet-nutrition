@@ -8,7 +8,7 @@
   .section-{{ section.id }}-padding {
     background: #F4AFA8;
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
   }
   .parallax-image--section .rich-text__blocks {
     max-width: 780px;
@@ -83,6 +83,11 @@
     right: 20%;
     width: 240px;
     height: 279px;
+  }
+  @media screen and (max-width: 749px) {
+    .parallax-image {
+      transform: scale(0.5);
+    }
   }
 
 @media (prefers-reduced-motion: no-preference) {
