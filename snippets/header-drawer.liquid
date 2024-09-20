@@ -8,11 +8,12 @@
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
     <summary
-      class="header__icon header__icon--menu header__icon--summary link focus-inset"
+      class="header__menu-item list-menu__item link link--text focus-inset"
       aria-label="{{ 'sections.header.menu' | t }}"
     >
-      <span class="header__menu-item list-menu__item link link--text">
-        Menu {{- 'icon-caret.svg' | inline_asset_content -}}
+      Menu
+      <span class="header__icon header__icon--menu header__icon--summary link focus-inset">
+        {{- 'icon-caret.svg' | inline_asset_content -}}
       </span>
     </summary>
     <div id="menu-drawer" class="gradient menu-drawer motion-reduce color-{{ section.settings.menu_color_scheme }}">
