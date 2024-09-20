@@ -260,7 +260,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   transform: scale(0.6);
   height: auto;
 }
-details[open]>.header__menu-item .icon-caret {
+details[open]>.header__menu-item .header__icon--menu svg {
     transform: rotate(180deg) scale(0.6);
 }
 
