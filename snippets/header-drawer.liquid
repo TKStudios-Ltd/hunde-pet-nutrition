@@ -11,9 +11,8 @@
       class="header__icon header__icon--menu header__icon--summary link focus-inset"
       aria-label="{{ 'sections.header.menu' | t }}"
     >
-      Menu
-      <span>
-        {{- 'icon-caret.svg' | inline_asset_content -}}
+      <span class="header__menu-item list-menu__item link link--text">
+        Menu {{- 'icon-caret.svg' | inline_asset_content -}}
       </span>
     </summary>
     <div id="menu-drawer" class="gradient menu-drawer motion-reduce color-{{ section.settings.menu_color_scheme }}">
