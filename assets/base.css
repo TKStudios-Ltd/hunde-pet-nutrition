@@ -3884,6 +3884,21 @@ details-disclosure > details {
   padding: 15px;
 }
 
+@media (max-width: 749px) {
+  .js .stamped-header-title {
+    font-size: 45px;
+    flex: 0 0 100%;
+    text-align: left;
+  }
+  .js .stamped-header .summary-overview {
+    float: left !important;
+    text-align: left;
+  }
+  div[data-widget-style=two-columns] .stamped-review {
+    padding: 0 !important;
+  }
+}
+
 
 /* Instagram Feed */
 
