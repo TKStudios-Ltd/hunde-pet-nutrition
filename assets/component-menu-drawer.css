@@ -236,6 +236,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .mobile--menu {
   padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 .mobile--menu .header__icon--menu {
   position: absolute;
