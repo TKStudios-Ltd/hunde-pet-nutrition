@@ -3908,3 +3908,10 @@ details-disclosure > details {
 .instafeed-new-layout-item-container {
   border: 3px solid #000;
 }
+
+
+@media (max-width: 749px) {
+  .rte p {
+    line-height: 1.6;
+  }
+}
