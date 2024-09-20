@@ -109,7 +109,7 @@
     transform: scale(0.7);
   }
   .multicolumn-list p em {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 }
 
