@@ -91,4 +91,16 @@
   font-size: 16px;
 }
 
+@media (max-width: 749px) {
+  .featured--article .card {
+    flex-direction: column-reverse !important;
+  }
+  .featured--article .card__heading {
+    font-size: 45px;
+  }
+  .featured--article .card__information {
+    padding-right: 0 !important;
+  }
+}
+
 
