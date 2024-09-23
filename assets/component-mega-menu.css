@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.mega-menu__icon {
+  position: absolute;
+  left: 0;
+}
 
 .mega-menu__content {
   background-color: #FCFBF4;
