@@ -70,6 +70,27 @@
       padding-top: 0.5rem;
     }
   }
+
+  /* Mega menu overlay styles */
+  .mega-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none;
+    z-index: 999; /* Ensure it is above all content */
+  }
+  /* Show overlay when the header has the 'menu-open' class */
+  .header--menu-open .mega-menu-overlay {
+    display: block;
+  }
+  /* Optionally style the header differently when menu is open */
+  .header--menu-open {
+    background-color: rgba(0, 0, 0, 0.8); /* Example: darker background when menu is open */
+    transition: background-color 0.3s ease;
+  }
 </style>
 
 {%- style -%}
@@ -400,6 +421,35 @@
   }
 
   customElements.define('sticky-header', StickyHeader);
+
+  document.addEventListener('DOMContentLoaded', function () {
+  const header = document.querySelector('header.header');
+  const detailsElements = document.querySelectorAll('details.mega-menu');
+  const overlay = document.querySelector('.mega-menu-overlay');
+
+  detailsElements.forEach(details => {
+    details.addEventListener('toggle', function () {
+      if (details.open) {
+        // Add class to header and show the overlay
+        header.classList.add('header--menu-open');
+      } else {
+        // Remove class and hide the overlay when no mega menu is open
+        const anyOpen = Array.from(detailsElements).some(el => el.open);
+        if (!anyOpen) {
+          header.classList.remove('header--menu-open');
+        }
+      }
+    });
+  });
+
+  // Hide mega menu and overlay when overlay is clicked
+  overlay.addEventListener('click', function () {
+    detailsElements.forEach(details => {
+      details.open = false; // Close all mega menus
+    });
+    header.classList.remove('header--menu-open'); // Remove the class from the header
+  });
+});
 {% endjavascript %}
 
 <script type="application/ld+json">
@@ -441,6 +491,7 @@
     }
   </script>
 {%- endif -%}
+
 
 {% schema %}
 {
