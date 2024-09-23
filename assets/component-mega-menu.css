@@ -2,6 +2,10 @@
   position: static;
 }
 
+.page-width-mega {
+  padding: 0 4rem;
+}
+
 .mega-menu__content {
   background-color: #FCFBF4;
   border-left: 0;
@@ -22,6 +26,7 @@
 }
 .mega-menu__content .page-width-full .mega-menu__side {
   flex: 0 0 25%;
+  max-width: 200px;
 }
 .mega-menu__content .page-width-full .mega-menu__collections {
   flex: 0 0 75%;
@@ -34,6 +39,18 @@
 .mega-menu__content .h1 {
   font-size: 40px;
   margin: 0;
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+  .page-width-mega {
+    padding: 0 2rem;
+  }
+  .mega-menu__content .page-width-full .mega-menu__side {
+    flex: 0 0 200px;
+  }
+  .mega-menu__content .page-width-full .mega-menu__collections {
+    flex: 0 0 calc(100% - 200px);
+  }
 }
 
 .shopify-section-header-sticky .mega-menu__content {
