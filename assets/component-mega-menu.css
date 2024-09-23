@@ -4,7 +4,9 @@
 
 .page-width-mega {
   padding: 0 4rem;
+  position: relative;
 }
+
 
 .mega-menu__content {
   background-color: #FCFBF4;
