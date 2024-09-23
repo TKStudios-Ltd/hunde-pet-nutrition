@@ -26,6 +26,9 @@
 }
 .mega-menu__content .page-width-mega .mega-menu__side {
   flex: 0 0 25%;
+}
+.mega-menu__content .page-width-mega .mega-menu__side .h1,
+.mega-menu__content .page-width-mega .mega-menu__side p {
   max-width: 200px;
 }
 .mega-menu__content .page-width-mega .mega-menu__collections {
@@ -46,10 +49,10 @@
     padding: 0 2rem;
   }
   .mega-menu__content .page-width-full .mega-menu__side {
-    flex: 0 0 200px;
+    flex: 0 0 220px;
   }
   .mega-menu__content .page-width-full .mega-menu__collections {
-    flex: 0 0 calc(100% - 200px);
+    flex: 0 0 calc(100% - 220px);
   }
 }
 
