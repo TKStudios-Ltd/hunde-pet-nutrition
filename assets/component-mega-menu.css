@@ -49,10 +49,10 @@
     padding: 0 2rem;
   }
   .mega-menu__content .page-width-mega .mega-menu__side {
-    flex: 0 0 200px;
+    flex: 0 0 215px;
   }
   .mega-menu__content .page-width-mega .mega-menu__collections {
-    flex: 0 0 calc(100% - 200px);
+    flex: 0 0 calc(100% - 215px);
   }
   .mega-menu__content .mega-menu__collections .card .card__information h3 {
     font-size: 18px;
