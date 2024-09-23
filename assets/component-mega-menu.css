@@ -27,6 +27,10 @@
   flex: 0 0 75%;
 }
 
+.mega-menu__content .mega-menu__collections .card .card__information {
+  display: inherit;
+}
+
 .mega-menu__content .h1 {
   font-size: 40px;
   margin: 0;
