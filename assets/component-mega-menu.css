@@ -22,6 +22,7 @@
 
 .mega-menu__content .page-width-mega {
   display: flex !important;
+  justify-content: space-between;
   width: calc(100% - 4rem);
 }
 .mega-menu__content .page-width-mega .mega-menu__side {
@@ -33,6 +34,7 @@
 }
 .mega-menu__content .page-width-mega .mega-menu__collections {
   flex: 0 0 75%;
+  max-width: 1200px;
 }
 
 .mega-menu__content .mega-menu__collections .card .card__information {
