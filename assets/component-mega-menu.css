@@ -27,6 +27,7 @@
   position: absolute;
   right: 0;
   top: 100%;
+  border-top: 2px solid;
 }
 
 .mega-menu__content .page-width-mega {
