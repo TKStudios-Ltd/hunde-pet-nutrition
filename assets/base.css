@@ -146,7 +146,9 @@
   margin: 0 auto;
   padding: 0 2rem;
 }
-
+.page-width-full {
+  padding: 0 2rem;
+}
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   max-width: 100%;
 }
