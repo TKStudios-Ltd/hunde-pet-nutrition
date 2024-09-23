@@ -29,14 +29,14 @@
         "text_LWfqMH": {
           "type": "text",
           "settings": {
-            "text": "<p>HUNDE is transforming pet care by enabling you to confidently feed your pets a nutritious homemade diet.<\/p>"
+            "text": "<p>HUNDE is transforming pet care by enabling you to confidently feed your pets a nutritious homemade diet.</p>"
           }
         },
         "button_AXBzMz": {
           "type": "button",
           "settings": {
             "button_label": "Shop All",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -69,13 +69,13 @@
         "featured_collection_6KWhyF": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dogs"
+            "collection": "meal-balancers"
           }
         },
         "featured_collection_9EwLQK": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cats"
+            "collection": "functional-toppers"
           }
         },
         "featured_collection_tMBGU3": {
@@ -174,7 +174,7 @@
         "heading_HaFPXE": {
           "type": "heading",
           "settings": {
-            "heading": "healthy + happy\u2028lives together",
+            "heading": "healthy + happy lives together",
             "heading_size": "h0"
           }
         },
@@ -189,14 +189,14 @@
         "text_CcMqHi": {
           "type": "text",
           "settings": {
-            "text": "<p>HUNDE was born from the belief that the food we feed our pets should be as unconditionally good as their love for us. Our range features balanced blends, recipes, and supplementary extras, ensuring your pets enjoy the benefits of a homemade, fresh food diet. HUNDE empowers people to make informed choices for their pets, so they can live long, healthy, and happy lives together.<\/p>"
+            "text": "<p>HUNDE was born from the belief that the food we feed our pets should be as unconditionally good as their love for us. Our range features balanced blends, recipes, and supplementary extras, ensuring your pets enjoy the benefits of a homemade, fresh food diet. HUNDE empowers people to make informed choices for their pets, so they can live long, healthy, and happy lives together.</p>"
           }
         },
         "button_DGWFHN": {
           "type": "button",
           "settings": {
             "button_label": "Who We are",
-            "button_link": "shopify:\/\/pages\/about",
+            "button_link": "shopify://pages/about",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -217,19 +217,19 @@
         "full_width": true,
         "padding_top": 80,
         "padding_bottom": 80,
-        "background_image_1": "shopify:\/\/shop_images\/HUNDE_Parallax1.png",
-        "background_image_2": "shopify:\/\/shop_images\/HUNDE_Parallax2.png",
-        "background_image_3": "shopify:\/\/shop_images\/HUNDE_Parallax3.png",
-        "background_image_4": "shopify:\/\/shop_images\/HUNDE_Parallax4.png",
-        "background_image_5": "shopify:\/\/shop_images\/HUNDE_Parallax5.png",
-        "background_image_6": "shopify:\/\/shop_images\/HUNDE_Parallax6.png"
+        "background_image_1": "shopify://shop_images/HUNDE_Parallax1.png",
+        "background_image_2": "shopify://shop_images/HUNDE_Parallax2.png",
+        "background_image_3": "shopify://shop_images/HUNDE_Parallax3.png",
+        "background_image_4": "shopify://shop_images/HUNDE_Parallax4.png",
+        "background_image_5": "shopify://shop_images/HUNDE_Parallax5.png",
+        "background_image_6": "shopify://shop_images/HUNDE_Parallax6.png"
       }
     },
     "172637089614ee2655": {
       "type": "apps",
       "blocks": {
         "stamped_reviews_main_widget_Tzdk8b": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": true,
             "tags_exclude": "",
@@ -290,7 +290,7 @@
           "settings": {
             "title": "I AM NEW TO RAW FEEDING",
             "block_heading_size": "h0",
-            "text": "<p><em>Where do I start?<\/em><\/p>",
+            "text": "<p><em>Where do I start?</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -300,7 +300,7 @@
           "settings": {
             "title": "",
             "block_heading_size": "h2",
-            "text": "<p>It's great to hear that you're interested in providing your furry friend with a healthy and natural diet. At HUNDE, our freeze-dried pet blends are specifically formulated to meet the nutritional needs of your pet, and are made using high-quality, human grade ingredients sourced from local Australian farms.<\/p>",
+            "text": "<p>It's great to hear that you're interested in providing your furry friend with a healthy and natural diet. At HUNDE, our freeze-dried pet blends are specifically formulated to meet the nutritional needs of your pet, and are made using high-quality, human grade ingredients sourced from local Australian farms.</p>",
             "link_label": "Use our feeding calculator",
             "link": "#"
           }
@@ -334,7 +334,7 @@
     "custom_liquid_JPaN66": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"icon-row scroll-trigger animate--slide-in\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0884\/4170\/files\/HUNDE_IconRow.svg\" class=\"hide-mob\" width=\"100%\" height=\"100%\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0884\/4170\/files\/HUNDE_IconRow_Mob.svg\" class=\"hide-desk\" width=\"100%\" height=\"100%\"><\/div>",
+        "custom_liquid": "<div class=\"icon-row scroll-trigger animate--slide-in\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow.svg\" class=\"hide-mob\" width=\"100%\" height=\"100%\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow_Mob.svg\" class=\"hide-desk\" width=\"100%\" height=\"100%\"></div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 80
@@ -346,25 +346,25 @@
         "image_block_T67RpK": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_1.png"
+            "image": "shopify://shop_images/HUNDE_MealSuggestion_1.png"
           }
         },
         "image_block_yiEf7d": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_2.png"
+            "image": "shopify://shop_images/HUNDE_MealSuggestion_2.png"
           }
         },
         "image_block_PbNiMT": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_3.png"
+            "image": "shopify://shop_images/HUNDE_MealSuggestion_3.png"
           }
         },
         "image_block_bHheXm": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HUNDE_MealSuggestion_4.png"
+            "image": "shopify://shop_images/HUNDE_MealSuggestion_4.png"
           }
         }
       },
@@ -398,7 +398,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_XpWCfq": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
@@ -422,7 +422,7 @@
           "type": "button",
           "settings": {
             "button_label": "Follow us on Instagram",
-            "button_link": "https:\/\/www.instagram.com\/hunde.au\/",
+            "button_link": "https://www.instagram.com/hunde.au/",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
