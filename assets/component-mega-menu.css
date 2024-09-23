@@ -16,13 +16,13 @@
   top: 100%;
 }
 
-.mega-menu .page-width-full {
+.mega-menu__content .page-width-full {
   display: flex;
 }
-.mega-menu .page-width-full .mega-menu__side {
+.mega-menu__content .page-width-full .mega-menu__side {
   flex: 0 0 25%;
 }
-.mega-menu .page-width-full .mega-menu__collections {
+.mega-menu__content .page-width-full .mega-menu__collections {
   flex: 0 0 75%;
 }
 
