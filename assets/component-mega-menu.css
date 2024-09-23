@@ -83,6 +83,7 @@
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
   transform: translateY(0);
+  overflow: hidden;
 }
 
 .mega-menu__list {
