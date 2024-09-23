@@ -46,7 +46,7 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {{ childlink.title | escape }}
+                        {{ childlink.title | escape }} <span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span>
                       </a>
                     </li>
                   {%- endfor -%}
