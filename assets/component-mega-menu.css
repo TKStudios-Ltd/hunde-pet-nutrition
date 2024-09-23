@@ -10,6 +10,9 @@
 .mega-menu__icon {
   position: absolute;
   left: 0;
+  bottom: 40px;
+  width: 110px;
+  height: 83px;
 }
 
 .mega-menu__content {
