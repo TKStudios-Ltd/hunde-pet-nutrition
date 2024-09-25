@@ -179,7 +179,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0 0; }}",
-        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}"
+        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
+        ".image-with-text__content > * + * {margin-top: 3rem;}"
       ],
       "settings": {
         "image": "shopify://shop_images/HUNDE_Promise.jpg",
