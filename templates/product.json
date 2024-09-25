@@ -59,7 +59,7 @@
         "custom_liquid_yGUaQq": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<pre>{{ product.metafields.custom.icons.url }}</pre>"
+            "custom_liquid": "<pre>{{ product.metafields.custom.icons }}</pre>"
           }
         },
         "description": {
