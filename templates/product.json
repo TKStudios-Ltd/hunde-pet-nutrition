@@ -94,24 +94,48 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
+        "heading": "You may want to try...",
+        "heading_size": "h1",
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 32,
-        "padding_bottom": 64
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "17272403659935ce8b": {
+      "type": "apps",
+      "blocks": {
+        "stamped_reviews_main_widget_UrgipU": {
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_reviews_main_widget_UrgipU"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "17272403659935ce8b"
   ]
 }
