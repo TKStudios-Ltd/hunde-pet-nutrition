@@ -71,6 +71,12 @@
             "content": "",
             "page": ""
           }
+        },
+        "custom_liquid_qhMK34": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.metafields.custom_fields.description.value }}"
+          }
         }
       },
       "block_order": [
@@ -82,7 +88,8 @@
         "buy_buttons",
         "text_ErWUgg",
         "description",
-        "collapsible_tab_QKzEU7"
+        "collapsible_tab_QKzEU7",
+        "custom_liquid_qhMK34"
       ],
       "settings": {
         "enable_sticky_info": true,
