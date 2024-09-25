@@ -50,28 +50,22 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "custom_liquid_qhMK34": {
+        "custom_liquid_GTCmnr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>{{ product.metafields.custom.description | newline_to_br }}</p>\n  </div>"
+            "custom_liquid": "<p>{{ product.metafields.custom.description | newline_to_br }}</p>\n\n<div class=\"product-tabbed-content\">\n  <ul class=\"product-tabs\">\n    <li class=\"product-tab-link active\" data-tab=\"benefits-tab\">Benefits</li>\n    <li class=\"product-tab-link\" data-tab=\"ingredients-tab\">Ingredients</li>\n  </ul>\n\n  <!-- Benefits Tab Content -->\n  <div id=\"benefits-tab\" class=\"product-tab-content active\">\n    <ul>\n    {% assign benefits = product.metafields.custom.benefits_tab | newline_to_br | split: \"<br />\" %}\n    {% for benefit in benefits %}\n      {% if benefit != '' and benefit != ' ' %}\n        <li>{{ benefit | strip }}</li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n\n  </div>\n\n  <!-- Ingredients Tab Content -->\n  <div id=\"ingredients-tab\" class=\"product-tab-content\">\n      <div class=\"custom-ingredients\">\n        {{ product.metafields.custom.ingredients | newline_to_br }}\n      </div>\n  </div>\n</div>"
           }
         },
         "custom_liquid_yGUaQq": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<img src=\"{{ product.metafields.custom.icons }}\">"
+            "custom_liquid": "<img src=\"{{ product.metafields.custom.icons.url }}\">"
           }
         },
-        "custom_liquid_GTCmnr": {
-          "type": "custom_liquid",
+        "description": {
+          "type": "description",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "<div class=\"product-tabbed-content\">\n  <ul class=\"product-tabs\">\n    <li class=\"product-tab-link active\" data-tab=\"benefits-tab\">Benefits</li>\n    <li class=\"product-tab-link\" data-tab=\"ingredients-tab\">Ingredients</li>\n  </ul>\n\n  <!-- Benefits Tab Content -->\n  <div id=\"benefits-tab\" class=\"product-tab-content active\">\n    <ul>\n    {% assign benefits = product.metafields.custom.benefits_tab | newline_to_br | split: \"<br />\" %}\n    {% for benefit in benefits %}\n      {% if benefit != '' and benefit != ' ' %}\n        <li>{{ benefit | strip }}</li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n\n  </div>\n\n  <!-- Ingredients Tab Content -->\n  <div id=\"ingredients-tab\" class=\"product-tab-content\">\n      <div class=\"custom-ingredients\">\n        {{ product.metafields.custom.ingredients | newline_to_br }}\n      </div>\n  </div>\n</div>"
           }
         }
       },
@@ -82,10 +76,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "custom_liquid_qhMK34",
+        "custom_liquid_GTCmnr",
         "custom_liquid_yGUaQq",
-        "custom_liquid_GTCmnr"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
