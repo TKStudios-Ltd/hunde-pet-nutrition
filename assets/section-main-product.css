@@ -1507,6 +1507,15 @@ a.product__text {
     letter-spacing: 0.2px;
 }
 
+.custom-benefits ul {
+  list-style-type: disc; /* Display bullet points */
+  margin-left: 20px;     /* Add spacing for the list */
+}
+
+.custom-benefits li {
+  margin-bottom: 10px;   /* Space between list items */
+}
+
 @media screen and (forced-colors: active) {
   .recipient-fields > hr {
     border-top: 0.1rem solid rgb(var(--color-background));
