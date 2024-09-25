@@ -74,8 +74,7 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
-    <nav class="page-width product-breadcrumb">
-      <div class="breadcrumb" aria-label="Breadcrumb">
+    <nav class="product-breadcrumb breadcrumb" aria-label="Breadcrumb">
         <a class="grey" href="{{ routes.root_url }}">Home</a>
         <span class="grey"> / </span>
         <a class="grey" href="/collections/all?constraint=product_type={{ product.type | handle }}">
@@ -83,7 +82,6 @@
         </a>
         <span class="grey"> / </span>
         <span>{{ product.title }}</span>
-      </div>
     </nav>
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
