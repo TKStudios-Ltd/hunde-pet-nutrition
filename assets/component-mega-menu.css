@@ -39,6 +39,11 @@
     border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
     border-bottom: 0 !important;
 }
+.mega-menu__content .card .card__information .collection_card__heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
 
 .mega-menu__content .page-width-mega {
   display: flex !important;
