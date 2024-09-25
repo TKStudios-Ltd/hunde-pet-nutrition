@@ -92,14 +92,14 @@
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button
+                      class="
                       {% if block.settings.button_style_arrow %}
                         button--arrow
                       {% else %}
                         {% if block.settings.button_style_secondary %}
-                          button--secondary
+                          button button--secondary
                         {% else %}
-                          button--primary
+                          button button--primary
                         {% endif %}
                       {% endif %}"
                       {{ block.shopify_attributes }}
