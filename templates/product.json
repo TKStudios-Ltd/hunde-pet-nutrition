@@ -62,10 +62,16 @@
             "custom_liquid": "<p>{{ product.metafields.custom.description | newline_to_br }}</p>\n  </div>"
           }
         },
+        "custom_liquid_yGUaQq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"{{ product.metafields.custom.icons }}\">"
+          }
+        },
         "custom_liquid_GTCmnr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"tabbed-content\">\n  <ul class=\"tabs\">\n    <li class=\"tab-link active\" data-tab=\"benefits-tab\">Benefits</li>\n    <li class=\"tab-link\" data-tab=\"ingredients-tab\">Ingredients</li>\n  </ul>\n\n  <!-- Benefits Tab Content -->\n  <div id=\"benefits-tab\" class=\"tab-content active\">\n    {% if product.metafields.custom.benefits %}\n      {% assign benefits = product.metafields.custom.benefits %}\n      <ul>\n        {% for item in benefits.children[0].children %}\n          {% if item.type == 'list-item' %}\n            <li>{{ item.children[0].value }}</li>\n          {% endif %}\n        {% endfor %}\n      </ul>\n    {% else %}\n      <p>No benefits information available.</p>\n    {% endif %}\n  </div>\n\n  <!-- Ingredients Tab Content -->\n  <div id=\"ingredients-tab\" class=\"tab-content\">\n    {% if product.metafields.custom.ingredients %}\n      <div class=\"custom-ingredients\">\n        {{ product.metafields.custom.ingredients | newline_to_br }}\n      </div>\n    {% else %}\n      <p>No ingredients information available.</p>\n    {% endif %}\n  </div>\n</div>"
+            "custom_liquid": "<div class=\"tabbed-content\">\n  <ul class=\"tabs\">\n    <li class=\"tab-link active\" data-tab=\"benefits-tab\">Benefits</li>\n    <li class=\"tab-link\" data-tab=\"ingredients-tab\">Ingredients</li>\n  </ul>\n\n  <!-- Benefits Tab Content -->\n  <div id=\"benefits-tab\" class=\"tab-content active\">\n    {% if product.metafields.custom.benefits %}\n  {% assign benefits = product.metafields.custom.benefits %}\n  \n  <ul>\n    {% for child in benefits.children %}\n      {% if child.type == 'list' %}\n        {% for item in child.children %}\n          {% if item.type == 'list-item' %}\n            <li>\n              {% for text_item in item.children %}\n                {{ text_item.value }}\n              {% endfor %}\n            </li>\n          {% endif %}\n        {% endfor %}\n      {% endif %}\n    {% endfor %}\n  </ul>\n  \n{% else %}\n  <p>No benefits information available.</p>\n{% endif %}\n  </div>\n\n  <!-- Ingredients Tab Content -->\n  <div id=\"ingredients-tab\" class=\"tab-content\">\n    {% if product.metafields.custom.ingredients %}\n      <div class=\"custom-ingredients\">\n        {{ product.metafields.custom.ingredients | newline_to_br }}\n      </div>\n    {% else %}\n      <p>No ingredients information available.</p>\n    {% endif %}\n  </div>\n</div>"
           }
         }
       },
@@ -78,6 +84,7 @@
         "buy_buttons",
         "description",
         "custom_liquid_qhMK34",
+        "custom_liquid_yGUaQq",
         "custom_liquid_GTCmnr"
       ],
       "settings": {
