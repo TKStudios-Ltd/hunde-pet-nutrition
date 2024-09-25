@@ -30,6 +30,16 @@
   /* border-top: 2px solid; */
 }
 
+.mega-menu__content .card .card__information {
+    border: var(--border-width) solid rgba(var(--color-foreground), var(--border-opacity));
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    padding: 0;
+}
+.mega-menu__content .card--standard .card__inner {
+    border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
+    border-bottom: 0 !important;
+}
+
 .mega-menu__content .page-width-mega {
   display: flex !important;
   justify-content: space-between;
