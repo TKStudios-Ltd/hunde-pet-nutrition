@@ -103,6 +103,15 @@
         "padding_bottom": 80
       }
     },
+    "custom_liquid_MbEnYN": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1>HI</h1>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_VTjrKr": {
       "type": "image-with-text",
       "blocks": {
@@ -200,6 +209,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_MbEnYN",
     "image_with_text_VTjrKr",
     "17272403659935ce8b",
     "related-products"
