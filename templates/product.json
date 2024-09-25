@@ -65,7 +65,7 @@
         "custom_liquid_GTCmnr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<pre>{{ product.metafields.custom.benefits }}</pre>"
+            "custom_liquid": "{% if product.metafields.custom.benefits %}\n  {% assign benefits = product.metafields.custom.benefits %}\n\n  <div class=\"custom-benefits\">\n    <ul>\n      {% for item in benefits.children[0].children %}\n        {% if item.type == 'list-item' %}\n          <li>{{ item.children[0].value }}</li>\n        {% endif %}\n      {% endfor %}\n    </ul>\n  </div>\n{% endif %}"
           }
         }
       },
