@@ -50,8 +50,16 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_ErWUgg": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -72,6 +80,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_ErWUgg",
         "description",
         "collapsible_tab_QKzEU7"
       ],
