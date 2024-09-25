@@ -65,7 +65,7 @@
         "custom_liquid_GTCmnr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"custom-benefits\">{{ product.metafields.custom.benefits | metafield_value }}</div>"
+            "custom_liquid": "<pre>{{ product.metafields.custom.benefits }}</pre>"
           }
         }
       },
