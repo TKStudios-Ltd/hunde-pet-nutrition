@@ -1500,6 +1500,13 @@ a.product__text {
   }
 }
 
+.js .stamped-product-reviews-badge .stamped-badge-caption {
+    font-family: 'TT Neoris';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
 @media screen and (forced-colors: active) {
   .recipient-fields > hr {
     border-top: 0.1rem solid rgb(var(--color-background));
