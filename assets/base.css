@@ -135,7 +135,11 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
-.color-scheme-1 {
+.color-scheme-1,
+.color-scheme-2,
+.color-scheme-3,
+.color-scheme-4,
+.color-scheme-5 {
   color: rgba(var(--color-foreground), 1);
 }
 
