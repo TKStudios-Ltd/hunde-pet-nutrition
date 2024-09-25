@@ -25,7 +25,7 @@
           }
         },
         "stamped_reviews_star_rating_badge_XQDecn": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "use_metafields": false,
             "sku_tagtype": "sku",
@@ -79,9 +79,9 @@
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
