@@ -99,26 +99,26 @@
             "heading_size": "h1"
           }
         },
+        "caption_K4nw9M": {
+          "type": "caption",
+          "settings": {
+            "caption": "for your bestie",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
         "text_yrMcgA": {
           "type": "text",
           "settings": {
             "text": "<p>{{ product.metafields.custom.serving_text | metafield_tag }}</p>",
             "text_style": "body"
           }
-        },
-        "button_NCB74a": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_ypDnYb",
-        "text_yrMcgA",
-        "button_NCB74a"
+        "caption_K4nw9M",
+        "text_yrMcgA"
       ],
       "settings": {
         "image_url": "{{ product.metafields.custom.serving_image.value }}",
@@ -146,10 +146,18 @@
             "heading_size": "h1"
           }
         },
+        "caption_kamqfQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Clare Kearney, pet nutritionist & founder",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "text_bQ7MJd": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Clare Kearney, pet nutritionist & founder</em></p><p>I promise I'll never make a product that I wouldn't feed to my own dogs. And if I wouldn't feed it to my animals, I wouldn't feed it to yours. Everything I've created, I've created for myself. Selfish? Maybe. But it's how you know that everything I make is unconditionally good, and that you can't get it anywhere else.</p>",
+            "text": "<p>I promise I'll never make a product that I wouldn't feed to my own dogs. And if I wouldn't feed it to my animals, I wouldn't feed it to yours. Everything I've created, I've created for myself. Selfish? Maybe. But it's how you know that everything I make is unconditionally good, and that you can't get it anywhere else.</p>",
             "text_style": "body"
           }
         },
@@ -164,6 +172,7 @@
       },
       "block_order": [
         "heading_mkqy6a",
+        "caption_kamqfQ",
         "text_bQ7MJd",
         "button_FKhrgB"
       ],
