@@ -1533,11 +1533,15 @@ a.product__text {
 }
 .product-tab-content {
   display: none;
+  padding-top: 20px;
 }
 .product-tab-content.active {
   display: block;
 }
-
+.product-tab-content#benefits-tab ul {
+  margin-left: 0;
+  padding-left: 1.5rem;
+}
 
 @media screen and (forced-colors: active) {
   .recipient-fields > hr {
