@@ -61,6 +61,12 @@
           "settings": {
             "custom_liquid": "<p>{{ product.metafields.custom.description | newline_to_br }}</p>\n  </div>"
           }
+        },
+        "custom_liquid_GTCmnr": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"custom-benefits\">{{ product.metafields.custom.benefits | metafield_value }}</div>"
+          }
         }
       },
       "block_order": [
@@ -71,7 +77,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "custom_liquid_qhMK34"
+        "custom_liquid_qhMK34",
+        "custom_liquid_GTCmnr"
       ],
       "settings": {
         "enable_sticky_info": true,
