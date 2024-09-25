@@ -9,7 +9,7 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Hunde_Logo.svg",
+    "logo": "shopify://shop_images/Hunde_Logo.svg",
     "logo_width": 120,
     "type_header_font": "mariposa_sans_n4",
     "heading_scale": 120,
@@ -107,12 +107,12 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-5",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/www.facebook.com\/hunde.au",
-    "social_instagram_link": "https:\/\/www.instagram.com\/hunde.au\/",
+    "social_facebook_link": "https://www.facebook.com/hunde.au",
+    "social_instagram_link": "https://www.instagram.com/hunde.au/",
     "social_youtube_link": "",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@hunde.au?is_from_webapp=1&sender_device=pc",
+    "social_tiktok_link": "https://www.tiktok.com/@hunde.au?is_from_webapp=1&sender_device=pc",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -146,19 +146,19 @@
     ],
     "blocks": {
       "1232542678405107163": {
-        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
         "settings": {
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "1575957009345749421": {
-        "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-reviews/blocks/side-drawer/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "show_avatar": true,
@@ -184,7 +184,7 @@
         }
       },
       "4697538150380142411": {
-        "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/reviews-popup\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-reviews/blocks/reviews-popup/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "layout": "horizontal",
@@ -208,7 +208,7 @@
         }
       },
       "7612553728132747764": {
-        "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/net-promoter-score-form-modal\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-reviews/blocks/net-promoter-score-form-modal/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "email": "",
@@ -269,7 +269,7 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#3fba9e",
+          "background": "#f4afa8",
           "background_gradient": "",
           "text": "#000000",
           "button": "#000000",
@@ -435,7 +435,7 @@
       "badge_corner_radius": 40,
       "sale_badge_color_scheme": "scheme-4",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "sold_out_badge_color_scheme": "scheme-1",
       "social_twitter_link": "",
