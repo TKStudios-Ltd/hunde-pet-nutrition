@@ -1517,6 +1517,7 @@ a.product__text {
 .product-tabs {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   display: flex;
 }
 .product-tabs .product-tab-link {
