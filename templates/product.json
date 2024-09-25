@@ -226,6 +226,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        ".related-products__heading {font-size: 38px;}"
+      ],
       "settings": {
         "heading": "You may want to try...",
         "heading_size": "h1",
