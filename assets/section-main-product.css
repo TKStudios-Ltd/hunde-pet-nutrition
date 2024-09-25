@@ -1494,6 +1494,12 @@ a.product__text {
   color: #858585;
 }
 
+@media (max-width: 749px) {
+  .product-breadcrumb {
+    margin-bottom: 2rem;
+  }
+}
+
 @media screen and (forced-colors: active) {
   .recipient-fields > hr {
     border-top: 0.1rem solid rgb(var(--color-background));
