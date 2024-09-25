@@ -1533,10 +1533,10 @@ a.product__text {
 }
 .product-tab-content {
   display: none;
-  padding-top: 20px;
 }
 .product-tab-content.active {
   display: block;
+  padding-top: 20px;
 }
 .product-tab-content#benefits-tab ul {
   margin-left: 0;
