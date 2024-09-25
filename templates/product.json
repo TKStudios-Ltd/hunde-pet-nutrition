@@ -59,7 +59,7 @@
         "custom_liquid_qhMK34": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>{{ product.metafields.custom.description }}</p>\n  </div>"
+            "custom_liquid": "<p>{{ product.metafields.custom.description | newline_to_br }}</p>\n  </div>"
           }
         }
       },
