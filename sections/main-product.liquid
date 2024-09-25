@@ -735,6 +735,31 @@
   </div>
 </product-info>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var tabLinks = document.querySelectorAll(".tab-link");
+  var tabContents = document.querySelectorAll(".product-tab-content");
+
+  tabLinks.forEach(function(tabLink) {
+    tabLink.addEventListener("click", function() {
+      var tabID = this.getAttribute("data-tab");
+
+      // Remove 'active' class from all tabs and contents
+      tabLinks.forEach(function(link) {
+        link.classList.remove("active");
+      });
+      tabContents.forEach(function(content) {
+        content.classList.remove("active");
+      });
+
+      // Add 'active' class to clicked tab and related content
+      this.classList.add("active");
+      document.getElementById(tabID).classList.add("active");
+    });
+  });
+});
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
