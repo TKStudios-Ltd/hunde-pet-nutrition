@@ -1509,11 +1509,13 @@ a.product__text {
     letter-spacing: 0.2px;
 }
 
+img.product--icons {
+  width: 100%;
+  margin: 2rem 0;
+}
+
 /* Product Tabs */
 
-.product-tabbed-content {
-  /* margin: 20px 0; */
-}
 .product-tabs {
   list-style-type: none;
   padding: 0;
