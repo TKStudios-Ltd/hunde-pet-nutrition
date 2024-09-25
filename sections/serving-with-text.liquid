@@ -5,6 +5,15 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .serving-with-image .image-with-text__heading {
+    position: relative;
+  }
+  .serving-with-image .image-with-text__heading::after {
+    position: absolute;
+    content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Stuff-Underline.svg');
+    width: 200px;
+    height: auto;
+  }
   .serving-with-image .subtitle--large {
     line-height: 1;
     margin-bottom: 2rem;
