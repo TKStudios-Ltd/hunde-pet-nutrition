@@ -59,7 +59,7 @@
         "custom_liquid_yGUaQq": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.icons %}\n  <img src=\"{{ product.metafields.custom.icons.url }}\" alt=\"Product icon\">\n{% else %}\n  <p>No icon available.</p>\n{% endif %}\n<pre>{{ product.metafields.custom.icons }}</pre>"
+            "custom_liquid": "{% if product.metafields.custom.icons %}\n  {% assign media_image = product.media | where: 'id', product.metafields.custom.icons.value | first %}\n  {% if media_image %}\n    <img src=\"{{ media_image.image.src }}\" alt=\"Product icon\">\n  {% else %}\n    <p>Image not found.</p>\n  {% endif %}\n{% else %}\n  <p>No icon available.</p>\n{% endif %}"
           }
         },
         "description": {
