@@ -1478,6 +1478,18 @@ a.product__text {
   text-transform: capitalize;
 }
 
+.product-breadcrumb {
+  margin-bottom: 3rem;
+}
+.product-breadcrumb a,
+.product-breadcrumb span {
+  font-size: 12px;
+}
+
+.product-breadcrumb .grey {
+  color: #858585;
+}
+
 @media screen and (forced-colors: active) {
   .recipient-fields > hr {
     border-top: 0.1rem solid rgb(var(--color-background));
