@@ -92,10 +92,19 @@
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="button
+                      {% if block.settings.button_style_arrow %}
+                        button--arrow
+                      {% else %}
+                        {% if block.settings.button_style_secondary %}
+                          button--secondary
+                        {% else %}
+                          button--primary
+                        {% endif %}
+                      {% endif %}"
                       {{ block.shopify_attributes }}
                     >
-                      {{ block.settings.button_label | escape }}
+                      {{ block.settings.button_label | escape }} {% if block.settings.button_style_arrow %}<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span>{% endif %}
                     </a>
                   {%- endif -%}
               {%- endcase -%}
