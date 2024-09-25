@@ -1512,25 +1512,24 @@ a.product__text {
 /* Product Tabs */
 
 .product-tabbed-content {
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 .product-tabs {
   list-style-type: none;
   padding: 0;
   display: flex;
-  border-bottom: 2px solid #ddd;
-  margin-bottom: 10px;
 }
 .product-tabs .product-tab-link {
-  cursor: pointer;
-  padding: 10px 20px;
-  border: 1px solid #ddd;
-  border-bottom: none;
-  margin-right: 10px;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-right: 20px;
+    font-family: TT Neoris;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .2px;
 }
 .product-tabs .product-tab-link.active {
-  background-color: #f5f5f5;
-  border-top: 2px solid #333;
+  border-bottom: 2px solid #EB6A4B;
 }
 .product-tab-content {
   display: none;
