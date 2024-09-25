@@ -63,15 +63,6 @@
           "settings": {
           }
         },
-        "collapsible_tab_QKzEU7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Benefits",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
-        },
         "custom_liquid_qhMK34": {
           "type": "custom_liquid",
           "settings": {
@@ -88,7 +79,6 @@
         "buy_buttons",
         "text_ErWUgg",
         "description",
-        "collapsible_tab_QKzEU7",
         "custom_liquid_qhMK34"
       ],
       "settings": {
