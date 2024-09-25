@@ -91,6 +91,53 @@
         "padding_bottom": 80
       }
     },
+    "image_with_text_VTjrKr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mkqy6a": {
+          "type": "heading",
+          "settings": {
+            "heading": "My Promise",
+            "heading_size": "h1"
+          }
+        },
+        "text_bQ7MJd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Clare Kearney, pet nutritionist & founder</em></p><p>I promise I'll never make a product that I wouldn't feed to my own dogs. And if I wouldn't feed it to my animals, I wouldn't feed it to yours. Everything I've created, I've created for myself. Selfish? Maybe. But it's how you know that everything I make is unconditionally good, and that you can't get it anywhere else.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FKhrgB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Story",
+            "button_link": "shopify://pages/about",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mkqy6a",
+        "text_bQ7MJd",
+        "button_FKhrgB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/HUNDE_Promise.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "17272403659935ce8b": {
       "type": "apps",
       "blocks": {
@@ -138,6 +185,7 @@
   },
   "order": [
     "main",
+    "image_with_text_VTjrKr",
     "17272403659935ce8b",
     "related-products"
   ]
