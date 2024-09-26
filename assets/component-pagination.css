@@ -57,6 +57,10 @@ a.pagination__item:hover::after {
   background: rgb(var(--color-foreground));
 }
 
+.pagination__item-arrow {
+  border: none;
+}
+
 /* .pagination__item--current::after,
 .pagination__item:hover::after {
   content: '';
