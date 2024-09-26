@@ -229,7 +229,7 @@
       "type": "related-products",
       "custom_css": [
         ".related-products__heading {font-size: 38px;}",
-        "@media (max-width: 749px) {.related-products__heading {font-size: 32px;}}"
+        "@media (max-width: 749px) {.related-products__heading {max-width: 300px; }}"
       ],
       "settings": {
         "heading": "You may want to try...",
