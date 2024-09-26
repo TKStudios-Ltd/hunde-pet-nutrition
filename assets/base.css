@@ -3909,6 +3909,10 @@ details-disclosure > details {
   display: none;
 }
 
+.js .stamped-badge-starrating .stamped-fa:first-child .stamped-fa-star:before {
+  content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Review-Star-1.svg');
+}
+
 @media (max-width: 749px) {
   .js .stamped-header-title {
     font-size: 45px;
