@@ -3912,23 +3912,23 @@ details-disclosure > details {
 .js .stamped-badge-starrating {
   margin: 0 6px 0 0 !important;
 }
-.js .stamped-badge-starrating .stamped-fa-star:nth-child(1) {
+.js .stamped-starrating .stamped-fa-star:nth-child(1) {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Review-Star-1.svg') !important;
   color: transparent;
 }
-.js .stamped-badge-starrating .stamped-fa-star:nth-child(2) {
+.js .stamped-starrating .stamped-fa-star:nth-child(2) {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Review-Star-2.svg') !important;
   color: transparent;
 }
-.js .stamped-badge-starrating .stamped-fa-star:nth-child(3) {
+.js .stamped-starrating .stamped-fa-star:nth-child(3) {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Review-Star-3.svg') !important;
   color: transparent;
 }
-.js .stamped-badge-starrating .stamped-fa-star:nth-child(4) {
+.js .stamped-starrating .stamped-fa-star:nth-child(4) {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Review-Star-4.svg') !important;
   color: transparent;
 }
-.js .stamped-badge-starrating .stamped-fa-star:nth-child(5) {
+.js .stamped-starrating .stamped-fa-star:nth-child(5) {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Review-Star-5.svg') !important;
   color: transparent;
 }
