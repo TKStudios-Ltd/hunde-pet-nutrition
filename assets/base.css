@@ -991,6 +991,21 @@ summary::-webkit-details-marker {
   font-size: 46px;
 }
 
+@media (max-width: 749px) {
+  .subtitle {
+    font-size: 24px;
+  }
+  .subtitle--small {
+    font-size: 18px;
+  }
+  .subtitle--medium {
+    font-size: 28px;
+  }
+  .subtitle--large {
+    font-size: 34px;
+  }
+}
+
 /* component-grid */
 .grid {
   display: flex;
