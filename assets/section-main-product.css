@@ -1500,6 +1500,16 @@ a.product__text {
   color: #858585;
 }
 
+.product__media-wrapper .slider-button {
+  opacity: 0.3;
+}
+.product__media-wrapper .slider-counter {
+  font-family: 'Nineties Headliner';
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  opacity: 0.3;
+}
+
 @media (max-width: 749px) {
   .product-breadcrumb {
     margin-bottom: 2rem;
