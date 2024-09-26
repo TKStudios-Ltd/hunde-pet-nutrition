@@ -3913,7 +3913,7 @@ details-disclosure > details {
   margin: 0 6px 0 0 !important;
 }
 .js .stamped-starrating .stamped-fa-star:nth-child(1),
-.js .stamped-review-header-starratings .stamped-fa-star:nth-child(1) {
+.js .stamped-review-header-starratings .stamped-fa-star {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Review-Star-1.svg') !important;
   color: transparent;
 }
