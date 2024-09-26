@@ -3890,6 +3890,9 @@ details-disclosure > details {
   letter-spacing: .2px;
   padding: 15px;
 }
+.js .stamped-summary-actions-newreview {
+  display: none;
+}
 
 @media (max-width: 749px) {
   .js .stamped-header-title {
