@@ -996,13 +996,13 @@ summary::-webkit-details-marker {
     font-size: 24px;
   }
   .subtitle--small {
-    font-size: 18px;
+    font-size: 20px;
   }
   .subtitle--medium {
     font-size: 28px;
   }
   .subtitle--large {
-    font-size: 34px;
+    font-size: 36px;
   }
 }
 
