@@ -1506,6 +1506,9 @@ a.product__text {
   .slider.slider--mobile .slider__slide:first-child {
     padding-left: 2rem;
   }
+  .slider.slider--mobile .slider__slide:last-child {
+    padding-right: 2rem;
+  }
 }
 
 .js .stamped-product-reviews-badge .stamped-badge-caption {
