@@ -86,7 +86,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 60,
-        "padding_bottom": 80
+        "padding_bottom": 60
       }
     },
     "serving_with_text_RwXLh3": {
@@ -132,7 +132,7 @@
         "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 40,
+        "padding_top": 60,
         "padding_bottom": 40
       }
     },
