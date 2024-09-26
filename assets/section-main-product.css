@@ -1513,6 +1513,9 @@ a.product__text {
   .product__media-wrapper .slider-buttons {
     display: none !important;
   }
+  .product__info-wrapper {
+    margin-top: 4rem;
+  }
 }
 
 .js .stamped-product-reviews-badge .stamped-badge-caption {
