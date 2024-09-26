@@ -976,9 +976,9 @@ summary::-webkit-details-marker {
   font-size: 32px;
   letter-spacing: 0.2px;
   font-size: 1.8rem;
-  line-height: 1.6;
+  line-height: 1.2;
   color: rgba(var(--color-foreground), 1);
-  margin-top: 0 !important;
+  margin-top: 10px !important;
 }
 
 .subtitle--small {
