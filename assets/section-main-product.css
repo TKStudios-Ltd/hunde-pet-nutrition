@@ -847,6 +847,7 @@ a.product__text {
   .product-media-modal__dialog .global-media-settings img {
     border: none;
     border-radius: 0;
+    max-width: calc(100% - 4rem);
   }
 }
 
