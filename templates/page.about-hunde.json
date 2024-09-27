@@ -176,45 +176,6 @@
         "padding_top": 40,
         "padding_bottom": 80
       }
-    },
-    "rich_text_PBD3WU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_KbbTiG": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Us",
-            "heading_size": "h0"
-          }
-        },
-        "caption_WL8FYX": {
-          "type": "caption",
-          "settings": {
-            "caption": "HUNDE was borne from a belief that the food we feed our pets should be as unconditionally good as their love is for us. ",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_JQkbJ4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>HUNDE was borne from a belief that the food we feed our pets should be as unconditionally good as their love is for us. </p><p>The HUNDE range features thoughtfully created balancing blends, recipes and supplementary extras to ensure that, no matter your circumstances, your pets can enjoy the enormous benefits of a homemade, fresh food diet. </p><p>The intention of HUNDE is to empower people with the tools to make informed choices on behalf of their pets, so they can live long, healthy + happy lives together. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KbbTiG",
-        "caption_WL8FYX",
-        "text_JQkbJ4"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
     }
   },
   "order": [
@@ -222,7 +183,6 @@
     "custom_liquid_PxNGc8",
     "image_with_text_zTmji6",
     "image_with_text_XLARkk",
-    "image_with_text_KYHr3c",
-    "rich_text_PBD3WU"
+    "image_with_text_KYHr3c"
   ]
 }
