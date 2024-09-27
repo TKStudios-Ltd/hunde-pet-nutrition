@@ -755,6 +755,10 @@ a.active-facets__button.focused .active-facets__button-inner {
   pointer-events: none;
 }
 
+.mobile-facets__footer .button::before {
+  box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) rgba(var(--color-shadow),var(--inputs-shadow-opacity));
+}
+
 .mobile-facets__disclosure {
   display: flex;
 }
