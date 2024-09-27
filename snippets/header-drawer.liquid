@@ -23,8 +23,8 @@
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
               {%- for link in section.settings.menu.links -%}
                 <li>
+                  {% comment %}
                   {%- if link.links != blank -%}
-                    {% comment %}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                       <summary
                         id="HeaderDrawer-{{ link.handle }}"
@@ -121,7 +121,8 @@
                       </div>
                     </details>
                   {%- else -%}
-                    {% endcomment %}
+                  {%- endif -%}
+                  {% endcomment %}
                     <a
                       id="HeaderDrawer-{{ link.handle }}"
                       href="{{ link.url }}"
@@ -132,7 +133,6 @@
                     >
                       {{ link.title | escape }}
                     </a>
-                  {%- endif -%}
                 </li>
               {%- endfor -%}
             </ul>
