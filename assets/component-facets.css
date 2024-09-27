@@ -818,7 +818,11 @@ a.active-facets__button.focused .active-facets__button-inner {
 }
 
 .mobile-facets__heading {
-  font-size: calc(var(--font-heading-scale) * 1.4rem);
+  font-family: 'Nineties Headliner', san-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: .2px;
+  text-transform: uppercase;
   margin: 0;
 }
 
