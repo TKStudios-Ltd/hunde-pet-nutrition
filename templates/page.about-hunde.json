@@ -17,18 +17,106 @@
         "padding_bottom": 80
       }
     },
-    "custom_liquid_qwRr9W": {
+    "custom_liquid_PxNGc8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h1>About Us</h1></div>",
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">About Us</h1></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "image_with_text_zTmji6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cwTF8G": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a>We're here to help</a>",
+            "heading_size": "h1"
+          }
+        },
+        "caption_aJ6ec7": {
+          "type": "caption",
+          "settings": {
+            "caption": "HUNDE was borne from a belief that the food we feed our pets should be as unconditionally good as their love is for us. ",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "text_hEUqiP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The HUNDE range features thoughtfully created balancing blends, recipes and supplementary extras to ensure that, no matter your circumstances, your pets can enjoy the enormous benefits of a homemade, fresh food diet. </p><p>The intention of HUNDE is to empower people with the tools to make informed choices on behalf of their pets, so they can live long, healthy + happy lives together. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cwTF8G",
+        "caption_aJ6ec7",
+        "text_hEUqiP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/clare_and_dogs_on_beach_b0d6b2be-26c2-4b1f-b385-95e80b1007db.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_PBD3WU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KbbTiG": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h0"
+          }
+        },
+        "caption_WL8FYX": {
+          "type": "caption",
+          "settings": {
+            "caption": "HUNDE was borne from a belief that the food we feed our pets should be as unconditionally good as their love is for us. ",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_JQkbJ4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HUNDE was borne from a belief that the food we feed our pets should be as unconditionally good as their love is for us. </p><p>The HUNDE range features thoughtfully created balancing blends, recipes and supplementary extras to ensure that, no matter your circumstances, your pets can enjoy the enormous benefits of a homemade, fresh food diet. </p><p>The intention of HUNDE is to empower people with the tools to make informed choices on behalf of their pets, so they can live long, healthy + happy lives together. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KbbTiG",
+        "caption_WL8FYX",
+        "text_JQkbJ4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
     "main",
-    "custom_liquid_qwRr9W"
+    "custom_liquid_PxNGc8",
+    "image_with_text_zTmji6",
+    "rich_text_PBD3WU"
   ]
 }
