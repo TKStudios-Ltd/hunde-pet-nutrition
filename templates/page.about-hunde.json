@@ -29,19 +29,12 @@
     "image_with_text_zTmji6": {
       "type": "image-with-text",
       "blocks": {
-        "heading_cwTF8G": {
-          "type": "heading",
-          "settings": {
-            "heading": "<a>We're here to help</a>",
-            "heading_size": "h1"
-          }
-        },
         "caption_aJ6ec7": {
           "type": "caption",
           "settings": {
             "caption": "HUNDE was borne from a belief that the food we feed our pets should be as unconditionally good as their love is for us. ",
             "text_style": "subtitle",
-            "text_size": "small"
+            "text_size": "medium"
           }
         },
         "text_hEUqiP": {
@@ -53,7 +46,6 @@
         }
       },
       "block_order": [
-        "heading_cwTF8G",
         "caption_aJ6ec7",
         "text_hEUqiP"
       ],
@@ -99,9 +91,9 @@
         "button_mWmeTA": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/shop",
+            "button_style_secondary": true,
             "button_style_arrow": false
           }
         }
@@ -112,6 +104,7 @@
         "button_mWmeTA"
       ],
       "settings": {
+        "image": "shopify://shop_images/clare_at_desk.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -132,7 +125,7 @@
         "heading_m948Ed": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "We're here to help",
             "heading_size": "h1"
           }
         },
@@ -146,10 +139,10 @@
         "button_riUGjh": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Contact us",
+            "button_link": "shopify://pages/contact",
             "button_style_secondary": false,
-            "button_style_arrow": false
+            "button_style_arrow": true
           }
         }
       },
@@ -158,10 +151,17 @@
         "text_7DP3X6",
         "button_riUGjh"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0 0; }}",
+        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
+        ".image-with-text__content > * + * {margin-top: 3rem;}",
+        "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 4rem 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
+      ],
       "settings": {
+        "image": "shopify://shop_images/pip_f30ba64c-4d19-4a4b-97ac-f57d3a5d210d.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
