@@ -969,6 +969,12 @@ details.menu-opening .mobile-facets__close .svg-wrapper {
   margin-left: auto;
 }
 
+.mobile-facets__arrow svg, 
+.mobile-facets__summar svg {
+  width: 20px;
+  height: 20px;
+}
+
 .mobile-facets__summary > div {
   display: flex;
   align-items: center;
