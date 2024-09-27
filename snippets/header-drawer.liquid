@@ -24,9 +24,9 @@
               {%- for link in section.settings.menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
+                    {% comment %}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
-                      <a
-                        href="{{ link.url }}"
+                      <summary
                         id="HeaderDrawer-{{ link.handle }}"
                         class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
                       >
@@ -37,8 +37,7 @@
                         <span class="svg-wrapper">
                           {{- 'icon-caret.svg' | inline_asset_content -}}
                         </span>
-                      </a>
-                      {% comment %}
+                      </summary>
                       <div
                         id="link-{{ link.handle | escape }}"
                         class="menu-drawer__submenu has-submenu gradient motion-reduce"
@@ -120,9 +119,9 @@
                           </ul>
                         </div>
                       </div>
-                      {% endcomment %}
                     </details>
                   {%- else -%}
+                    {% endcomment %}
                     <a
                       id="HeaderDrawer-{{ link.handle }}"
                       href="{{ link.url }}"
