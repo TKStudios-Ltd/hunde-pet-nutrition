@@ -879,10 +879,10 @@ a.active-facets__button.focused .active-facets__button-inner {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 0.7rem;
-  right: 1rem;
-  width: 4.4rem;
-  height: 4.4rem;
+  top: 2rem;
+  right: 2rem;
+  width: 2rem;
+  height: 2rem;
   z-index: 101;
   opacity: 0;
   transition: opacity var(--duration-short) ease;
