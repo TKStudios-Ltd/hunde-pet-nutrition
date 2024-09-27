@@ -759,6 +759,7 @@ a.active-facets__button.focused .active-facets__button-inner {
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 var(--buttons-border-width) rgba(var(--color-button),var(--alpha-button-background));
 }
 .mobile-facets__footer .button::after {
+  --border-opacity: var(--buttons-border-opacity);
   box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) rgba(var(--color-shadow),var(--inputs-shadow-opacity));
 }
 
