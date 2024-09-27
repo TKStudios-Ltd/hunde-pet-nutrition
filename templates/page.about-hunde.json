@@ -23,7 +23,7 @@
         "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">About Us</h1></div>",
         "color_scheme": "",
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 0
       }
     },
     "image_with_text_zTmji6": {
@@ -52,7 +52,7 @@
       "custom_css": [
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0 0; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
-        ".image-with-text__content > * + * {margin-top: 3rem;}",
+        ".subtitle {line-height: 1;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 4rem 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
@@ -67,8 +67,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "image_with_text_XLARkk": {
@@ -104,9 +104,8 @@
         "button_mWmeTA"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0 5em; }}",
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0 7rem; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
-        ".image-with-text__content > * + * {margin-top: 3rem;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 4rem 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
@@ -121,8 +120,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "image_with_text_KYHr3c": {
@@ -160,7 +159,6 @@
       "custom_css": [
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0 0; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
-        ".image-with-text__content > * + * {margin-top: 3rem;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 4rem 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
@@ -175,8 +173,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 80
       }
     },
     "rich_text_PBD3WU": {
