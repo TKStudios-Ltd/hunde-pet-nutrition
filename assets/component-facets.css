@@ -853,7 +853,7 @@ a.active-facets__button.focused .active-facets__button-inner {
 }
 
 .mobile-facets__open-label {
-  font-size: 16px;
+  font-size: 1.4rem;
   transition: text-decoration var(--duration-short) ease;
 }
 
