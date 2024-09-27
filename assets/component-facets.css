@@ -5,6 +5,10 @@
   padding-top: 1rem;
 }
 
+.facets-container .light {
+  opacity: 1;
+}
+
 .active-facets-mobile {
   margin-bottom: 0.5rem;
 }
