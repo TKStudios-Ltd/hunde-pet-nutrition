@@ -798,8 +798,8 @@ a.active-facets__button.focused .active-facets__button-inner {
 }
 
 .mobile-facets__header {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  padding: 1rem 2.5rem;
+  border-bottom: 2px solid rgba(var(--color-foreground), 1);
+  padding: 2rem;
   text-align: center;
   display: flex;
   position: sticky;
