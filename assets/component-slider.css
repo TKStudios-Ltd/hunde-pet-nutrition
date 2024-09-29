@@ -149,12 +149,12 @@ slider-component.slider-component-full-width {
   }
 
   /* Fix to show some space at the end of our sliders in all browsers */
-  .slider--desktop:after {
+  /* .slider--desktop:after {
     content: '';
     width: 0;
     padding-left: 5rem;
     margin-left: calc(-1 * var(--grid-desktop-horizontal-spacing));
-  }
+  } */
 
   .slider.slider--desktop .slider__slide {
     margin-bottom: 0;
