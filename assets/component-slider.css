@@ -95,12 +95,12 @@ slider-component.slider-component-full-width {
   }
 
   /* Fix to show some space at the end of our sliders in all browsers */
-  .slider--tablet:after {
+  /* .slider--tablet:after {
     content: '';
     width: 0;
     padding-left: 1.5rem;
     margin-left: calc(-1 * var(--grid-desktop-horizontal-spacing));
-  }
+  } */
 
   .slider.slider--tablet .slider__slide {
     margin-bottom: 0;
