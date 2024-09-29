@@ -11,7 +11,55 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "feeding_calculator_98MG4U": {
+      "type": "feeding-calculator",
+      "blocks": {
+        "heading_XL3cKc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feeding Calculator",
+            "heading_size": "h1"
+          }
+        },
+        "text_AQK7kV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The HUNDE Feeding Calculator helps you determine the ideal amount of food for your pets based on their age, weight, activity level, and diet. By inputting these details, you can ensure your pet receives the right nutrition tailored to their specific needs, promoting a healthy and balanced diet.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_HVKBG7": {
+          "type": "button",
+          "settings": {
+            "button_label": "GOT QUESTIONS, HEAD ON DOWN TO OUR FEEDING FAQS",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_style_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XL3cKc",
+        "text_AQK7kV",
+        "button_HVKBG7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -200,6 +248,7 @@
   },
   "order": [
     "main",
+    "feeding_calculator_98MG4U",
     "featured_collection_gfdD3E",
     "collapsible_content_KQRAxC",
     "rich_text_q6wDTw",
