@@ -65,7 +65,7 @@
       "settings": {
         "caption": "",
         "heading": "Collapsible content",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "",
@@ -84,7 +84,7 @@
           "type": "heading",
           "settings": {
             "heading": "Still have a questions?",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_yVCkJ8": {
