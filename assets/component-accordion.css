@@ -2,7 +2,11 @@
   display: flex;
   position: relative;
   line-height: 1;
-  padding: 1.5rem 0;
+  padding: 1.5rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid;
+  border-radius: 4px;
 }
 
 .accordion summary svg {
