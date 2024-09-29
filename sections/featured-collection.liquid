@@ -66,6 +66,17 @@
       padding-left: 1rem;
     }
   }
+  @media screen and (min-width: 749px) and (max-width: 990px) {
+    .section-{{ section.id }}-padding .slider-button {
+      top: 35%;
+    }
+    .section-{{ section.id }}-padding .slider-button--prev {
+      left: 0;
+    }
+    .section-{{ section.id }}-padding .slider-button--next {
+      right: 0;
+    }
+  }
 {%- endstyle -%}
 
 {%- liquid
