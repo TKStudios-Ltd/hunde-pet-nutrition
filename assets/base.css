@@ -1226,7 +1226,7 @@ summary::-webkit-details-marker {
 
   .slider--tablet.grid--peek.grid--2-col-tablet .grid__item,
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item {
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem);
+    width: 50%;
   }
 
   .slider--tablet.grid--peek .grid__item:first-of-type {
