@@ -22,36 +22,36 @@
         "collapsible_row_b8ANKN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Question Text Goes Here",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
             "page": ""
           }
         },
         "collapsible_row_4QnTQq": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Question Text Goes Here",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7XUb9X": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Question Text Goes Here",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
             "page": ""
           }
         },
         "collapsible_row_jgUpkE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Aq9Tkt": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Question Text Goes Here",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
             "page": ""
           }
         }
@@ -59,12 +59,12 @@
       "block_order": [
         "collapsible_row_b8ANKN",
         "collapsible_row_4QnTQq",
-        "collapsible_row_jgUpkE",
-        "collapsible_row_Aq9Tkt"
+        "collapsible_row_7XUb9X",
+        "collapsible_row_jgUpkE"
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Feeding FAQs",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
