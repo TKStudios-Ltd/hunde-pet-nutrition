@@ -16,6 +16,34 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_gfdD3E": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You may want to try...",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_KQRAxC": {
       "type": "collapsible-content",
       "blocks": {
@@ -165,41 +193,13 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "featured_collection_gfdD3E": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "You may want to try...",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "shop",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
+    "featured_collection_gfdD3E",
     "collapsible_content_KQRAxC",
     "rich_text_q6wDTw",
-    "collection_list_hX4jwp",
-    "featured_collection_gfdD3E"
+    "collection_list_hX4jwp"
   ]
 }
