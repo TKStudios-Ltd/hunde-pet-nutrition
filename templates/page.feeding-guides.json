@@ -18,6 +18,9 @@
     },
     "featured_collection_gfdD3E": {
       "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.standard--collection .title {margin-bottom: 3rem; } .standard--collection .title:after {display: none; }}"
+      ],
       "settings": {
         "title": "You may want to try...",
         "heading_size": "h2",
@@ -39,7 +42,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
