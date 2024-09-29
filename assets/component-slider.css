@@ -162,10 +162,10 @@ slider-component.slider-component-full-width {
     padding-bottom: max(var(--focus-outline-padding), var(--shadow-padding-bottom));
   }
 
-  /* .slider--desktop .slider__slide:first-child {
-    margin-left: var(--desktop-margin-left-first-item);
+  .slider--desktop .slider__slide:first-child {
+    /* margin-left: var(--desktop-margin-left-first-item); */
     scroll-margin-left: var(--desktop-margin-left-first-item);
-  } */
+  }
 
   .slider-component-full-width .slider--desktop {
     scroll-padding-left: 1.5rem;
@@ -186,7 +186,8 @@ slider-component.slider-component-full-width {
   }
 
   .slider--desktop.grid--4-col-desktop .grid__item {
-    width: calc((100% - var(--desktop-margin-left-first-item)) / 4 - var(--grid-desktop-horizontal-spacing) * 3);
+    /* width: calc((100% - var(--desktop-margin-left-first-item)) / 4 - var(--grid-desktop-horizontal-spacing) * 3); */
+    width: 25%;
   }
 
   .slider--desktop.grid--3-col-desktop .grid__item {
