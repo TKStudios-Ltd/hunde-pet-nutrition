@@ -73,6 +73,7 @@
   display: block !important;
   margin: 0 0 1.5rem;
   letter-spacing: 0.2px;
+  text-transform: inherit;
 }
 .featured--article .card__heading {
   font-family: 'Nineties Headliner', san-serif;
