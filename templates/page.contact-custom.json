@@ -24,39 +24,36 @@
           "type": "heading",
           "settings": {
             "heading": "Contact Us",
-            "heading_size": "hxl"
+            "heading_size": "h0"
+          }
+        },
+        "caption_d7qGQ7": {
+          "type": "caption",
+          "settings": {
+            "caption": "",
+            "text_style": "subtitle",
+            "text_size": "small"
           }
         },
         "text_99cYYk": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_Jacqh8": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>If you have any questions or feedback, holler at us on <a href=\"mailto:hello@hunde.com.au&quot;\"><em>hello@hunde.com.au.</em></a></p><p>You can send us presents to PO Box 107, Ballina NSW 2478. </p>"
           }
         }
       },
       "block_order": [
         "heading_gExxrL",
-        "text_99cYYk",
-        "button_Jacqh8"
+        "caption_d7qGQ7",
+        "text_99cYYk"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 20
       }
     },
     "contact-form": {
