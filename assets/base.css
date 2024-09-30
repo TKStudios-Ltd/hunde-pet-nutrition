@@ -202,7 +202,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   }
 
   .page-width--narrow {
-    max-width: 85rem;
+    max-width: 82.5rem;
     padding: 0;
   }
 
