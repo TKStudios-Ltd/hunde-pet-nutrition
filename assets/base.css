@@ -1894,7 +1894,7 @@ details[open] > .share-button__fallback {
 .customer .field input {
   flex-grow: 1;
   text-align: left;
-  padding: 2rem 1.5rem;
+  padding: 2rem;
   margin: var(--inputs-border-width);
   transition: box-shadow var(--duration-short) ease;
 }
@@ -1909,7 +1909,7 @@ details[open] > .share-button__fallback {
   pointer-events: none;
   position: absolute;
   transition: top var(--duration-short) ease, font-size var(--duration-short) ease;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
   letter-spacing: 0.2px;
   line-height: 1.5;
 }
@@ -1932,7 +1932,7 @@ details[open] > .share-button__fallback {
 .customer .field input:focus,
 .customer .field input:not(:placeholder-shown),
 .customer .field input:-webkit-autofill {
-  padding: 2rem 1.5rem;
+  padding: 2rem;
   margin: var(--inputs-border-width);
 }
 
