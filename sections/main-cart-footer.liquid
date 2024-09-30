@@ -26,7 +26,7 @@
     <div class="cart__footer isolate section-{{ section.id }}-padding">
       {%- if settings.show_cart_note -%}
         <cart-note class="cart__note field">
-          <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
+          <label class="italic-heading" for="Cart-note">{{ 'sections.cart.note' | t }}</label>
           <textarea
             class="text-area field__input"
             name="note"
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="totals">
-                  <p class="totals__total">{{ 'sections.cart.estimated_total' | t }}</p>
+                  <p class="totals__total italic-heading">{{ 'sections.cart.estimated_total' | t }}</p>
                   <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
                 </div>
 
