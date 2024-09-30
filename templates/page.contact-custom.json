@@ -38,7 +38,7 @@
         "text_99cYYk": {
           "type": "text",
           "settings": {
-            "text": "<p>If you have any questions or feedback, holler at us on <a href=\"mailto:hello@hunde.com.au&quot;\"><em>hello@hunde.com.au.</em></a></p><p>You can send us presents to PO Box 107, Ballina NSW 2478. </p>"
+            "text": "<p><em>If you have any questions or feedback, holler at us on </em><a href=\"mailto:hello@hunde.com.au&quot;\"><em>hello@hunde.com.au.</em></a></p><p>You can send us presents to PO Box 107, Ballina NSW 2478. </p>"
           }
         }
       },
@@ -46,6 +46,9 @@
         "heading_gExxrL",
         "caption_d7qGQ7",
         "text_99cYYk"
+      ],
+      "custom_css": [
+        "p em {font-family: 'Perfectly Nineties' !important; font-size: 42px !important; letter-spacing: 0.2px; line-height: 1.1; font-style: normal; max-width: 60rem; margin-left: auto; margin-right: auto;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -59,10 +62,10 @@
     "contact-form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
+        "heading": "or Get in touch",
         "heading_size": "h2",
         "color_scheme": "scheme-1",
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 100
       }
     }
