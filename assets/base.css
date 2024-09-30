@@ -135,6 +135,7 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
+body,
 .color-scheme-1,
 .color-scheme-2,
 .color-scheme-3,
