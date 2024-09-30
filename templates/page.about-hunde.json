@@ -52,7 +52,7 @@
       "custom_css": [
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0 0; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
-        ".subtitle {line-height: 1;}",
+        ".subtitle {line-height: 1.2;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
