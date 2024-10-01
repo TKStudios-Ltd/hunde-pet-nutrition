@@ -59,16 +59,6 @@
     "multicolumn_GJ47Tb": {
       "type": "multicolumn",
       "blocks": {
-        "column_WrUkEM": {
-          "type": "column",
-          "settings": {
-            "title": "Lamb & Buffalo Liver",
-            "block_heading_size": "h2",
-            "text": "<p>Liver in famously one of the most nutrient dense organs there is, and including it ensures your pet is getting enough vitamin A, copper, selenium, vitamin D3 and iron. Australian lamb is farmed in a more forgiving way from a sustainability perspective and water buffalo is a hypoallergenic choice for dogs and cats with protein sensitivities.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_YiPnnQ": {
           "type": "column",
           "settings": {
@@ -76,6 +66,38 @@
             "title": "Sardines",
             "block_heading_size": "h2",
             "text": "<p>Sardines are a fab source of vitamin D3 and inflammation fighting omega 3 fatty acids. Sardines are small fish that sit low on the food chain, meaning they're don't tend to contain heavy metals like larger fish. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VCPyza": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bananarighthold.png",
+            "title": "Green Ladyfinger bananas",
+            "block_heading_size": "h2",
+            "text": "<p>Green banana starch is a an indigestible fibre with prebiotic qualities that is great for digestive health as it feeds to good bacteria in the gut, keeping them alive and healthy.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8gnLQA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/alfalfaright.png",
+            "title": "Wheatgrass & alfalfa",
+            "block_heading_size": "h2",
+            "text": "<p>These super-greens are brimming with nutrients like vitamin E, copper, zinc, manganese and thiamine. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WrUkEM": {
+          "type": "column",
+          "settings": {
+            "title": "Lamb & Buffalo Liver",
+            "block_heading_size": "h2",
+            "text": "<p>Liver in famously one of the most nutrient dense organs there is, and including it ensures your pet is getting enough vitamin A, copper, selenium, vitamin D3 and iron. Australian lamb is farmed in a more forgiving way from a sustainability perspective and water buffalo is a hypoallergenic choice for dogs and cats with protein sensitivities.</p>",
             "link_label": "",
             "link": ""
           }
@@ -111,6 +133,28 @@
             "link": ""
           }
         },
+        "column_8xaHme": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sunflowers.png",
+            "title": "Hemp & sunflower seeds",
+            "block_heading_size": "h2",
+            "text": "<p>A rich source of essential fatty acids, particularly linoleic acid and alpha-linolenic acid, these digestible seed meals also contain loads of antioxidant vitamin E.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zUmAU9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pumpkin.png",
+            "title": "Cranberries & pumpkin",
+            "block_heading_size": "h2",
+            "text": "<p>We know, cats are obligate carnivores. We add a small amount of cranberries to our cat blend for urinary health, and pumpkin for its mix of soluble and insoluble fibre.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_VJUGjU": {
           "type": "column",
           "settings": {
@@ -131,61 +175,42 @@
             "link": ""
           }
         },
-        "column_8xaHme": {
+        "column_QUwU34": {
           "type": "column",
           "settings": {
-            "title": "Hemp & sunflower seeds",
+            "title": "kelp, dulse & irish sea moss",
             "block_heading_size": "h2",
-            "text": "<p>A rich source of essential fatty acids, particularly linoleic acid and alpha-linolenic acid, these digestible seed meals also contain loads of antioxidant vitamin E.</p>",
+            "text": "<p>Sea vegetables are an important and highly digestible source of minerals, especially iodine for thyroid health and to kick the metabolism along.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_VCPyza": {
+        "column_C9xJ9m": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/bananarighthold.png",
-            "title": "Green Ladyfinger bananas",
+            "image": "shopify://shop_images/papayaleft.png",
+            "title": "paw paw leaf",
             "block_heading_size": "h2",
-            "text": "<p>Green banana starch is a an indigestible fibre with prebiotic qualities that is great for digestive health as it feeds to good bacteria in the gut, keeping them alive and healthy.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_zUmAU9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/pumpkin.png",
-            "title": "Cranberries & pumpkin",
-            "block_heading_size": "h2",
-            "text": "<p>We know, cats are obligate carnivores. We add a small amount of cranberries to our cat blend for urinary health, and pumpkin for its mix of soluble and insoluble fibre.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_8gnLQA": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "block_heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Paw paw or papaya leaf is included for digestive health, owing to its fibre content and the presence of the enzyme papain.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_WrUkEM",
         "column_YiPnnQ",
+        "column_VCPyza",
+        "column_8gnLQA",
+        "column_WrUkEM",
         "column_cNGAxL",
         "column_cgwP4e",
         "column_mNA94r",
+        "column_8xaHme",
+        "column_zUmAU9",
         "column_VJUGjU",
         "column_X3NPLF",
-        "column_8xaHme",
-        "column_VCPyza",
-        "column_zUmAU9",
-        "column_8gnLQA"
+        "column_QUwU34",
+        "column_C9xJ9m"
       ],
       "settings": {
         "title": "",
