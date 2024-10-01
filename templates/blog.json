@@ -18,11 +18,59 @@
         "show_date": false,
         "show_author": false,
         "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "collection_list_XhVMpw": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_DcDkmN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dogs"
+          }
+        },
+        "featured_collection_Ta4fC9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cats"
+          }
+        },
+        "featured_collection_g8RgTA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundles"
+          }
+        },
+        "featured_collection_zGh9CY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "extras"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_DcDkmN",
+        "featured_collection_Ta4fC9",
+        "featured_collection_g8RgTA",
+        "featured_collection_zGh9CY"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
         "padding_bottom": 80
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_list_XhVMpw"
   ]
 }
