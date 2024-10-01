@@ -11,6 +11,7 @@
 .article-template__hero-container {
   max-width: 100%;
   margin: 0 auto;
+  border-bottom: 3px solid;
 }
 
 .article-template__hero-small {
