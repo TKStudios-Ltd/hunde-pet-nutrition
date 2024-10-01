@@ -42,7 +42,7 @@
 
   <!-- Blog Articles List -->
   <div class="page-width section-{{ section.id }}-padding blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-    {%- paginate blog.articles by 7 -%}
+    {%- paginate blog.articles by 5 -%}
       {%- for article in blog.articles offset:1 -%} <!-- Skip the first (featured) article -->
         <div
           class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
