@@ -157,8 +157,10 @@
 }
 
 .article-template__comments-comment {
-  color: rgba(var(--color-foreground), 0.75);
-  background-color: rgb(var(--color-background));
+  color: rgba(var(--color-foreground), 1);
+  background-color: #F2C20A;
+  border-radius: 12px;
+  border: 3px solid;
   margin-bottom: 1.5rem;
   padding: 2rem 2rem 1.5rem;
 }
