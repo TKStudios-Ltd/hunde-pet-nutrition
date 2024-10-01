@@ -16,6 +16,12 @@
 .main-blog .featured-article .article-card-wrapper .card {
   flex-direction: row-reverse !important;
 }
+.main-blog .featured-article .article-card .card__heading {
+  font-size: 60px;
+  letter-spacing: .35px;
+  line-height: .9;
+  color: white;
+}
 
 @media screen and (min-width: 750px) {
   .blog-articles {
