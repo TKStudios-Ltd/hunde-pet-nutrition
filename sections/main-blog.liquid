@@ -42,8 +42,7 @@
   </div>
 
   <!-- Blog Articles List -->
-  <div class="page-width section-{{ section.id }}-padding"
-    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+  <div class="page-width section-{{ section.id }}-padding blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
     {%- paginate blog.articles by 6 -%}
       {%- for article in blog.articles offset:1 -%} <!-- Skip the first (featured) article -->
         <div
@@ -65,14 +64,12 @@
         </div>
       {%- endfor -%}
     {%- endpaginate -%}
-    
   </div>
 
   <!-- Pagination -->
   {%- if paginate.pages > 1 -%}
     {%- render 'pagination', paginate: paginate -%}
   {%- endif -%}
-
 </div>
 
 {% schema %}
