@@ -11,13 +11,226 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_content_YX9r34": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_FMWeiV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I feed my pet a homemade/raw/fresh food diet?",
+            "icon": "none",
+            "row_content": "<p>Because it’s the food dogs and cats are designed to eat. Peer reviewed studies have shown that dogs fed a raw diet have a greater gut microbiome diversity than dogs fed a processed diet. This goes great lengths to explain the vast benefits reported by pet owners, which include a stronger immune system, improved digestion, healthy organs, improved joint health, less body and breath odour, less shedding, cleaner teeth and gums, better weight management, firmer and smaller stools, natural anal gland relief, healthy skin, shiny coats and improved mental health. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_67RMpH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I prepare food with the blend?",
+            "icon": "none",
+            "row_content": "<p>Check out our meal prep guide <a href=\"https://hunde.com.au/pages/how-to-guide\" title=\"How to guide\">here</a>!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Gkx4PV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much do I feed my dog/cat/puppy/kitten?",
+            "icon": "none",
+            "row_content": "<p>Check out our feeding guides <a href=\"https://hunde.com.au/pages/feeding-guides\" title=\"Feeding Guides\">here</a>!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dCeCpU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I transition to a homemade diet?",
+            "icon": "none",
+            "row_content": "<p>If your pet is completely new to fresh foods, we recommend introducing a little bit of the new food to start and see how they go. If they tolerate it well with no digestive upset, you can switch the food over about a week, gradually reducing the old food and increasing the portion of new food. </p><p>If you find your pet is a bit more sensitive, go slower and wait until they have adjusted before increasing the portion of new food. You can add a probiotic (like our <a href=\"https://hunde.com.au/products/bio-fermented-probiotic-bone-broth-concentrate\" title=\"Bio-fermented Probiotic Bone Broth Concentrate\">probiotic bone broth</a>) to their meals for some extra gut support too.   </p><p>If you need a bit more support, our <a href=\"https://hunde.com.au/collections/recipe-packs\" title=\"Recipe Packs\">Recipe Packs</a> have loads of info about transitioning and troubleshooting.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7gLfjM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I have to feed the blends every day?",
+            "icon": "none",
+            "row_content": "<p>Our blends are designed to be fed every day, but if you are feeding a varied or ratio diet already, especially if you're adding other supplements or toppers, you probably don't need to feed it every single day. If you are feeding only plain muscle meat, then we recommend you do. </p><p>We don't believe \"balance\" is a finite or rigid concept, and encourage you to offer a variety of different foods to you pet with the blend you've chosen. Or keep it simple; it's all gravy, baby. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CNTBA6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I add your blends to complete food?",
+            "icon": "none",
+            "row_content": "<p>If you are feeding a complete fresh food, it's not really necessary, but you can add it for a bit of extra oomph if you like. In this case we recommend treating it more like a sometimes extra or a meal topper. </p><p>If you are feeding processed pet food, we encourage you to add as much fresh food as possible to their bowl so your dog or cat is getting some of the incredible nourishing benefits. Our blends can certainly form a part of this, in moderation. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FtfX36": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How are your blends balanced?",
+            "icon": "none",
+            "row_content": "<p>Our blends use whole foods that have been carefully selected due to their concentrated levels of nutrients that are commonly lacking in home prepared pet food. </p><p>Our dog and cat Essential blends have been formulated in line with the AAFCO standards for dogs and cats when combined with the proteins listed on the bag, as directed. These are the industry standards for \"complete and balanced\" pet food in Australia. </p><p>The Wild and Vital blends have been formulated with these standards in principle, but the ingredients make it tricky to guarantee. In the case of Wild blend, detailed nutrition data for some of the ingredients simply isn't available. In the case of Vital blend, there is too much diversity in how individuals prepare their DIY meals. </p><p>Our nutritionist feels very confident that, when prepared as directed, all of our blends create a balanced diet that your pet will love.</p><p>For the best possible outcome, our recommendation is to combine our blends with a variety of different meats over time, because different meats have different nutritional profiles and this more accurately reflects our idea of a balanced diet. </p><p>It also keeps things interesting for your pet and prevents fussiness developing. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gkYQ4F": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why doesn’t my vet support homemade diets?",
+            "icon": "none",
+            "row_content": "<p>Probably because a nutritionally deficient homemade diet can be just as bad, if not worse, than a processed diet. This is why our blends exist.  </p><p>Or it could be because the corporate interests of the processed pet food industry have unfortunately infiltrated the animal care industry in wide ranging ways.</p><p>Fresh food supporting vets are increasingly common; we recommend putting some feelers out for one if you feel unsupported by your care team.  </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m6rc93": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is freeze-drying?",
+            "icon": "none",
+            "row_content": "<p>Freeze-drying is a method of food preservation that creates shelf stable food from fresh food, without compromising the nutritional integrity. It does this by using very low temperatures to turn the moisture in food to ice, and then into gas through a process called sublimation. No heat is applied to the food at all.</p><p>What's left is a very lightweight version of the original food, which is nutritionally very concentrated. This means that any freeze-dried product is around 4 to 10 times the equivalent of fresh food.  </p><p>It is, unfortunately, a very expensive process, but we believe it's worthwhile and gives the best possible result when preserving pet food. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fcDJzQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is processed pet food really that bad?",
+            "icon": "none",
+            "row_content": "<p>The short answer? Yes.</p><p>The long answer is that processed pet food like dry and tinned options undergo extremely intensive processing and heat treating, from beginning to end. They are made from meat meal, which is a bone and offal waste product made from the same rendering processing that soap and fertiliser undergoes. They contain large amounts of grain and non-grain starches, which generally make up more than 50% of the ingredients and offer minimal nutritional value, so the end product must be heavily supplemented with cheap vitamin and mineral pre-mixes. These products will keep your pet alive, but they do not encourage wellness. We have some blogs on this topic, like <a href=\"https://hunde.com.au/blogs/hunde/the-thing-abut-processed-pet-food\" title=\"Why processed pet food is bad news\">this one</a>.  </p><p>There are some fantastic pre-made fresh products available on the market (I know, I designed a lot of them!). Unfortunately there are also some not so great ones that contain far too much plant matter and synthetic nutrients, and it can be difficult for regular peeps to know the difference. Preparing your pet's food yourself is a sure fire way to know exactly what goes into it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7gpzfF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I store your blends?",
+            "icon": "none",
+            "row_content": "<p>Freeze and air-dried foods are shelf stable because all of the moisture is removed, so you don't need to refrigerate the blends. If anything, refrigeration may introduce moisture.</p><p>Store your blends in a cool, dry place, like the pantry.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MEb9Tc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I add your blends to meat and freeze them?",
+            "icon": "none",
+            "row_content": "<p>Yes, you can. We can't promise there won't be a little bit of nutrient loss (we can't promise there will be either!), but there's no reason you can't meal prep our blends in bulk and freeze.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LwAkBC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer subscriptions so I don't forget to reorder?",
+            "icon": "none",
+            "row_content": "<p>No, should we? If this is something you would use, <a href=\"https://hunde.com.au/pages/contact-1\" title=\"Contact\">let us know</a>!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VRmKLk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is my emu oil hard?",
+            "icon": "none",
+            "row_content": "<p>Emu oil will solidify if the temperature is cold enough, sort of like coconut oil. This is because saturated fats solidify at higher temperatures than unsaturated fat and emu oil is around 30% saturated fat. Coconut oil is over 90% saturated fat.</p><p>This is perfectly normal and does not impact the nutritional value. Just put it somewhere toasty or in some warm water to soften.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_c3AM3K": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the best way to cook my pet's food?",
+            "icon": "none",
+            "row_content": "<p>The best way to cook your pet's meat is to lightly broil it in a pan with some water, and then feed them any liquid that is leftover too, as this may contain lost nutrients.</p><p>Veggies are best steamed. If you boil them, reserve the water and add it to their food (or use it to prepare <a href=\"https://hunde.com.au/products/mushroom-bone-broth-concentrate\" title=\"Organic Medicinal Mushroom Bone Broth Concentrate\">bone broth</a>) so none of the nutrients are lost down the sink.</p><p>Remember to weigh the meat before cooking as it will weigh less once cooked. And never feed cooked bones!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FA68K6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much is shipping?",
+            "icon": "none",
+            "row_content": "<p>Ten bucks and free if your order is over $150.</p><p>We'd love to offer free shipping to everyone but the cozzie livs got us good.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_weATb4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How will my order arrive?",
+            "icon": "none",
+            "row_content": "<p>We ship all of our parcels from our third party warehouse in Melbourne, through Australia Post, using fully compostable packaging. We try to have them out the door in 2 business days but please allow a little extra time during launches, holidays and sales.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CkaztM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How will I receive my recipe pack?",
+            "icon": "none",
+            "row_content": "<p>Recipe packs are digital and they will be emailed to you immediately. If you don't receive it, check your junk folder and then email us on <a href=\"mailto:hello@hunde.com.au\" title=\"mailto:hello@hunde.com.au\">hello@hunde.com.au </a>and we will resend. Don't wait two weeks!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GtbXam": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I open a wholesale account?",
+            "icon": "none",
+            "row_content": "<p>Sure. If you have a pet shop, vet clinic or something else cool and would like to stock our range, send us an email on <a href=\"mailto:hello@hunde.com.au\" title=\"mailto:hello@hunde.com.au\">hello@hunde.com.au</a> to get some more info.</p><p>We only wholesale to bricks and mortar businesses.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_FMWeiV",
+        "collapsible_row_67RMpH",
+        "collapsible_row_Gkx4PV",
+        "collapsible_row_dCeCpU",
+        "collapsible_row_7gLfjM",
+        "collapsible_row_CNTBA6",
+        "collapsible_row_FtfX36",
+        "collapsible_row_gkYQ4F",
+        "collapsible_row_m6rc93",
+        "collapsible_row_fcDJzQ",
+        "collapsible_row_7gpzfF",
+        "collapsible_row_MEb9Tc",
+        "collapsible_row_LwAkBC",
+        "collapsible_row_VRmKLk",
+        "collapsible_row_c3AM3K",
+        "collapsible_row_FA68K6",
+        "collapsible_row_weATb4",
+        "collapsible_row_CkaztM",
+        "collapsible_row_GtbXam"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "caption": "Got a burning question about our pet blends, recipes, other goodies or just life in general? We've tried to cover the most common questions we get about pet nutrition and feeding a homemade diet below. If your query isn't covered, jump over to our contact page and hit us up there.",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 80,
         "padding_bottom": 80
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collapsible_content_YX9r34"
   ]
 }
