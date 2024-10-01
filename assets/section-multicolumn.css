@@ -114,9 +114,13 @@
 }
 
 .multicolumn-card-spacing {
-  padding-top: 2.5rem;
+  padding-top: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+.multicolumn-card__info {
+  padding: 2rem;
 }
 
 .multicolumn-card__info > :nth-child(2) {
