@@ -208,10 +208,10 @@
   margin-bottom: 3.2rem;
 }
 
-.article-template__back .button--arow span {
+.article-template__back .button--arrow span {
   margin-left: 0;
   margin-right: 10px;
 }
-.article-template__back .button--arow span svg {
+.article-template__back .button--arrow span svg {
   transform: scaleX(-1);
 }
