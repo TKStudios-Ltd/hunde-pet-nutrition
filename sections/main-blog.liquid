@@ -28,7 +28,6 @@
   {% assign featured_article = blog.articles.first %}
   <div class="featured-article">
     <div class="page-width section-{{ section.id }}-padding">
-      <h2 class="featured-title italic-heading">The latest from the blog</h2>
       {%- render 'article-card',
         article: featured_article,
         media_height: section.settings.image_height,
