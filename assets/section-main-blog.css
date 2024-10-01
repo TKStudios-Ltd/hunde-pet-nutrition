@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.main-blog .featured-article {
+  background: #2552A3;
+}
+
 @media screen and (min-width: 750px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr;
