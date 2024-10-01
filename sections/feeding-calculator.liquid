@@ -14,6 +14,7 @@
   .feeding-calculator .image-with-text__heading {
       position: relative;
       margin-bottom: 5rem;
+      max-width: 300px;
   }
   .feeding-calculator .image-with-text__heading::before {
       content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Title.svg');
@@ -22,13 +23,12 @@
       right: 88px;
       transform: scale(0.65) translate(-50%, 50%);
       z-index: -1;
-    }
-    .feeding-calculator .image-with-text__heading::after {
+  }
+  .feeding-calculator .image-with-text__heading::after {
       content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Help.svg');
       position: absolute;
       transform: scale(0.65) translate(-50%, 60%);
-    }
-
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
