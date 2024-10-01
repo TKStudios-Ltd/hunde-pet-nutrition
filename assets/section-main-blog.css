@@ -32,6 +32,7 @@
 }
 .main-blog .featured-article .article-card__excerpt {
   color: white;
+  margin-top: 2rem;
 }
 .main-blog .featured-article .article-card__footer {
   color: #EB6A4B;
