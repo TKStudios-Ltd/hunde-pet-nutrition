@@ -79,6 +79,7 @@
 
 .multicolumn.background-primary .multicolumn-card {
   background: #FCFBF4;
+  border: 3px solid;
 }
 
 .multicolumn-list h3 {
