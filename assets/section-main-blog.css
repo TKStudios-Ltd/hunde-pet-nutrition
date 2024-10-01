@@ -13,6 +13,10 @@
   background: #2552A3;
 }
 
+.main-blog .featured-article .article-card-wrapper .card {
+  flex-direction: row-reverse !important;
+}
+
 @media screen and (min-width: 750px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr;
