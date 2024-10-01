@@ -2252,8 +2252,6 @@ input[type='checkbox'] {
   display: none;
 }
 
-.pagination { display: block !important; }
-
 .cart-count-bubble {
   position: absolute;
   background-color: #EB6A4B;
