@@ -7,6 +7,7 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .pagination { display: block !important; }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -17,32 +18,56 @@
 {%- endstyle -%}
 
 <div class="main-blog">
-  <!-- Blog Articles List with Simplified Pagination -->
+
+  <!-- Featured Article Section (Only display the first article separately) -->
+  {% assign featured_article = blog.articles.first %}
+  <div class="featured-article">
+    <div class="page-width section-{{ section.id }}-padding">
+      {%- render 'article-card',
+        article: featured_article,
+        media_height: section.settings.image_height,
+        media_aspect_ratio: featured_article.image.aspect_ratio,
+        show_image: section.settings.show_image,
+        show_date: section.settings.show_date,
+        show_author: section.settings.show_author,
+        show_excerpt: true
+      -%}
+    </div>
+  </div>
+
+  <!-- Blog Articles List (with Pagination) -->
   <div class="page-width section-{{ section.id }}-padding blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-    {%- paginate blog.articles by 2 -%} <!-- Test with a smaller limit -->
+    {%- paginate blog.articles by 6 -%} <!-- Paginate over all articles -->
       {%- for article in blog.articles %}
-        <div class="blog-articles__article article">
-          {%- render 'article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-          -%}
-        </div>
+        {% unless forloop.first %} <!-- Don't display the first article (already featured) -->
+          <div
+            class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {%- render 'article-card',
+              article: article,
+              media_height: section.settings.image_height,
+              media_aspect_ratio: article.image.aspect_ratio,
+              show_image: section.settings.show_image,
+              show_date: section.settings.show_date,
+              show_author: section.settings.show_author,
+              show_excerpt: true
+            -%}
+          </div>
+        {% endunless %}
       {%- endfor -%}
     {%- endpaginate -%}
   </div>
 
-  <!-- Pagination -->
+  <!-- Pagination (if more than 1 page) -->
   {%- if paginate.pages > 1 -%}
-    <div class="pagination">
-      {%- render 'pagination', paginate: paginate -%}
-    </div>
+    {%- render 'pagination', paginate: paginate -%}
   {%- endif -%}
 </div>
+
 
 
 {% schema %}
