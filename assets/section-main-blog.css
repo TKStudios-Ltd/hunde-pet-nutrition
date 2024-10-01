@@ -11,6 +11,7 @@
 
 .main-blog .featured-article {
   background: #2552A3;
+  border-bottom: 3px solid #000;
 }
 .main-blog .featured-article .card h2.italic-heading {
   display: block !important;
