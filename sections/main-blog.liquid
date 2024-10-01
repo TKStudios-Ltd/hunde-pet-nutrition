@@ -18,13 +18,7 @@
 
 <div class="main-blog">
 
-  {% comment %}
-  <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    {{ blog.title | escape }}
-  </h1>
-  {% endcomment %}
-
-  <!-- Featured Article Section -->
+  <!-- Featured Article Section (Only show first article outside of pagination) -->
   {% assign featured_article = blog.articles.first %}
   <div class="featured-article">
     <div class="page-width section-{{ section.id }}-padding">
@@ -40,30 +34,29 @@
     </div>
   </div>
 
-  <!-- Blog Articles List (Skip the featured article) -->
+  <!-- Blog Articles List (Including Pagination) -->
   <div class="page-width section-{{ section.id }}-padding blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-    {%- paginate blog.articles by 6 -%}
+    {%- paginate blog.articles by 6 -%} <!-- Paginate over full set of articles -->
       {%- for article in blog.articles %}
-        {% if forloop.first %}
-          {% continue %} <!-- Skip the first (featured) article in the loop -->
-        {% endif %}
-        <div
-          class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {%- render 'article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-          -%}
-        </div>
+        {% unless forloop.first %} <!-- Skip displaying the featured article in this loop -->
+          <div
+            class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {%- render 'article-card',
+              article: article,
+              media_height: section.settings.image_height,
+              media_aspect_ratio: article.image.aspect_ratio,
+              show_image: section.settings.show_image,
+              show_date: section.settings.show_date,
+              show_author: section.settings.show_author,
+              show_excerpt: true
+            -%}
+          </div>
+        {% endunless %}
       {%- endfor -%}
     {%- endpaginate -%}
   </div>
@@ -73,6 +66,7 @@
     {%- render 'pagination', paginate: paginate -%}
   {%- endif -%}
 </div>
+
 
 {% schema %}
 {
