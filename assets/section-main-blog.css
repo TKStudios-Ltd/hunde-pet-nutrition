@@ -14,10 +14,11 @@
 }
 
 .main-blog .featured-article .card h2.italic-heading {
-    display: block !important;
-    margin: 0 0 1.5rem;
-    letter-spacing: .2px;
-    text-transform: inherit;
+  display: block !important;
+  margin: 0 0 1.5rem;
+  letter-spacing: .2px;
+  text-transform: inherit;
+  color: white;
 }
 
 .main-blog .featured-article .article-card-wrapper .card {
