@@ -17,14 +17,17 @@
 {%- endstyle -%}
 
 <div class="main-blog page-width section-{{ section.id }}-padding">
+
+  {% comment %}
   <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ blog.title | escape }}
   </h1>
+  {% endcomment %}
 
   <!-- Featured Article Section -->
   {% assign featured_article = blog.articles.first %}
   <div class="featured-article">
-    <h2 class="featured-title">Featured Article</h2>
+    <h2 class="featured-title italic-heading">The latest from the blog</h2>
     {%- render 'article-card',
       article: featured_article,
       media_height: section.settings.image_height,
