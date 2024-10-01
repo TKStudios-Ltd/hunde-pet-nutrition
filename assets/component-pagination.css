@@ -24,7 +24,7 @@
 }
 
 .pagination__item {
-  border: 2px solid;
+  border: 2px solid rgb(var(--color-foreground));
   border-radius: 6px;
   color: rgb(var(--color-foreground));
   display: inline-flex;
