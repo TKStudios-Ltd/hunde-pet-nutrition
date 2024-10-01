@@ -60,11 +60,13 @@
           <div class="article-card__footer">
             <p>{{ article.metafields.custom.read_time }} min read</p>
           </div>
+          {% comment %}
           {%- if block.settings.blog_show_author -%}
             <span class="caption-with-letter-spacing">
               <span>{{ article.author }}</span>
             </span>
           {%- endif -%}
+          {% endcomment %}
         </header>
 
       {%- when 'content' -%}
