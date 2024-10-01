@@ -18,7 +18,7 @@
 
 <div class="main-blog">
 
-  <!-- Featured Article Section (Only show first article outside of pagination) -->
+  <!-- Featured Article Section (Only display the first article separately) -->
   {% assign featured_article = blog.articles.first %}
   <div class="featured-article">
     <div class="page-width section-{{ section.id }}-padding">
@@ -34,11 +34,11 @@
     </div>
   </div>
 
-  <!-- Blog Articles List (Including Pagination) -->
+  <!-- Blog Articles List (with Pagination) -->
   <div class="page-width section-{{ section.id }}-padding blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-    {%- paginate blog.articles by 6 -%} <!-- Paginate over full set of articles -->
+    {%- paginate blog.articles by 6 -%} <!-- Paginate over all articles -->
       {%- for article in blog.articles %}
-        {% unless forloop.first %} <!-- Skip displaying the featured article in this loop -->
+        {% unless forloop.first %} <!-- Don't display the first article (already featured) -->
           <div
             class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {% if settings.animations_reveal_on_scroll %}
@@ -61,11 +61,12 @@
     {%- endpaginate -%}
   </div>
 
-  <!-- Pagination -->
+  <!-- Pagination (if more than 1 page) -->
   {%- if paginate.pages > 1 -%}
     {%- render 'pagination', paginate: paginate -%}
   {%- endif -%}
 </div>
+
 
 
 {% schema %}
