@@ -5,29 +5,31 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-  .feeding-calculator .grid {
-    flex-direction: column-reverse;
-  }
-  .feeding-calculator .image-with-text__content {
-    padding: 0 0 4rem;
-  }
-  .feeding-calculator .image-with-text__heading {
-    position: relative;
-    margin-bottom: 2rem;
-    max-width: 300px;
-  }
-  .feeding-calculator .image-with-text__heading::before {
-    content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Title.svg');
-    position: absolute;
-    top: -42px;
-    right: 74px;
-    transform: scale(0.55) translate(-50%, 50%);
-    z-index: -1;
-  }
-  .feeding-calculator .image-with-text__heading::after {
-    content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Help.svg');
-    position: absolute;
-    transform: scale(0.65) translate(-35%, 0%);
+  @media screen and (max-width: 749px) {
+    .feeding-calculator .grid {
+      flex-direction: column-reverse;
+    }
+    .feeding-calculator .image-with-text__content {
+      padding: 0 0 4rem;
+    }
+    .feeding-calculator .image-with-text__heading {
+      position: relative;
+      margin-bottom: 2rem;
+      max-width: 300px;
+    }
+    .feeding-calculator .image-with-text__heading::before {
+      content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Title.svg');
+      position: absolute;
+      top: -42px;
+      right: 74px;
+      transform: scale(0.55) translate(-50%, 50%);
+      z-index: -1;
+    }
+    .feeding-calculator .image-with-text__heading::after {
+      content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Help.svg');
+      position: absolute;
+      transform: scale(0.65) translate(-35%, 0%);
+    }
   }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -39,12 +41,16 @@
       margin-bottom: 5rem;
     }
     .feeding-calculator .image-with-text__heading::before {
+      content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Title.svg');
+      position: absolute;
       top: -48px;
       right: 88px;
       transform: translate(-50%, 50%);
       z-index: -1;
     }
     .feeding-calculator .image-with-text__heading::after {
+      content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Feeding-Calc-Help.svg');
+      position: absolute;
       transform: translate(-50%, 60%);
     }
     .feeding-calculator .image-with-text__content {
