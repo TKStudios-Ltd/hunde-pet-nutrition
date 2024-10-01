@@ -11,13 +11,203 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_yeNXdq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RiJrA3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our ingredients",
+            "heading_size": "h0"
+          }
+        },
+        "caption_Bar3af": {
+          "type": "caption",
+          "settings": {
+            "caption": "Ingredients fit for Kings and Queens",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "text_tpapq8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All of the ingredients in our pet blends are functional superfoods and concentrated sources of the essential nutrients that are often lacking in homemade diets.</p><p>Our blends are primarily made from meat, with at least 80% of each bag being of animal protein origin. All of our meat is sourced locally and from the human supply chain, then freeze-dried by us. Almost all of our ingredients are Australian, with a few exceptions where the superior option was from elsewhere, such as organic kelp from the north Atlantic Ocean.</p><p>Every single thing has been selected thoughtfully, with the health of your pet in mind. </p><p>It's all killer no filler, baby.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RiJrA3",
+        "caption_Bar3af",
+        "text_tpapq8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_GJ47Tb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WrUkEM": {
+          "type": "column",
+          "settings": {
+            "title": "Lamb & Buffalo Liver",
+            "block_heading_size": "h2",
+            "text": "<p>Liver in famously one of the most nutrient dense organs there is, and including it ensures your pet is getting enough vitamin A, copper, selenium, vitamin D3 and iron. Australian lamb is farmed in a more forgiving way from a sustainability perspective and water buffalo is a hypoallergenic choice for dogs and cats with protein sensitivities.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YiPnnQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sardineleft.png",
+            "title": "Sardines",
+            "block_heading_size": "h2",
+            "text": "<p>Sardines are a fab source of vitamin D3 and inflammation fighting omega 3 fatty acids. Sardines are small fish that sit low on the food chain, meaning they're don't tend to contain heavy metals like larger fish. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cNGAxL": {
+          "type": "column",
+          "settings": {
+            "title": "Lamb & Goat Green Tripe",
+            "block_heading_size": "h2",
+            "text": "<p>The unbleached lining of ruminant stomachs is purportedly loaded with digestive enzymes and probiotic benefits. Research is scant, but either way it's nutritious and they bloody love it. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cgwP4e": {
+          "type": "column",
+          "settings": {
+            "title": "Kangaroo Pluck",
+            "block_heading_size": "h2",
+            "text": "<p>While kangaroo is fairly readily available, the organs are a bit harder to source. Using this blend of heart, lungs, liver and trachea adds important hypoallergenic nutritional variety.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mNA94r": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/oysterleft.png",
+            "title": "Oysters",
+            "block_heading_size": "h2",
+            "text": "<p>Oysters are one of the richest sources of zinc on the planet. They also contain lots of taurine, which is why we add them to our cat blend. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VJUGjU": {
+          "type": "column",
+          "settings": {
+            "title": "Medicinal Mushrooms",
+            "block_heading_size": "h2",
+            "text": "<p>Reishi, Maitake and Lion's Mane are polysaccharide-rich adaptogens that have been used in Eastern medicine for centuries for their immune system supporting qualities. Our medicinal mushroom powders are organic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X3NPLF": {
+          "type": "column",
+          "settings": {
+            "title": "Seaweed Calcium",
+            "block_heading_size": "h2",
+            "text": "<p>We use this organic form of calcium because it's bioavailable and made from the marine algae Lithothamnium sp. from the North Atlantic Ocean (instead of limestone, like most calcium supplements are). </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8xaHme": {
+          "type": "column",
+          "settings": {
+            "title": "Hemp & sunflower seeds",
+            "block_heading_size": "h2",
+            "text": "<p>A rich source of essential fatty acids, particularly linoleic acid and alpha-linolenic acid, these digestible seed meals also contain loads of antioxidant vitamin E.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VCPyza": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bananarighthold.png",
+            "title": "Green Ladyfinger bananas",
+            "block_heading_size": "h2",
+            "text": "<p>Green banana starch is a an indigestible fibre with prebiotic qualities that is great for digestive health as it feeds to good bacteria in the gut, keeping them alive and healthy.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zUmAU9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pumpkin.png",
+            "title": "Cranberries & pumpkin",
+            "block_heading_size": "h2",
+            "text": "<p>We know, cats are obligate carnivores. We add a small amount of cranberries to our cat blend for urinary health, and pumpkin for its mix of soluble and insoluble fibre.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8gnLQA": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "block_heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WrUkEM",
+        "column_YiPnnQ",
+        "column_cNGAxL",
+        "column_cgwP4e",
+        "column_mNA94r",
+        "column_VJUGjU",
+        "column_X3NPLF",
+        "column_8xaHme",
+        "column_VCPyza",
+        "column_zUmAU9",
+        "column_8gnLQA"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
         "padding_bottom": 80
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_yeNXdq",
+    "multicolumn_GJ47Tb"
   ]
 }
