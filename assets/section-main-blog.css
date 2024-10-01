@@ -32,6 +32,11 @@
 }
 .main-blog .featured-article .card__inner {
   border: var(--border-width) solid white;
+  position: relative;
+}
+.main-blog .featured-article .card__inner::after {
+  content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_New-Article.svg');
+  position: absolute;
 }
 
 @media screen and (min-width: 750px) {
