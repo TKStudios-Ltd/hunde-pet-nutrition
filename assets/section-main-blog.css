@@ -37,6 +37,8 @@
 .main-blog .featured-article .card__inner .card__content::after {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_New-Article.svg');
   position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
 
 @media screen and (min-width: 750px) {
