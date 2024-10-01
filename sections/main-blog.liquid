@@ -40,10 +40,13 @@
     </div>
   </div>
 
-  <!-- Blog Articles List -->
+  <!-- Blog Articles List (Skip the featured article) -->
   <div class="page-width section-{{ section.id }}-padding blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-    {%- paginate blog.articles by 5 -%}
-      {%- for article in blog.articles offset:1 -%} <!-- Skip the first (featured) article -->
+    {%- paginate blog.articles by 6 -%}
+      {%- for article in blog.articles %}
+        {% if forloop.first %}
+          {% continue %} <!-- Skip the first (featured) article in the loop -->
+        {% endif %}
         <div
           class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
