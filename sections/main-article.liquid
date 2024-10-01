@@ -69,9 +69,7 @@
           {% endcomment %}
             <div class="article-template__back element-margin-top{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
               <a href="{{ blog.url }}" class="button--arrow">
-                <span class="icon-wrap">
-                  <span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span>
-                </span>
+                <span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span>
                 {{ 'blogs.article.back_to_blog' | t: title: blog.title | escape }}
               </a>
             </div>
