@@ -34,7 +34,7 @@
         </div>
 
   
-  <div class="article-template__columns">
+  <div class="article-template__columns page-width">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
@@ -44,7 +44,7 @@
 
       {%- when 'title' -%}
         <header
-          class="page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          class="article-template__column_header {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
           {%- if block.settings.blog_show_date -%}
@@ -69,7 +69,7 @@
 
       {%- when 'content' -%}
         <div
-          class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="article-template__column_content rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
         >
           {{ article.content }}
