@@ -46,16 +46,17 @@
           class="page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
+          {%- if block.settings.blog_show_date -%}
+            <p class="subtitle subtitle--small">
+              {{- article.published_at | time_tag: format: 'date' -}}
+            </p>
+          {%- endif -%}
           <h1
             class="article-template__title"
           >
             {{ article.title | escape }}
           </h1>
-          {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider caption-with-letter-spacing">
-              {{- article.published_at | time_tag: format: 'date' -}}
-            </span>
-          {%- endif -%}
+          <p>{{ article.metafields.custom.read_time }} min read</p>
           {%- if block.settings.blog_show_author -%}
             <span class="caption-with-letter-spacing">
               <span>{{ article.author }}</span>
