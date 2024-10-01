@@ -83,7 +83,9 @@
   }
   .article-template__column_header {
     flex: 0 0 50%;
+    position: -webkit-sticky; /* For Safari */
     position: sticky;
+    top: 0; /* Sticks when it reaches the top of the viewport */
   }
   .article-template__column_content {
     flex: 0 0 50%;
