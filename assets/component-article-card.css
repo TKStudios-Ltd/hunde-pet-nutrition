@@ -47,7 +47,12 @@
 }
 
 .article-card .card__heading {
-  margin-bottom: 0.6rem;
+    font-family: 'Nineties Headliner', san-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    font-weight: inherit;
+    line-height: .9;
 }
 
 .blog-articles .article-card .card__information,
