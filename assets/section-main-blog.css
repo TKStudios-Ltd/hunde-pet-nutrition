@@ -34,6 +34,9 @@
   color: white;
   margin-top: 2rem;
 }
+.main-blog .featured-article .article-card__footer {
+  color: #EB6A4B;
+}
 .main-blog .featured-article .card__inner {
   border: var(--border-width) solid white;
   position: relative;
