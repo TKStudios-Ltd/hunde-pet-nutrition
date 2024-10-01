@@ -72,12 +72,15 @@
 
 .article-template__columns {
   display: flex;
+  position: relative;
 }
 .article-template__column_header {
   flex: 0 0 50%;
+  position: sticky;
 }
 .article-template__column_content {
   flex: 0 0 50%;
+  width: 50%;
 }
 
 .article-template__title:not(:only-child) {
