@@ -207,3 +207,11 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+.article-template__back .button--arow span {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.article-template__back .button--arow span svg {
+  transform: scaleX(-1);
+}
