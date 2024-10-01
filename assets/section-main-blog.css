@@ -12,7 +12,6 @@
 .main-blog .featured-article {
   background: #2552A3;
 }
-
 .main-blog .featured-article .card h2.italic-heading {
   display: block !important;
   margin: 0 0 2rem;
@@ -21,7 +20,6 @@
   color: white;
   font-size: 28px;
 }
-
 .main-blog .featured-article .article-card-wrapper .card {
   flex-direction: row-reverse !important;
 }
@@ -63,6 +61,9 @@
   .blog-articles--collage > *:nth-child(3n + 1) .article-card__image--large .ratio::before,
   .blog-articles--collage > *:nth-child(3n + 2):last-child .article-card__image--large .ratio::before {
     padding-bottom: 66rem;
+  }
+  .main-blog .featured-article .card__information {
+    padding: 0 4rem 0 0 !important;
   }
 }
 
