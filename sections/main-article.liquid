@@ -119,7 +119,7 @@
                 <article id="{{ comment.id }}" class="article-template__comments-comment">
                   {{ comment.content }}
                   <footer class="right">
-                    <span class="circle-divider caption-with-letter-spacing">{{ comment.author }}</span>
+                    <span class="circle-divider">{{ comment.author }}</span>
                   </footer>
                 </article>
               {%- endif -%}
@@ -128,8 +128,8 @@
                 <article id="{{ comment.id }}" class="article-template__comments-comment">
                   {{ comment.content }}
                   <footer class="right">
-                    <span class="circle-divider caption-with-letter-spacing">{{ comment.author }}</span
-                    ><span class="caption-with-letter-spacing">
+                    <span class="circle-divider">{{ comment.author }}</span
+                    ><span class="">
                       {{- comment.created_at | time_tag: format: 'date' -}}
                     </span>
                   </footer>
