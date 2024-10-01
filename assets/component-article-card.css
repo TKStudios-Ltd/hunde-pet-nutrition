@@ -67,6 +67,7 @@
 .article-card__footer {
   letter-spacing: 0.2px;
   font-size: 16px;
+  color: #2552A3;
 }
 
 .article-card__footer:not(:last-child) {
