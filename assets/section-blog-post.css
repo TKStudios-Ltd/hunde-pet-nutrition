@@ -172,6 +172,10 @@
 }
 
 .article-template__comments-comment p {
+  font-family: 'TT Neoris';
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   margin: 0 0 1rem;
 }
 
