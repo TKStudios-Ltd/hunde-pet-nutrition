@@ -56,7 +56,9 @@
           >
             {{ article.title | escape }}
           </h1>
-          <p>{{ article.metafields.custom.read_time }} min read</p>
+          <div class="article-card__footer">
+            <p>{{ article.metafields.custom.read_time }} min read</p>
+          </div>
           {%- if block.settings.blog_show_author -%}
             <span class="caption-with-letter-spacing">
               <span>{{ article.author }}</span>
