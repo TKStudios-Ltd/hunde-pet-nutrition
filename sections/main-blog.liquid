@@ -59,6 +59,9 @@
           </div>
         {% endunless %}
       {%- endfor -%}
+      {%- if paginate.pages > 1 -%}
+        {%- render 'pagination', paginate: paginate -%}
+      {%- endif -%}
     {%- endpaginate -%}
   </div>
 
