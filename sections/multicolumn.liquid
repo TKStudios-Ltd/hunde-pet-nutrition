@@ -76,6 +76,26 @@
             {% endif %}
           >
             <div class="multicolumn-card content-container">
+              <div class="multicolumn-card__info">
+                {%- if block.settings.title != blank -%}
+                  <h3 class="inline-richtext {{ block.settings.block_heading_size }}">{{ block.settings.title }}</h3>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="rte">{{ block.settings.text }}</div>
+                {%- endif -%}
+                {%- if block.settings.link_label != blank -%}
+                    <a
+                      class="button button--secondary"
+                      {% if block.settings.link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.link }}"
+                      {% endif %}
+                    >
+                      {{- block.settings.link_label | escape -}}
+                    </a>
+                {%- endif -%}
+              </div>
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -118,26 +138,6 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">
-                {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext {{ block.settings.block_heading_size }}">{{ block.settings.title }}</h3>
-                {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
-                {%- endif -%}
-                {%- if block.settings.link_label != blank -%}
-                    <a
-                      class="button button--secondary"
-                      {% if block.settings.link == blank %}
-                        role="link" aria-disabled="true"
-                      {% else %}
-                        href="{{ block.settings.link }}"
-                      {% endif %}
-                    >
-                      {{- block.settings.link_label | escape -}}
-                    </a>
-                {%- endif -%}
-              </div>
             </div>
           </li>
         {%- endfor -%}
