@@ -41,6 +41,7 @@
           </div>
         {%- endif -%}
 
+      <div class="article-template__content">
       {%- when 'title' -%}
         <header
           class="page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -68,7 +69,7 @@
 
       {%- when 'content' -%}
         <div
-          class="article-template__content page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
         >
           {{ article.content }}
@@ -82,6 +83,7 @@
           {% assign share_url = request.origin | append: article.url %}
           {% render 'share-button', block: block, share_link: share_url %}
         </div>
+      </div>
     {%- endcase -%}
   {%- endfor -%}
 
