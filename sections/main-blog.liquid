@@ -36,8 +36,8 @@
   </div>
 
   <!-- Blog Articles List (with Pagination) -->
+  {%- paginate blog.articles by 5 -%} <!-- Paginate over all articles -->
   <div class="page-width section-{{ section.id }}-padding blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-    {%- paginate blog.articles by 5 -%} <!-- Paginate over all articles -->
       {%- for article in blog.articles %}
         {% unless forloop.first %} <!-- Don't display the first article (already featured) -->
           <div
@@ -58,12 +58,12 @@
             -%}
           </div>
         {% endunless %}
-      {%- endfor -%}
-      {%- if paginate.pages > 1 -%}
+      {%- endfor -%}   
+  </div>
+    {%- if paginate.pages > 1 -%}
         {%- render 'pagination', paginate: paginate -%}
       {%- endif -%}
-    {%- endpaginate -%}
-  </div>
+  {%- endpaginate -%}
 </div>
 
 
