@@ -74,9 +74,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/bananarighthold.png",
-            "title": "Green Ladyfinger bananas",
+            "title": "green bananas & paw paw leaf",
             "block_heading_size": "h2",
-            "text": "<p>Green banana starch is a an indigestible fibre with prebiotic qualities that is great for digestive health as it feeds to good bacteria in the gut, keeping them alive and healthy.</p>",
+            "text": "<p>Green ladyfinger banana starch and paw paw leaves are included to support digestive health. They provide enzymes and indigestible fibre with prebiotic qualities that feed the good bacteria in the gut, keeping them alive and healthy.</p>",
             "link_label": "",
             "link": ""
           }
@@ -187,6 +187,7 @@
         },
         "column_C9xJ9m": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/papayaleft.png",
             "title": "paw paw leaf",
