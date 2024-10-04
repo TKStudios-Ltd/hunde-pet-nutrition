@@ -355,7 +355,7 @@
         "image_block_yiEf7d": {
           "type": "image_block",
           "settings": {
-            "image": "shopify://shop_images/HUNDE_MealSuggestion_2.png"
+            "image": "shopify://shop_images/HUNDE_Suggestion_Slider2.png"
           }
         },
         "image_block_PbNiMT": {
@@ -367,7 +367,7 @@
         "image_block_bHheXm": {
           "type": "image_block",
           "settings": {
-            "image": "shopify://shop_images/HUNDE_MealSuggestion_4.png"
+            "image": "shopify://shop_images/HUNDE_Suggestion_Slider1.png"
           }
         }
       },
