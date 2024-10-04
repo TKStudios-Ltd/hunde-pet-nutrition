@@ -278,8 +278,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 0
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "multicolumn_MB4Ncx": {
@@ -324,7 +324,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 80,
@@ -336,8 +336,8 @@
       "settings": {
         "custom_liquid": "<div class=\"icon-row scroll-trigger animate--slide-in\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow.svg\" class=\"hide-mob\" width=\"100%\" height=\"100%\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow_Mob.svg\" class=\"hide-desk\" width=\"100%\" height=\"100%\"></div>",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 80
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "scrolling_image_slider_wDbnnh": {
