@@ -48,8 +48,7 @@
         "text_tpapq8"
       ],
       "custom_css": [
-        ".subtitle--small {max-width: 700px; margin-left: auto; margin-right: auto;}",
-        ".rich-text__text {max-width: 700px; margin-left: auto; margin-right: auto;}"
+        ".subtitle--small,.rich-text__text {max-width: 700px; margin-left: auto; margin-right: auto;}"
       ],
       "settings": {
         "desktop_content_position": "center",
