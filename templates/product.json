@@ -120,6 +120,9 @@
         "caption_K4nw9M",
         "text_yrMcgA"
       ],
+      "custom_css": [
+        ".image-with-text__text p {font-size: 14px;}"
+      ],
       "settings": {
         "image_url": "{{ product.metafields.custom.serving_image.value }}",
         "height": "adapt",
