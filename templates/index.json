@@ -315,7 +315,8 @@
       ],
       "custom_css": [
         ".grid {justify-content: space-between;}",
-        ".grid .grid__item {max-width: 450px;}"
+        ".grid .grid__item {max-width: 450px;}",
+        "@media (min-width: 750px) {.multicolumn-card__info {padding: 3rem 0 3rem 2.5rem;}}"
       ],
       "settings": {
         "title": "",
