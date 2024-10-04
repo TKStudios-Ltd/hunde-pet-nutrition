@@ -95,8 +95,8 @@
 .multicolumn-list h3.h0:after {
   content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Help-Icon.svg');
   position: absolute;
-  right: -4px;
-  bottom: -42px;
+  right: -20px;
+  bottom: -50px;
 }
 
 @media (max-width: 749px) {
@@ -104,9 +104,10 @@
     max-width: 300px;
   }
   .multicolumn-list h3.h0:after {
-    right: 5px;
-    bottom: -42px;
-    transform: scale(0.7);
+    right: auto;
+    left: 95px;
+    bottom: -40px;
+    transform: scale(.6);
   }
   .multicolumn-list p em {
     font-size: 24px !important;
