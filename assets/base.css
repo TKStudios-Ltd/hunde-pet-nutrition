@@ -141,7 +141,7 @@ body,
 .color-scheme-3,
 .color-scheme-4,
 .color-scheme-5 {
-  color: rgba(var(--color-foreground), 1);
+  color: rgba(var(--color-foreground), 1) !important;
 }
 
 /* base */
