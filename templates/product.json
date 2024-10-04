@@ -121,7 +121,7 @@
         "text_yrMcgA"
       ],
       "custom_css": [
-        ".image-with-text__text p {font-size: 14px;}"
+        ".image-with-text__text p {font-size: 14px; color: rgba(var(--color-foreground), 1);}"
       ],
       "settings": {
         "image_url": "{{ product.metafields.custom.serving_image.value }}",
