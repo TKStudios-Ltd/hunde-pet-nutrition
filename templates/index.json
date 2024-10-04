@@ -97,6 +97,9 @@
         "featured_collection_tMBGU3",
         "featured_collection_zbmVk8"
       ],
+      "custom_css": [
+        ".collection-list-wrapper .card .card__information {background: white;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
