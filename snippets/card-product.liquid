@@ -168,8 +168,8 @@
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 
-            {% if product.metafields.custom.serving_subtitle %}
-              <p class="product-card_serving-subtitle">{{ product.metafields.custom.serving_subtitle }}</p>
+            {% if product.metafields.global.custom.serving_subtitle %}
+              <p class="product-card_serving-subtitle">{{ product.metafields.global.custom.serving_subtitle }}</p>
             {% else %}
               <p>No subtitle available</p>
             {% endif %}
