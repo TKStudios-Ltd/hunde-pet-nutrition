@@ -171,7 +171,7 @@
             {% if product.metafields.custom.serving_subtitle %}
               <p class="product-card_serving-subtitle">{{ product.metafields.custom.serving_subtitle }}</p>
             {% endif %}
-            <p class="product-card_serving-subtitle">Test</p>
+            <p class="product-card_serving-subtitle">{{ product.metafields.custom.serving_subtitle }}</p>
 
             {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
               {% liquid
