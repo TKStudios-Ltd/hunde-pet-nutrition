@@ -70,20 +70,10 @@
   #custom-pet-form .select:after {
     display: none;
   }
-  #custom-pet-form .field input:after, 
-  #custom-pet-form .select select:after {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    top: var(--inputs-border-width);
-    right: var(--inputs-border-width);
-    bottom: var(--inputs-border-width);
-    left: var(--inputs-border-width);
+  #custom-pet-form .field__input {
     border: .1rem solid transparent;
     border-radius: var(--inputs-radius);
     box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
-    transition: box-shadow var(--duration-short) ease;
-    z-index: 1;
   }
 {%- endstyle -%}
 
