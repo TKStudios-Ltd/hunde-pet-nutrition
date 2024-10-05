@@ -115,6 +115,11 @@
                   </a>
                 </div>
               {%- when 'price' -%}
+              {% if product.metafields.custom.serving_subtitle %}
+  <p>{{ product.metafields.custom.serving_subtitle }}</p>
+{% else %}
+  <p>No subtitle available</p>
+{% endif %}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
