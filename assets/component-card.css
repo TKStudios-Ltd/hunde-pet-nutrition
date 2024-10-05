@@ -513,9 +513,8 @@
 
 .product-card_serving-subtitle {
   font-family: 'Perfectly Nineties';
-  font-size: normal;
-  font-size: 17px;
-  letter-spacing: 1;
+  font-size: 14px;
+  margin: 10px 0 !important;
 }
 
 /* Card Shapes */
