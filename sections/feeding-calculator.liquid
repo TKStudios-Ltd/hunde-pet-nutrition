@@ -95,13 +95,19 @@
           
 
               <form id="custom-pet-form" class="isolate">
+                
                 <div class="field">
-                  <label for="pet-type" class="field__label">Are you feeding a dog or a cat?</label>
-                  <select id="pet-type" name="pet_type" class="field__input" required>
-                    <option value="" disabled selected>Select one</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                  </select>
+                  <label class="static-field__label">Are you feeding a dog or a cat?</label>
+                  <div class="pill-radio-group" id="pet-type-group">
+                    <label class="pill-radio">
+                      <input type="radio" name="pet_type" value="dog" required>
+                      Dog
+                    </label>
+                    <label class="pill-radio">
+                      <input type="radio" name="pet_type" value="cat" required>
+                      Cat
+                    </label>
+                  </div>
                 </div>
           
                 <div class="field">
@@ -115,13 +121,21 @@
                 </div>
           
                 <div class="field">
-                  <label for="waistline" class="field__label">How's their waistline?</label>
-                  <select id="waistline" name="waistline" class="field__input" required>
-                    <option value="" disabled selected>Select one</option>
-                    <option value="underweight">Underweight</option>
-                    <option value="ideal">Ideal</option>
-                    <option value="overweight">Overweight</option>
-                  </select>
+                  <label class="static-field__label">How's their waistline?</label>
+                  <div class="pill-radio-group" id="waistline-group">
+                    <label class="pill-radio">
+                      <input type="radio" name="waistline" value="underweight" required>
+                      Underweight
+                    </label>
+                    <label class="pill-radio">
+                      <input type="radio" name="waistline" value="ideal" required>
+                      Ideal
+                    </label>
+                    <label class="pill-radio">
+                      <input type="radio" name="waistline" value="overweight" required>
+                      Overweight
+                    </label>
+                  </div>
                 </div>
           
                 <!-- Dog-Specific Fields -->
