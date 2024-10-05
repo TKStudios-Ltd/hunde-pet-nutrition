@@ -74,7 +74,92 @@
     <div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
-          <p>Calculator Goes Here</p>
+          
+
+          <form id="custom-pet-form">
+            <div>
+              <label for="pet-type">Are you feeding a dog or a cat?</label>
+              <select id="pet-type" name="pet_type" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+              </select>
+            </div>
+          
+            <div>
+              <label for="age">How old are they?</label>
+              <input type="number" id="age" name="age" required min="0">
+            </div>
+          
+            <div>
+              <label for="weight">How much do they weigh in kilograms?</label>
+              <input type="number" id="weight" name="weight" required min="0">
+            </div>
+          
+            <div>
+              <label for="waistline">How's their waistline?</label>
+              <select id="waistline" name="waistline" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="underweight">Underweight</option>
+                <option value="ideal">Ideal</option>
+                <option value="overweight">Overweight</option>
+              </select>
+            </div>
+          
+            <!-- Dog-Specific Fields -->
+            <div class="dog-specific" style="display:none;">
+              <div>
+                <label for="dog-activity">Are they active?</label>
+                <select id="dog-activity" name="dog_activity">
+                  <option value="" disabled selected>Select one</option>
+                  <option value="couch_potato">Total couch potato</option>
+                  <option value="typical">Pretty typical</option>
+                  <option value="elite_athlete">Practically an elite athlete</option>
+                </select>
+              </div>
+          
+              <div>
+                <label for="dog-blend">Which blend are you interested in?</label>
+                <select id="dog-blend" name="dog_blend">
+                  <option value="" disabled selected>Select one</option>
+                  <option value="essential_dog">Essential blend for dogs</option>
+                  <option value="wild">Wild blend for dogs and cats</option>
+                  <option value="vital">Vital blend for dogs</option>
+                </select>
+              </div>
+            </div>
+          
+            <!-- Cat-Specific Fields -->
+            <div class="cat-specific" style="display:none;">
+              <div>
+                <label for="cat-activity">Are they active?</label>
+                <select id="cat-activity" name="cat_activity">
+                  <option value="" disabled selected>Select one</option>
+                  <option value="leisure">A total creature of leisure</option>
+                  <option value="typical">Pretty typical</option>
+                  <option value="super_active">Super active</option>
+                </select>
+              </div>
+          
+              <div>
+                <label for="cat-blend">Which blend are you interested in?</label>
+                <select id="cat-blend" name="cat_blend">
+                  <option value="" disabled selected>Select one</option>
+                  <option value="essential_cat">Essential blend for cats</option>
+                  <option value="wild">Wild blend for dogs and cats</option>
+                </select>
+              </div>
+            </div>
+          
+            <button type="submit">Submit</button>
+          </form>
+          
+          <div id="confirmation-message" style="display:none;">
+            <!-- Confirmation message will go here based on the results -->
+          </div>
+
+
+          
         </div>
         <div class="image-with-text__text-item grid__item">
           <div
@@ -132,6 +217,59 @@
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const petTypeSelect = document.getElementById('pet-type');
+  const dogSpecificFields = document.querySelector('.dog-specific');
+  const catSpecificFields = document.querySelector('.cat-specific');
+  const form = document.getElementById('custom-pet-form');
+  const confirmationMessage = document.getElementById('confirmation-message');
+
+  // Show and hide fields based on pet type selection
+  petTypeSelect.addEventListener('change', function() {
+    if (this.value === 'dog') {
+      dogSpecificFields.style.display = 'block';
+      catSpecificFields.style.display = 'none';
+    } else if (this.value === 'cat') {
+      catSpecificFields.style.display = 'block';
+      dogSpecificFields.style.display = 'none';
+    }
+  });
+
+  // Form submission event
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    const petType = petTypeSelect.value;
+    const age = document.getElementById('age').value;
+    const weight = document.getElementById('weight').value;
+    const waistline = document.getElementById('waistline').value;
+
+    // Dog-specific values
+    const dogActivity = document.getElementById('dog-activity').value;
+    const dogBlend = document.getElementById('dog-blend').value;
+
+    // Cat-specific values
+    const catActivity = document.getElementById('cat-activity').value;
+    const catBlend = document.getElementById('cat-blend').value;
+
+    let message = '';
+
+    // Generate confirmation message based on the form data
+    if (petType === 'dog') {
+      message = `You are feeding a dog who is ${age} years old, weighs ${weight}kg, has a ${waistline} waistline, and is ${dogActivity}. You are interested in the ${dogBlend}.`;
+    } else if (petType === 'cat') {
+      message = `You are feeding a cat who is ${age} years old, weighs ${weight}kg, has a ${waistline} waistline, and is ${catActivity}. You are interested in the ${catBlend}.`;
+    }
+
+    // Display the confirmation message
+    confirmationMessage.innerText = message;
+    confirmationMessage.style.display = 'block';
+  });
+});
+</script>
+
 
 {% schema %}
 {
