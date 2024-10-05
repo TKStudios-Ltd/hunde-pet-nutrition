@@ -254,43 +254,61 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const petTypeSelect = document.getElementById('pet-type');
-  const dogSpecificFields = document.querySelector('.dog-specific');
-  const catSpecificFields = document.querySelector('.cat-specific');
   const form = document.getElementById('custom-pet-form');
   const confirmationMessage = document.getElementById('confirmation-message');
+  const dogSpecificFields = document.querySelector('.dog-specific');
+  const catSpecificFields = document.querySelector('.cat-specific');
 
-  // Show and hide fields based on pet type selection
-  petTypeSelect.addEventListener('change', function() {
-    if (this.value === 'dog') {
+  // Function to show/hide fields based on pet type
+  function togglePetFields() {
+    const petType = document.querySelector('input[name="pet_type"]:checked').value;
+
+    if (petType === 'dog') {
       dogSpecificFields.style.display = 'block';
       catSpecificFields.style.display = 'none';
-    } else if (this.value === 'cat') {
+    } else if (petType === 'cat') {
       catSpecificFields.style.display = 'block';
       dogSpecificFields.style.display = 'none';
     }
+  }
+
+  // Attach event listeners to pet type radio buttons
+  const petTypeRadios = document.querySelectorAll('input[name="pet_type"]');
+  petTypeRadios.forEach(function(radio) {
+    radio.addEventListener('change', togglePetFields);
   });
+
+  // Initially call togglePetFields to set the correct fields based on preselected values
+  togglePetFields();
 
   // Form submission event
   form.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the default form submission behavior
 
-    const petType = petTypeSelect.value;
+    // Get the values of the radio button selections
+    const petType = document.querySelector('input[name="pet_type"]:checked').value;
+    const waistline = document.querySelector('input[name="waistline"]:checked').value;
     const age = document.getElementById('age').value;
     const weight = document.getElementById('weight').value;
-    const waistline = document.getElementById('waistline').value;
 
     // Dog-specific values
-    const dogActivity = document.getElementById('dog-activity').value;
-    const dogBlend = document.getElementById('dog-blend').value;
+    let dogActivity = '';
+    let dogBlend = '';
+    if (petType === 'dog') {
+      dogActivity = document.getElementById('dog-activity').value;
+      dogBlend = document.getElementById('dog-blend').value;
+    }
 
     // Cat-specific values
-    const catActivity = document.getElementById('cat-activity').value;
-    const catBlend = document.getElementById('cat-blend').value;
+    let catActivity = '';
+    let catBlend = '';
+    if (petType === 'cat') {
+      catActivity = document.getElementById('cat-activity').value;
+      catBlend = document.getElementById('cat-blend').value;
+    }
 
+    // Generate the confirmation message based on the form data
     let message = '';
-
-    // Generate confirmation message based on the form data
     if (petType === 'dog') {
       message = `You are feeding a dog who is ${age} years old, weighs ${weight}kg, has a ${waistline} waistline, and is ${dogActivity}. You are interested in the ${dogBlend}.`;
     } else if (petType === 'cat') {
@@ -303,6 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
 
 
 
