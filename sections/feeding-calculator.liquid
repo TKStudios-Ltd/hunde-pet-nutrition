@@ -57,6 +57,16 @@
        padding: 0 7rem 0 0;
     }
   }
+  #custom-pet-form .field__label {
+    position: static; /* Remove absolute positioning */
+    top: auto;        /* Reset top positioning */
+    left: auto;       /* Reset left positioning */
+    margin-bottom: 8px; /* Add some space below the label */
+    pointer-events: auto; /* Allow interaction if necessary */
+    font-size: 1.6rem; /* Match the existing size */
+    color: rgba(var(--color-foreground), 1); /* Keep the color consistent */
+    transition: none; /* Remove transitions for static labels */
+  }
 {%- endstyle -%}
 
 {%- liquid
