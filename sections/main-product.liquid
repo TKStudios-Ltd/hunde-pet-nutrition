@@ -115,8 +115,8 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                {% if card_product.metafields.custom.serving_subtitle %}
-                  <p class="product-card_serving-subtitle">{{ card_product.metafields.custom.serving_subtitle }}</p>
+                {% if product.metafields.custom.serving_subtitle %}
+                  <p class="product-card_serving-subtitle">{{ product.metafields.custom.serving_subtitle }}</p>
                 {% endif %}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
