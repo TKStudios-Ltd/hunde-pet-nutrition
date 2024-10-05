@@ -76,87 +76,89 @@
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           
 
-          <form id="custom-pet-form">
-            <div>
-              <label for="pet-type">Are you feeding a dog or a cat?</label>
-              <select id="pet-type" name="pet_type" required>
-                <option value="" disabled selected>Select one</option>
-                <option value="dog">Dog</option>
-                <option value="cat">Cat</option>
-              </select>
-            </div>
+              <form id="custom-pet-form" class="isolate">
+                <div class="field">
+                  <label for="pet-type" class="field__label">Are you feeding a dog or a cat?</label>
+                  <select id="pet-type" name="pet_type" class="field__input" required>
+                    <option value="" disabled selected>Select one</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                  </select>
+                </div>
           
-            <div>
-              <label for="age">How old are they?</label>
-              <input type="number" id="age" name="age" required min="0">
-            </div>
+                <div class="field">
+                  <label for="age" class="field__label">How old are they?</label>
+                  <input type="number" id="age" name="age" class="field__input" required min="0">
+                </div>
           
-            <div>
-              <label for="weight">How much do they weigh in kilograms?</label>
-              <input type="number" id="weight" name="weight" required min="0">
-            </div>
+                <div class="field">
+                  <label for="weight" class="field__label">How much do they weigh in kilograms?</label>
+                  <input type="number" id="weight" name="weight" class="field__input" required min="0">
+                </div>
           
-            <div>
-              <label for="waistline">How's their waistline?</label>
-              <select id="waistline" name="waistline" required>
-                <option value="" disabled selected>Select one</option>
-                <option value="underweight">Underweight</option>
-                <option value="ideal">Ideal</option>
-                <option value="overweight">Overweight</option>
-              </select>
-            </div>
+                <div class="field">
+                  <label for="waistline" class="field__label">How's their waistline?</label>
+                  <select id="waistline" name="waistline" class="field__input" required>
+                    <option value="" disabled selected>Select one</option>
+                    <option value="underweight">Underweight</option>
+                    <option value="ideal">Ideal</option>
+                    <option value="overweight">Overweight</option>
+                  </select>
+                </div>
           
-            <!-- Dog-Specific Fields -->
-            <div class="dog-specific" style="display:none;">
-              <div>
-                <label for="dog-activity">Are they active?</label>
-                <select id="dog-activity" name="dog_activity">
-                  <option value="" disabled selected>Select one</option>
-                  <option value="couch_potato">Total couch potato</option>
-                  <option value="typical">Pretty typical</option>
-                  <option value="elite_athlete">Practically an elite athlete</option>
-                </select>
+                <!-- Dog-Specific Fields -->
+                <div class="dog-specific" style="display:none;">
+                  <div class="field">
+                    <label for="dog-activity" class="field__label">Are they active?</label>
+                    <select id="dog-activity" name="dog_activity" class="field__input">
+                      <option value="" disabled selected>Select one</option>
+                      <option value="couch_potato">Total couch potato</option>
+                      <option value="typical">Pretty typical</option>
+                      <option value="elite_athlete">Practically an elite athlete</option>
+                    </select>
+                  </div>
+          
+                  <div class="field">
+                    <label for="dog-blend" class="field__label">Which blend are you interested in?</label>
+                    <select id="dog-blend" name="dog_blend" class="field__input">
+                      <option value="" disabled selected>Select one</option>
+                      <option value="essential_dog">Essential blend for dogs</option>
+                      <option value="wild">Wild blend for dogs and cats</option>
+                      <option value="vital">Vital blend for dogs</option>
+                    </select>
+                  </div>
+                </div>
+          
+                <!-- Cat-Specific Fields -->
+                <div class="cat-specific" style="display:none;">
+                  <div class="field">
+                    <label for="cat-activity" class="field__label">Are they active?</label>
+                    <select id="cat-activity" name="cat_activity" class="field__input">
+                      <option value="" disabled selected>Select one</option>
+                      <option value="leisure">A total creature of leisure</option>
+                      <option value="typical">Pretty typical</option>
+                      <option value="super_active">Super active</option>
+                    </select>
+                  </div>
+          
+                  <div class="field">
+                    <label for="cat-blend" class="field__label">Which blend are you interested in?</label>
+                    <select id="cat-blend" name="cat_blend" class="field__input">
+                      <option value="" disabled selected>Select one</option>
+                      <option value="essential_cat">Essential blend for cats</option>
+                      <option value="wild">Wild blend for dogs and cats</option>
+                    </select>
+                  </div>
+                </div>
+          
+                <div class="contact__button">
+                  <button type="submit" class="button button--secondary">Submit</button>
+                </div>
+              </form>
+          
+              <div id="confirmation-message" style="display:none;" class="form-status form-status-list">
+                <!-- Confirmation message will go here based on the results -->
               </div>
-          
-              <div>
-                <label for="dog-blend">Which blend are you interested in?</label>
-                <select id="dog-blend" name="dog_blend">
-                  <option value="" disabled selected>Select one</option>
-                  <option value="essential_dog">Essential blend for dogs</option>
-                  <option value="wild">Wild blend for dogs and cats</option>
-                  <option value="vital">Vital blend for dogs</option>
-                </select>
-              </div>
-            </div>
-          
-            <!-- Cat-Specific Fields -->
-            <div class="cat-specific" style="display:none;">
-              <div>
-                <label for="cat-activity">Are they active?</label>
-                <select id="cat-activity" name="cat_activity">
-                  <option value="" disabled selected>Select one</option>
-                  <option value="leisure">A total creature of leisure</option>
-                  <option value="typical">Pretty typical</option>
-                  <option value="super_active">Super active</option>
-                </select>
-              </div>
-          
-              <div>
-                <label for="cat-blend">Which blend are you interested in?</label>
-                <select id="cat-blend" name="cat_blend">
-                  <option value="" disabled selected>Select one</option>
-                  <option value="essential_cat">Essential blend for cats</option>
-                  <option value="wild">Wild blend for dogs and cats</option>
-                </select>
-              </div>
-            </div>
-          
-            <button type="submit">Submit</button>
-          </form>
-          
-          <div id="confirmation-message" style="display:none;">
-            <!-- Confirmation message will go here based on the results -->
-          </div>
 
 
           
