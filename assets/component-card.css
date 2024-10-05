@@ -511,6 +511,13 @@
   margin-top: 1rem;
 }
 
+.product-card_serving-subtitle {
+  font-family: 'Perfectly Nineties';
+  font-size: normal;
+  font-size: 17px;
+  letter-spacing: 1;
+}
+
 /* Card Shapes */
 
 .card--shape .card__content {
