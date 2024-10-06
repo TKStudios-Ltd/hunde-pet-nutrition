@@ -352,7 +352,7 @@
         <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
           <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
             <h4>Total Food Per Day</h4>
-            <h2 class="h1">XXX Grams</h2>
+            <h2 class="h1">XXX grams</h2>
             <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
               (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
           </div>
@@ -511,6 +511,116 @@ document.addEventListener('DOMContentLoaded', function() {
     return grams;
   }
 
+  // Function to calculate blendgrams
+  function findBlendGrams(petType, age, weight, blend, waistline, activity) {
+    let blendGrams = 0;
+  
+    // Logic for dogs
+    if (petType === 'dog') {
+      if (age === '0-6months') {
+        if (blend === 'Essential' || blend === 'Wild') {
+          blendGrams = weight * 5;
+        } else if (blend === 'Vital') {
+          blendGrams = weight * 2;
+        }
+      } else if (age === '6-12months') {
+        if (blend === 'Essential' || blend === 'Wild') {
+          blendGrams = weight * 2.5;
+        } else if (blend === 'Vital') {
+          blendGrams = weight * 1;
+        }
+      } else if (['1year', '2years', '3years', '4years', '5years', '6years', '7years', '8years', '9years'].includes(age)) {
+        if (blend === 'Essential' || blend === 'Wild') {
+          if (weight <= 6) {
+            blendGrams = weight * 1.6;
+          } else {
+            blendGrams = weight * 1;
+          }
+        } else if (blend === 'Vital') {
+          if (weight <= 6) {
+            blendGrams = weight * 0.8;
+          } else {
+            blendGrams = weight * 0.5;
+          }
+        }
+      }
+  
+      // Additional conditions for dogs
+      if ((waistline === 'underweight' || activity === 'high') && (blend === 'Essential' || blend === 'Wild')) {
+        const underweightBlendGrams = {
+          1: 2, 2: 4, 3: 6, 4: 7, 5: 8, 6: 8, 7: 9, 8: 10, 9: 11, 10: 12,
+          11: 13, 12: 14, 13: 16, 14: 17, 15: 18, 16: 19, 17: 20, 18: 22, 19: 23,
+          20: 24, 21: 25, 22: 26, 23: 28, 24: 29, 25: 30, 26: 31, 27: 32, 28: 34,
+          29: 35, "30-39": 36, "40-49": 48, "50-59": 60
+        };
+        blendGrams = underweightBlendGrams[weight] || 0;
+      } else if ((waistline === 'underweight' || activity === 'high') && blend === 'Vital') {
+        const underweightVitalGrams = {
+          1: 1, 2: 2, 3: 3, 4: 3.6, 5: 4, 6: 4, 7: 4.5, 8: 5, 9: 5.4, 10: 6,
+          11: 6.6, 12: 7, 13: 8, 14: 8.4, 15: 9, 16: 9.6, 17: 10, 18: 10.8,
+          19: 11, 20: 12, 21: 12.6, 22: 13, 23: 14, 24: 14.4, 25: 15, 26: 15.6,
+          27: 16, 28: 17, 29: 17.4, "30-39": 18, "40-49": 24, "50-59": 30
+        };
+        blendGrams = underweightVitalGrams[weight] || 0;
+      } else if ((waistline === 'overweight' || age === '10+years') && (blend === 'Essential' || blend === 'Wild')) {
+        const overweightBlendGrams = {
+          1: 1, 2: 2, 3: 4, 4: 5, 5: 5, 6: 6, 7: 6, 8: 7, 9: 8, 10: 8.8,
+          11: 9, 12: 10, 13: 10, 14: 11, 15: 12, 16: 13, 17: 14, 18: 14, 19: 15,
+          20: 16, 21: 17, 22: 18, 23: 18, 24: 19, 25: 20, 26: 21, 27: 22, 28: 22,
+          29: 23, "30-39": 24, "40-49": 32, "50-59": 40
+        };
+        blendGrams = overweightBlendGrams[weight] || 0;
+      } else if ((waistline === 'overweight' || age === '10+years') && blend === 'Vital') {
+        const overweightVitalGrams = {
+          1: 0.6, 2: 1, 3: 2, 4: 2.4, 5: 3, 6: 3, 7: 3.1, 8: 4, 9: 4, 10: 4.4,
+          11: 4.6, 12: 5, 13: 5, 14: 5.6, 15: 6, 16: 6.4, 17: 7, 18: 7.2, 19: 8,
+          20: 8, 21: 8.4, 22: 9, 23: 9, 24: 9.6, 25: 10, 26: 10.4, 27: 11, 28: 11,
+          29: 11.6, "30-39": 12, "40-49": 16, "50-59": 20
+        };
+        blendGrams = overweightVitalGrams[weight] || 0;
+      }
+    }
+  
+    // Logic for cats
+    if (petType === 'cat') {
+      if (age === '0-6months') {
+        if (blend === 'Essential' || blend === 'Wild') {
+          blendGrams = weight * 6;
+        }
+      } else if (age === '6-12months') {
+        if (blend === 'Essential' || blend === 'Wild') {
+          blendGrams = weight * 3;
+        }
+      } else if (['1year', '2years', '3years', '4years', '5years', '6years', '7years', '8years', '9years'].includes(age)) {
+        if (blend === 'Essential' || blend === 'Wild') {
+          if (weight <= 6) {
+            blendGrams = weight * 1.6;
+          } else {
+            blendGrams = weight * 1;
+          }
+        }
+      }
+  
+      // Additional conditions for cats
+      if ((waistline === 'underweight' || activity === 'high') && (blend === 'Essential' || blend === 'Wild')) {
+        const underweightCatBlendGrams = {
+          1: 2, 2: 4, 3: 6, 4: 7, 5: 8, 6: 8, 7: 9, 8: 10, 9: 11, 10: 12,
+          11: 13, 12: 14, 13: 16, 14: 17, 15: 18
+        };
+        blendGrams = underweightCatBlendGrams[weight] || 0;
+      } else if ((waistline === 'overweight' || age === '10+years') && (blend === 'Essential' || blend === 'Wild')) {
+        const overweightCatBlendGrams = {
+          1: 1, 2: 2, 3: 4, 4: 5, 5: 5, 6: 6, 7: 6, 8: 7, 9: 8, 10: 8.8,
+          11: 9.2, 12: 10, 13: 10, 14: 11, 15: 12
+        };
+        blendGrams = overweightCatBlendGrams[weight] || 0;
+      }
+    }
+  
+    return blendGrams;
+  }
+
+
   // Form submission event
   form.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission behavior
@@ -532,30 +642,33 @@ document.addEventListener('DOMContentLoaded', function() {
       ? document.getElementById('dog-blend').value
       : document.getElementById('cat-blend').value;
 
+    // Find the blendgrams value using the blend logic
+    const blendGrams = findBlendGrams(petType, age, weight, blend);
+
     let message = '';
 
     // Logic for confirmation messages
     if (petType === 'dog') {
       if (age === '0-6months') {
         message = `<p>Congrats on your new arrival!<p>
-<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, xx grams will be ${blend} Blend.</p>
+<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Because your pup is still in their key growth stage, they will be eating an enormous amount of food for their size! Don't worry, this is normal and will subside as they fill out.</p>
 <p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system.</p>
 <p>If you find this is too much food, don’t stress, every dog is different and it’s very difficult to pinpoint a portion that will be right for them all. We want steady growth – not too rapid – and some softness but not excessive “puppy fat”.</p>
 <h1>${grams}</h1>`;
       } else if (age === '6-12months') {
         message = `<p>How’s that teenage stage going?</p>
-<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Up to 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system.</p>
 <p>Because your pup is growing, they are probably still eating a huge amount of food for their size, but you may be starting to see decrease a bit, depending on their breed.</p>
 <p>This portion is just a guide and based on an upper level, not a minimum. Every dog is different and it’s very difficult to pinpoint a portion that will be right for them all. We shouldn’t really be seeing too much “puppy fat” by now, but they do still need lots of energy to fuel their chaos.</p>
 <h1>${grams}</h1>`;
       } else if (['1year', '2years', '3years', '4years', '5years', '6years', '7years', '8years', '9years'].includes(age)) {
-        message = `<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 1-2 meals. Of this, xx grams will be ${blend} Blend.</p>
+        message = `<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 1-2 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping teeth clean and minds calm.</p>
 <h1>${grams}</h1>`;
       } else if (age === '10+years') {
-        message = `<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+        message = `<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>We have reduced their portion slightly due to their metabolism slowing down as they age, which is typical for most dogs. Just monitor their weight and hunger levels and adjust as necessary.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping teeth clean and minds calm. If they have any dental pain, skip the bones and opt for a natural toothpaste instead.</p>
 <h1>${grams}</h1>`;
@@ -563,18 +676,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (waistline === 'overweight') {
         message = `<p>OK, sounds like we need to go on a bit of a health kick! But that’s ok, we’ve got you covered.</p>
-<p>To shift a bit of excess weight, we recommend feeding up to ${grams} grams of raw food per day. Of this, xx grams will be ${blend} Blend. We also recommend gradually increasing your dog’s exercise, if they’re able to do this safely.</p>
+<p>To shift a bit of excess weight, we recommend feeding up to ${grams} grams of raw food per day. Of this, ${blendGrams} grams will be ${blend} Blend. We also recommend gradually increasing your dog’s exercise, if they’re able to do this safely.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping hungry dogs occupied.</p>
 <h1>${grams}</h1>`;
       } else if (waistline === 'underweight') {
-        message = `<p>Because it sounds like your dog is on the slightly-too-lean side, you will probably need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+        message = `<p>Because it sounds like your dog is on the slightly-too-lean side, you will probably need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are great for dental and mental health.</p>
 <p>Just monitor for weight changes and pull back as necessary when they get to an ideal size.</p>
 <h1>${grams}</h1>`;
       }
 
       if (activity === 'high') {
-        message = `<p>Because your dog is super active, you will likely need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+        message = `<p>Because your dog is super active, you will likely need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping busy minds occupied.</p>
 <p>Just monitor for body changes and pull back if you notice any extra weight creeping on.</p>
 <h1>${grams}</h1>`;
@@ -583,24 +696,24 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (petType === 'cat') {
       if (age === '0-6months') {
         message = `<p>Congrats on your new arrival!</p>
-<p>Depending on your unique kitten, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, xx grams will be ${blend} Blend.</p>
+<p>Depending on your unique kitten, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Because your cat is still in their key growth stage, they will be eating an enormous amount of food for their size! Don't worry, this is normal and will subside as they fill out.</p>
 <p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system. If your cat won’t eat bones, you can use a bone-in ground meat.</p>
 <p>Kittens are quite good at self-regulating their portions, so you can let them lead a bit too. We just want steady growth – not too rapid.</p>
 <h1>${grams}</h1>`;
       } else if (age === '6-12months') {
         message = `<p>How’s that teenage stage going?</p>
-<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system. If your cat won’t eat bones, you can use a bone-in ground meat.</p>
 <p>Because your kitten is growing, they are probably still eating a huge amount of food for their size, but you may be starting to see decrease a bit, depending on the individual.</p>
 <p>Cats are quite good at self-regulating their portions, so you can be guided by them. They still need lots of energy to fuel their chaos, but we don’t want to overfeed them as they mature.</p>
 <h1>${grams}</h1>`;
       } else if (['1year', '2years', '3years', '4years', '5years', '6years', '7years', '8years', '9years'].includes(age)) {
-        message = `<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p> 
+        message = `<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p> 
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping teeth clean and minds calm.</p>
 <h1>${grams}</h1>`;
       } else if (age === '10+years') {
-        message = `<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+        message = `<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>We have reduced their portion slightly due to their metabolism slowing down as they age, which is typical for most animals (right?!). Just monitor their weight and hunger levels and adjust as necessary.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping teeth clean and minds calm. If they have any dental pain, skip the bones and opt for a natural toothpaste instead.</p>
 <h1>${grams}</h1>`;
@@ -608,19 +721,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (waistline === 'overweight') {
         message = `<p>OK, sounds like we need to go on a bit of a health kick! But that’s ok, we’ve got you covered.</p>
-<p>To shift a bit of excess weight, we recommend feeding up to ${grams} grams of raw food per day. Of this, xx grams will be ${blend} Blend.</p>
+<p>To shift a bit of excess weight, we recommend feeding up to ${grams} grams of raw food per day. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping hungry cats busy.</p>
 <p>We also recommend gradually increasing your cat’s exercise, if they’re able to do this safely. Play is a fantastic indoor exercise for cats.</p>
 <h1>${grams}</h1>`;
       } else if (waistline === 'underweight') {
-        message = `<p>Because it sounds like your cat is on the slightly-too-lean side, you will probably need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+        message = `<p>Because it sounds like your cat is on the slightly-too-lean side, you will probably need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are great for dental and mental health.</p>
 <p>Just monitor for weight changes and pull back as necessary when they get to an ideal size.</p>
 <h1>${grams}</h1>`;
       }
 
       if (activity === 'high') {
-        message = `<p>Because your cat is super active, you will likely need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, xx grams will be ${blend} Blend.</p>
+        message = `<p>Because your cat is super active, you will likely need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping busy minds occupied.</p>
 <p>Just monitor for body changes and pull back if you notice any extra weight creeping on, particularly if they’re an outdoor cat helping themselves to the smorgasbord of life.</p>
 <h1>${grams}</h1>`;
