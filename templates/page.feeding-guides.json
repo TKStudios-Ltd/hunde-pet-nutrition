@@ -30,7 +30,7 @@
         "text_AQK7kV": {
           "type": "text",
           "settings": {
-            "text": "<p>The HUNDE Feeding Calculator helps you determine the ideal amount of food for your pets based on their age, weight, activity level, and diet. By inputting these details, you can ensure your pet receives the right nutrition tailored to their specific needs, promoting a healthy and balanced diet.</p>",
+            "text": "<p>Our feeding calculator helps you work out how much homemade food to feed your pets based on their age, body condition and activity level. Simply select the blend you’re looking at and we’ll explain how much you need to add, tailored to their specific needs.</p>",
             "text_style": "body"
           }
         },
@@ -101,36 +101,36 @@
         "collapsible_row_b8ANKN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Question Text Goes Here",
+            "heading": "Can I feed your blends to my growing puppy or kitten?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "row_content": "<p>You sure can. Our meal balancing blends have all been carefully formulated to meet the nutritional needs of growing cats and dogs, according to the industry standards for commercial pet food, when fed as directed. </p><p>The feeding guidelines are slightly different, but our feeding calculator will do the maths for you. </p><p>The main difference is that you must feed raw meaty bones as around 20% of the diet to growing animals, to support their developing musculoskeletal system. This can be in the form of whole bones (eg. a chicken neck), or a bone-in ground meat (eg. minced chicken frames). </p>",
             "page": ""
           }
         },
         "collapsible_row_4QnTQq": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Question Text Goes Here",
+            "heading": "What’s the difference between the blends? ",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "row_content": "<p>We have three blends for dogs and two blends for cats. </p><p>Our Essential Blends are the original meal balancers, and we consider them our all-rounders. They are lamb based and contain sufficient calcium to meet the minimum requirement for adult dogs and cats, making them versatile and incredibly popular with even the fussiest pets. </p><p>Wild Blend is our hypoallergenic option, formulated for both cats and dogs with common protein sensitivities, but also perfect if you’re looking for a way to add loads of interesting nutritional variety. It contains sufficient calcium to meet the minimum requirement for adult animals and it’s primarily made from water buffalo, goat, sardines and kangaroo. </p><p>Vital Blend is a stripped back blend, perfect for people who feed a homemade diet around the ratio, 80/10/10 or BARF principles, but still want a safety net for all those fiddly nutritional gaps. This blend contains no calcium or liver, so you need to include these ingredients in your meal prep. But you only need to use half as much, so it’s our budget friendly option. </p>",
             "page": ""
           }
         },
         "collapsible_row_7XUb9X": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Question Text Goes Here",
+            "heading": "Can I add fruit and vegetables?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "row_content": "<p>Absolutely! We encourage you to feed your pets suitable fruits and vegetables for the supplementary health benefits they provide, which are typically in the form of fibre, phytochemicals and antioxidant activity. </p><p>We recommend that fruits and vegetables make up around 10% of the overall food, but you can adjust this according to your pet’s preferences and what works for their individual digestive system.</p><p>The main reason we don’t include fruits and vegetables in the feeding guides is because they don’t generally contribute to nutritional “balance,” in the same way as the animal-derived ingredients and functional foods do. The other reason is that not everyone wants to feed fruit and veg, and we really value that flexibility. </p><p>So long as you prepare the main food according to the directions, you will be providing a balanced diet. Any supplementary fruits and vegetables you add won’t negatively impact this, so long as it’s not excessive.  </p>",
             "page": ""
           }
         },
         "collapsible_row_jgUpkE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Question Text Goes Here",
+            "heading": "Why is your feeding recommendation wildly different to what I currently feed my pet? ",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "row_content": "<p>Great question! Unfortunately, it’s almost impossible to answer definitively. Feeding guides are incredibly difficult to create, because dogs and cats can vary so dramatically in their size, metabolism, activity levels and the kind of food they eat. </p><p>To give you a practical example of what we mean, our founder has two adult kelpies who are the same weight, eat the same food and do the same exercise. Pip eats almost twice as much as Tex and never gains weight, but if Tex so much as looks at an extra 50g a day, it goes straight to his waistline. </p><p>We have designed this calculator using a few assumptions that may be resulting in a different outcome to what you expected. It assumes your pet is eating a raw, species-appropriate diet, so the result will be very different for a processed diet. If you feed a cooked diet, our feeding calculator gives you raw weights, before you cook it. And it uses percentage of bodyweight formulas, not calories. </p><p>We have used the upper limit of how many grams per day we would recommend, so it’s quite likely you will actually feed them less. It’s unlikely (but not impossible) that you will need to feed more than we’ve recommended. </p><p>Monitor their weight and hunger levels and adjust the portions accordingly. You may need to feed them less in summer and more in winter. Their metabolism may slow with age or after desexing. Be mindful of whether you are feeding very lean meats or fattier ones, and of how much exercise they’re getting. </p><p>Above all else, our advice is to feed the animal in front of you. No one knows them better than you. Feed your pet the amount of food that keeps them lean, nourished and content. </p>",
             "page": ""
           }
         }
@@ -143,7 +143,7 @@
       ],
       "settings": {
         "heading": "Feeding FAQs",
-        "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse varius enim in eros elementum tristique.",
+        "caption": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -168,6 +168,7 @@
         },
         "text_yVCkJ8": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
           }
