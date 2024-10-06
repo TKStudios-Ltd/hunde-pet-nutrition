@@ -38,7 +38,7 @@
           "type": "button",
           "settings": {
             "button_label": "GOT QUESTIONS, HEAD ON DOWN TO OUR FEEDING FAQS",
-            "button_link": "",
+            "button_link": "#faqs",
             "button_style_secondary": false,
             "button_style_arrow": true
           }
