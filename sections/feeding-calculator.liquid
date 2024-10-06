@@ -306,8 +306,24 @@ document.addEventListener('DOMContentLoaded', function() {
   // Attach event listeners to pet type radio buttons
   const petTypeRadios = document.querySelectorAll('input[name="pet_type"]');
   petTypeRadios.forEach(function(radio) {
-    radio.addEventListener('change', togglePetFields);
+    radio.addEventListener('change', function() {
+      togglePetFields(); // Show/hide fields based on selection
+      updateSelectedClass(this); // Update the class for selected radio
+    });
   });
+
+  // Function to add the "pill-radio--selected" class to the selected label
+  function updateSelectedClass(selectedInput) {
+    // Get all labels and remove the "pill-radio--selected" class
+    const allPills = document.querySelectorAll('.pill-radio');
+    allPills.forEach(function(label) {
+      label.classList.remove('pill-radio--selected');
+    });
+
+    // Add the "pill-radio--selected" class to the parent label of the selected input
+    const selectedLabel = selectedInput.closest('.pill-radio');
+    selectedLabel.classList.add('pill-radio--selected');
+  }
 
   // Initially call togglePetFields to set the correct fields based on preselected values
   togglePetFields();
