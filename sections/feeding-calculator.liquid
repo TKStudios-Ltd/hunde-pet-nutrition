@@ -8,6 +8,10 @@
   .feeding-calculator-message {
     padding-top: 0 !important;
   }
+  .feeding-calculator-message .grid {
+    border: 3px solid;
+    border-radius: var(--text-boxes-radius);
+  }
   @media screen and (max-width: 749px) {
     .feeding-calculator .grid {
       flex-direction: column-reverse;
@@ -58,6 +62,9 @@
     }
     .feeding-calculator .image-with-text__content {
        padding: 0 7rem 0 0;
+    }
+    .feeding-calculator-message .image-with-text__content {
+        padding: 5rem;
     }
   }
   #custom-pet-form .field {
