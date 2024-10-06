@@ -96,9 +96,9 @@
     padding: 1.5rem;
     cursor: pointer;
   }
-  /* #custom-pet-form .pill-radio-group .pill-radio input {
+  #custom-pet-form .pill-radio-group .pill-radio input {
     display: none;
-  } */
+  }
   #custom-pet-form .pill-radio-group .pill-radio--selected {
     background: #000;
     color: white;
@@ -311,27 +311,33 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Attach event listeners to pet type radio buttons
-  const petTypeRadios = document.querySelectorAll('input[name="pet_type"]');
-  petTypeRadios.forEach(function(radio) {
-    radio.addEventListener('change', function() {
-      togglePetFields(); // Show/hide fields based on selection
-      updateSelectedClass(this); // Update the class for selected radio
-    });
-  });
-
   // Function to add the "pill-radio--selected" class to the selected label
   function updateSelectedClass(selectedInput) {
-    // Get all labels and remove the "pill-radio--selected" class
-    const allPills = document.querySelectorAll('.pill-radio');
-    allPills.forEach(function(label) {
-      label.classList.remove('pill-radio--selected');
+    // Get the name of the radio group
+    const radioGroupName = selectedInput.name;
+
+    // Get all labels for the current radio group and remove the "pill-radio--selected" class
+    const radioGroup = document.querySelectorAll(`input[name="${radioGroupName}"]`);
+    radioGroup.forEach(function(input) {
+      const label = input.closest('.pill-radio');
+      if (label) label.classList.remove('pill-radio--selected');
     });
 
     // Add the "pill-radio--selected" class to the parent label of the selected input
     const selectedLabel = selectedInput.closest('.pill-radio');
-    selectedLabel.classList.add('pill-radio--selected');
+    if (selectedLabel) selectedLabel.classList.add('pill-radio--selected');
   }
+
+  // Attach event listeners to all radio buttons in the form
+  const allRadioButtons = document.querySelectorAll('input[type="radio"]');
+  allRadioButtons.forEach(function(radio) {
+    radio.addEventListener('change', function() {
+      updateSelectedClass(this); // Update the class for the selected radio
+      if (radio.name === 'pet_type') {
+        togglePetFields(); // Show/hide fields based on pet type selection
+      }
+    });
+  });
 
   // Initially call togglePetFields to set the correct fields based on preselected values
   togglePetFields();
@@ -376,7 +382,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
 
 
 
