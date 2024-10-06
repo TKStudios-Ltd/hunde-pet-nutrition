@@ -313,14 +313,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Function to show/hide fields based on pet type
   function togglePetFields() {
-    const petType = document.querySelector('input[name="pet_type"]:checked').value;
-
-    if (petType === 'dog') {
-      dogSpecificFields.style.display = 'block';
-      catSpecificFields.style.display = 'none';
-    } else if (petType === 'cat') {
-      catSpecificFields.style.display = 'block';
-      dogSpecificFields.style.display = 'none';
+    const petType = document.querySelector('input[name="pet_type"]:checked');
+    if (petType) {
+      if (petType.value === 'dog') {
+        dogSpecificFields.style.display = 'block';
+        catSpecificFields.style.display = 'none';
+      } else if (petType.value === 'cat') {
+        catSpecificFields.style.display = 'block';
+        dogSpecificFields.style.display = 'none';
+      }
     }
   }
 
@@ -355,15 +356,22 @@ document.addEventListener('DOMContentLoaded', function() {
     event.preventDefault(); // Prevent default form submission behavior
 
     // Get form values
-    const petType = document.querySelector('input[name="pet_type"]:checked').value;
+    const petTypeInput = document.querySelector('input[name="pet_type"]:checked');
+    const petType = petTypeInput ? petTypeInput.value : null;
     const age = document.getElementById('age').value;
-    const waistline = document.querySelector('input[name="waistline"]:checked').value;
+    const waistlineInput = document.querySelector('input[name="waistline"]:checked');
+    const waistline = waistlineInput ? waistlineInput.value : null;
     const activity = petType === 'dog' ? document.getElementById('dog-activity').value : document.getElementById('cat-activity').value;
 
     let message = '';
 
-    // Logic for confirmation messages
+    // Debugging: Check that the pet type and form inputs are being captured correctly
+    console.log('Pet Type:', petType);
+    console.log('Age:', age);
+    console.log('Waistline:', waistline);
+    console.log('Activity:', activity);
 
+    // Logic for confirmation messages
     if (petType === 'dog') {
       if (age === '0-6months' || age === '6-12months') {
         message = `<h1>Message Dog / 0-6m</h1>`;
@@ -403,13 +411,17 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    // Display the confirmation message
-    confirmationMessage.innerHTML = message;
-    confirmationMessage.style.display = 'block';
+    // Display the confirmation message if one exists
+    if (message !== '') {
+      confirmationMessage.innerHTML = message;
+      confirmationMessage.style.display = 'block';
+    } else {
+      confirmationMessage.innerHTML = `<h1>No message available for the current selection</h1>`;
+      confirmationMessage.style.display = 'block';
+    }
   });
 });
 </script>
-
 
 
 
