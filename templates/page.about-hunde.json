@@ -29,28 +29,29 @@
     "image_with_text_zTmji6": {
       "type": "image-with-text",
       "blocks": {
-        "caption_aJ6ec7": {
-          "type": "caption",
-          "settings": {
-            "caption": "HUNDE was borne from a belief that the food we feed our pets should be as unconditionally good as their love is for us. ",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
         "text_hEUqiP": {
           "type": "text",
           "settings": {
-            "text": "<p>The HUNDE range features thoughtfully created balancing blends, recipes and supplementary extras to ensure that, no matter your circumstances, your pets can enjoy the enormous benefits of a homemade, fresh food diet. </p><p>The intention of HUNDE is to empower people with the tools to make informed choices on behalf of their pets, so they can live long, healthy + happy lives together. </p>",
+            "text": "<p>The heroes of HUNDE are our whole food meal balancing blends. These blends have been carefully formulated to fill common nutritional gaps in homemade diets, so you can prepare nutritionally balanced pet food at home, effortlessly. </p><p>Each bag contains over 80% freeze-dried animal protein and a selection of organic, functional superfoods, with no synthetic nutrients or other questionable additives whatsoever. </p><p>To complement our balancing blends, we have created a range of purposeful supplementary foods, including meal toppers, functional oils and organic bone broths. </p><p>HUNDE is 100% Australian owned and operated, and we personally oversee every step in the production of everything we make. We formulate our products in the Northern Rivers of NSW, we source our meat (primarily) from QLD, and we manufacture everything in our Primesafe licenced facility in regional Victoria. </p>",
             "text_style": "body"
+          }
+        },
+        "button_6QDUW6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/shop",
+            "button_style_secondary": true,
+            "button_style_arrow": false
           }
         }
       },
       "block_order": [
-        "caption_aJ6ec7",
-        "text_hEUqiP"
+        "text_hEUqiP",
+        "button_6QDUW6"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0 0; }}",
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0.5rem 0; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
         ".subtitle {line-height: 1.1;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
@@ -81,27 +82,26 @@
             "heading_size": "h1"
           }
         },
+        "caption_iRdiwD": {
+          "type": "caption",
+          "settings": {
+            "caption": "I believe the food we feed our pets should be as unconditionally good as their love is for us.",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>HUNDE was founded by Clare Kearney in 2015, inspired by her rescue kelpie, Tex Perkins. Clare is an Australian pet nutritionist and writer, specialising in canine and feline nutrition.</p><p>Clare believes nutrition fundamentally underpins our health, and sees no distinction between us and our animals in this regard. She favours a species-appropriate, whole foods approach to nourishing our pets, with the simple goal of keeping them well.</p><p>Having spent the last decade exploring the seedy underbelly of the processed pet food industry, HUNDE strives to be everything it is not.</p>",
+            "text": "<p>HUNDE was founded in 2015 by Clare Kearney and her rescue kelpie, Tex Perkins. Clare is an Australian pet nutritionist and writer, who has spent the past decade working with some of Australia’s most well-known and well-respected natural pet food brands. </p><p>These days Clare is busy chasing a wild toddler and a second kelpie, so she knows better than anyone how challenging it can be to consistently provide your whole family with a nutritious and well-balanced diet. </p><p>HUNDE’s mission is to empower people to create a better life for their pets, using real food. We do that by providing the knowledge and resources to easily and confidently prepare your own nutritionally balanced pet food at home. </p>",
             "text_style": "body"
-          }
-        },
-        "button_mWmeTA": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop All",
-            "button_link": "shopify://collections/shop",
-            "button_style_secondary": true,
-            "button_style_arrow": false
           }
         }
       },
       "block_order": [
         "heading_GfrWAY",
-        "text_WzBWEH",
-        "button_mWmeTA"
+        "caption_iRdiwD",
+        "text_WzBWEH"
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
@@ -134,10 +134,18 @@
             "heading_size": "h1"
           }
         },
+        "caption_tqr9ND": {
+          "type": "caption",
+          "settings": {
+            "caption": "To (mis)quote Mrs George, we’re not like a regular pet food company. ",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
         "text_7DP3X6": {
           "type": "text",
           "settings": {
-            "text": "<p>Clare has studied at the University of Melbourne, Holistic Animal Therapy Organisation and the College of Integrative Veterinary Therapies, and has spent the better part of a decade working with pet health businesses in Australia and around the world.</p><p>Clare has consulted with dozens of commercial clients and written hundreds of recipes, for everyone from niche start ups to global industry leaders.</p><p>If you have a commercial project you wish to discuss, please email  <a href=\"mailto:clare@hunde.com.au\">clare@hunde.com.au</a></p>",
+            "text": "<p>HUNDE was created to be more than just a range of products you can buy; it’s a community and a resource that you can keep coming back to for honest, authentic and innovative solutions to your pet problems. </p><p>We proudly make some of the best pet food and supplements money can buy, but we also place huge value on sharing our insights and wisdom whenever we can (and for free). We strive to empathetically support you and your pets on your journey to wellness, no matter your circumstances.  </p>",
             "text_style": "body"
           }
         },
@@ -153,6 +161,7 @@
       },
       "block_order": [
         "heading_m948Ed",
+        "caption_tqr9ND",
         "text_7DP3X6",
         "button_riUGjh"
       ],
