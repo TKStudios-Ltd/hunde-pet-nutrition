@@ -153,17 +153,18 @@
                   <label for="age" class="static-field__label">How old are they?</label>
                   <select id="age" name="age" class="field__input" required>
                     <option value="" disabled selected>Select</option>
-                    <option value="0-6 months">0-6 months</option>
-                    <option value="6-12 months">6-12 months</option>
-                    <option value="2 years">2 years</option>
-                    <option value="3 years">3 years</option>
-                    <option value="4 years">4 years</option>
-                    <option value="5 years">5 years</option>
-                    <option value="6 years">6 years</option>
-                    <option value="7 years">7 years</option>
-                    <option value="8 years">8 years</option>
-                    <option value="9 years">9 years</option>
-                    <option value="10+ years">10+ years</option>
+                    <option value="0-6months">0-6 months</option>
+                    <option value="6-12months">6-12 months</option>
+                    <option value="1year">1 year</option>
+                    <option value="2years">2 years</option>
+                    <option value="3years">3 years</option>
+                    <option value="4years">4 years</option>
+                    <option value="5years">5 years</option>
+                    <option value="6years">6 years</option>
+                    <option value="7years">7 years</option>
+                    <option value="8years">8 years</option>
+                    <option value="9years">9 years</option>
+                    <option value="10+years">10+ years</option>
                   </select>
                 </div>
           
@@ -196,9 +197,9 @@
                     <label for="dog-activity" class="field__label">Are they active?</label>
                     <select id="dog-activity" name="dog_activity" class="field__input">
                       <option value="" disabled selected>Select</option>
-                      <option value="couch_potato">Total couch potato</option>
-                      <option value="typical">Pretty typical</option>
-                      <option value="elite_athlete">Practically an elite athlete</option>
+                      <option value="low">Total couch potato</option>
+                      <option value="mid">Pretty typical</option>
+                      <option value="high">Practically an elite athlete</option>
                     </select>
                   </div>
           
@@ -219,9 +220,9 @@
                     <label for="cat-activity" class="field__label">Are they active?</label>
                     <select id="cat-activity" name="cat_activity" class="field__input">
                       <option value="" disabled selected>Select</option>
-                      <option value="leisure">A total creature of leisure</option>
-                      <option value="typical">Pretty typical</option>
-                      <option value="super_active">Super active</option>
+                      <option value="low">A total creature of leisure</option>
+                      <option value="mid">Pretty typical</option>
+                      <option value="high">Super active</option>
                     </select>
                   </div>
           
@@ -325,75 +326,90 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Function to add the "pill-radio--selected" class to the selected label
   function updateSelectedClass(selectedInput) {
-    // Get the name of the radio group
     const radioGroupName = selectedInput.name;
-
-    // Get all labels for the current radio group and remove the "pill-radio--selected" class
     const radioGroup = document.querySelectorAll(`input[name="${radioGroupName}"]`);
     radioGroup.forEach(function(input) {
       const label = input.closest('.pill-radio');
       if (label) label.classList.remove('pill-radio--selected');
     });
-
-    // Add the "pill-radio--selected" class to the parent label of the selected input
     const selectedLabel = selectedInput.closest('.pill-radio');
     if (selectedLabel) selectedLabel.classList.add('pill-radio--selected');
   }
 
-  // Attach event listeners to all radio buttons in the form
+  // Attach event listeners to all radio buttons
   const allRadioButtons = document.querySelectorAll('input[type="radio"]');
   allRadioButtons.forEach(function(radio) {
     radio.addEventListener('change', function() {
-      updateSelectedClass(this); // Update the class for the selected radio
+      updateSelectedClass(this);
       if (radio.name === 'pet_type') {
-        togglePetFields(); // Show/hide fields based on pet type selection
+        togglePetFields();
       }
     });
   });
 
-  // Initially call togglePetFields to set the correct fields based on preselected values
+  // Initially call togglePetFields to set the correct fields
   togglePetFields();
 
   // Form submission event
   form.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault(); // Prevent default form submission behavior
 
-    // Get the values of the radio button selections
+    // Get form values
     const petType = document.querySelector('input[name="pet_type"]:checked').value;
-    const waistline = document.querySelector('input[name="waistline"]:checked').value;
     const age = document.getElementById('age').value;
-    const weight = document.getElementById('weight').value;
+    const waistline = document.querySelector('input[name="waistline"]:checked').value;
+    const activity = petType === 'dog' ? document.getElementById('dog-activity').value : document.getElementById('cat-activity').value;
 
-    // Dog-specific values
-    let dogActivity = '';
-    let dogBlend = '';
-    if (petType === 'dog') {
-      dogActivity = document.getElementById('dog-activity').value;
-      dogBlend = document.getElementById('dog-blend').value;
-    }
-
-    // Cat-specific values
-    let catActivity = '';
-    let catBlend = '';
-    if (petType === 'cat') {
-      catActivity = document.getElementById('cat-activity').value;
-      catBlend = document.getElementById('cat-blend').value;
-    }
-
-    // Generate the confirmation message based on the form data
     let message = '';
+
+    // Logic for confirmation messages
+
     if (petType === 'dog') {
-      message = `You are feeding a dog who is ${age} years old, weighs ${weight}kg, has a ${waistline} waistline, and is ${dogActivity}. You are interested in the ${dogBlend}.`;
+      if (age === '0-6months' || age === '6-12months') {
+        message = `<h1>Message Dog / 0-6m</h1>`;
+      } else if (age === '10+years') {
+        message = `<h1>Message Dog / 10y +</h1>`;
+      } else if (['1year', '2years', '3years', '4years', '5years', '6years', '7years', '8years', '9years'].includes(age)) {
+        message = `<h1>Message Dog / 12m +</h1>`;
+      }
+
+      if (waistline === 'overweight') {
+        message = `<h1>Message Dog / Overweight</h1>`;
+      } else if (waistline === 'underweight') {
+        message = `<h1>Message Dog / Underweight</h1>`;
+      }
+
+      if (activity === 'high') {
+        message = `<h1>Message Dog / High activity</h1>`;
+      }
+
     } else if (petType === 'cat') {
-      message = `You are feeding a cat who is ${age} years old, weighs ${weight}kg, has a ${waistline} waistline, and is ${catActivity}. You are interested in the ${catBlend}.`;
+      if (age === '0-6months' || age === '6-12months') {
+        message = `<h1>Message Cat / 0-6m</h1>`;
+      } else if (age === '10+years') {
+        message = `<h1>Message Cat / 10y +</h1>`;
+      } else if (['1year', '2years', '3years', '4years', '5years', '6years', '7years', '8years', '9years'].includes(age)) {
+        message = `<h1>Message Cat / 12m +</h1>`;
+      }
+
+      if (waistline === 'overweight') {
+        message = `<h1>Message Cat / Overweight</h1>`;
+      } else if (waistline === 'underweight') {
+        message = `<h1>Message Cat / Underweight</h1>`;
+      }
+
+      if (activity === 'high') {
+        message = `<h1>Message Cat / High activity</h1>`;
+      }
     }
 
     // Display the confirmation message
-    confirmationMessage.innerText = message;
+    confirmationMessage.innerHTML = message;
     confirmationMessage.style.display = 'block';
   });
 });
 </script>
+
 
 
 
