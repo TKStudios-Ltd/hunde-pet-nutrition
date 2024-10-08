@@ -334,7 +334,7 @@ body {
 }
 
 .italic-heading {
-  font-family: 'Perfectly Nineties', serif !important !important;
+  font-family: 'Perfectly Nineties', serif !important;
 }
 
 h1,
@@ -986,7 +986,7 @@ summary::-webkit-details-marker {
 }
 
 .subtitle {
-  font-family: 'Perfectly Nineties', serif !important !important;
+  font-family: 'Perfectly Nineties', serif !important;
   font-size: 32px;
   letter-spacing: 0.2px;
   font-size: 1.8rem;
@@ -3867,7 +3867,7 @@ details-disclosure > details {
   font-weight: 400 !important;
 }
 .js .stamped-summary-caption .stamped-summary-text {
-  font-family: 'Perfectly Nineties', serif !important !important;
+  font-family: 'Perfectly Nineties', serif !important;
   font-size: 20px;
   letter-spacing: 0.2px;
   color: white;
