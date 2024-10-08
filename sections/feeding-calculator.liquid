@@ -684,6 +684,55 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         </div>
       </div>`;
+      } else if (age === '0-6months' || waistline === 'underweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>Congrats on your new arrival!<p>
+<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>Because your pup is a little on the lean side and still in their key growth stage, they will be eating an enormous amount of food for their size! Don&#39;t worry, this is very normal and will subside as they fill out. If they’re actively losing weight at this age you need to increase their food.</p>
+<p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system.</p>
+<p>We want steady growth – not too rapid – and some softness but not excessive “puppy fat.”</p>
+<a href="/collections/dogs" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+      } else if (age === '0-6months' || waistline === 'overweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>Congrats on your new arrival!<p>
+<p>It sounds like the puppy fat has gotten a little out of hand, so you probably need to pull back on their portions a little.</p>
+<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>This recommendation is an upper limit and it’s high because your pup is still in their key growth stage, but you can feed them less to keep them lean if you need to.</p>
+<p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system.</p>
+<p>We want steady growth – not too rapid – and some softness but not excessive “puppy fat.”</p>
+<a href="/collections/dogs" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
       } else if (age === '6-12months') {
         message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
         <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
@@ -703,6 +752,55 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Up to 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system.</p>
 <p>Because your pup is growing, they are probably still eating a huge amount of food for their size, but you may be starting to see decrease a bit, depending on their breed.</p>
 <p>This portion is just a guide and based on an upper level, not a minimum. Every dog is different and it’s very difficult to pinpoint a portion that will be right for them all. We shouldn’t really be seeing too much “puppy fat” by now, but they do still need lots of energy to fuel their chaos.</p>
+<a href="/collections/dogs" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+        } else if (age === '6-12months' || waistline === 'underweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>How’s that teenage stage going?<p>
+<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>Up to 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system.</p>
+<p>Because your pup is a little on the lean side and still growing, they will be eating an enormous amount of food for their size! Depending on their breed, they also might be going through a lanky teenage phase. This is all very normal, but if they’re actively losing weight you will need to increase their food.</p>
+<p>Every dog is different and it’s very difficult to pinpoint a portion that will be right for them all. We shouldn’t really be seeing too much “puppy fat” by now, but they do still need lots of energy to fuel their chaos.</p>
+<a href="/collections/dogs" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+      } else if (age === '6-12months' || waistline === 'overweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>How’s that teenage stage going?<p>
+<p>It sounds like the puppy fat has gotten a little out of hand, so you probably need to pull back on their portions a little.</p>
+<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 3-4 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>This recommendation is an upper limit and it’s high because your pup is still growing, but you can feed them less to keep them lean if you need to.</p>
+<p>Up to 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system.</p>
+<p>Every dog is different and it’s very difficult to pinpoint a portion that will be right for them all. We shouldn’t really be seeing much “puppy fat” by now, so just monitor them closely and adjust as needed.</p>
 <a href="/collections/dogs" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
             </div>
           </div>
@@ -835,6 +933,54 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         </div>
       </div>`;
+      } else if (age === '0-6months' || waistline === 'underweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>Congrats on your new arrival!</p>
+<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>Because your kitten is a little on the lean side and still in their key growth stage, they will be eating an enormous amount of food for their size! Don&#39;t worry, this is very normal and will subside as they fill out. If they’re actively losing weight at this age you need to increase their food.</p>
+<p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system. If your cat won’t eat bones, you can use a bone-in ground meat.</p>
+<p>Kittens are quite good at self-regulating their portions, so you can let them lead a bit too. We just want steady growth – not too rapid.</p>
+<a href="/collections/cats" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+      } else if (age === '0-6months' || waistline === 'overweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>Congrats on your new arrival!</p>
+<p>Assuming it isn’t all just kitten floof, it sounds like you may need to pull back on the portions a little bit. Kittens can be quite good at self-regulating their intake, but we want to avoid any more unwanted weight gain as they mature.</p>
+<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>This recommendation is an upper limit and it’s high because your kitten is still in their key growth stage, but you can feed them less to keep them lean if you need to. We want steady growth – not too rapid.</p>
+<p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system. If your cat won’t eat bones, you can use a bone-in ground meat.</p>
+<a href="/collections/cats" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
       } else if (age === '6-12months') {
         message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
         <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
@@ -854,7 +1000,59 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system. If your cat won’t eat bones, you can use a bone-in ground meat.</p>
 <p>Because your kitten is growing, they are probably still eating a huge amount of food for their size, but you may be starting to see decrease a bit, depending on the individual.</p>
 <p>Cats are quite good at self-regulating their portions, so you can be guided by them. They still need lots of energy to fuel their chaos, but we don’t want to overfeed them as they mature.</p>
-<h1>${grams}</h1>`;
+<a href="/collections/cats" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+      } else if (age === '6-12months' || waistline === 'underweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>How’s that teenage stage going?</p>
+<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system. If your cat won’t eat bones, you can use a bone-in ground meat.</p>
+<p>Because your kitten is a little on the lean side and still growing, they will be eating an enormous amount of food for their size! Don&#39;t worry, this is very normal and will subside as they fill out. If they’re actively losing weight at this age you need to increase their food.</p>
+<p>Cats are quite good at self-regulating their portions, so you can be guided by them. They still need lots of energy to fuel their chaos, but we don’t want to overfeed them as they mature.</p>
+<a href="/collections/cats" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+      } else if (age === '6-12months' || waistline === 'overweight') {
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>Easy there, Garfield!</p>
+<p>Assuming it isn’t all just kitten floof, it sounds like you may need to pull back on the portions a little bit. Kittens can be quite good at self-regulating their intake, but we want to avoid any more unwanted weight gain as they mature.</p>
+<p>Depending on your unique cat, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+<p>Around 20% of this daily allowance should be raw meaty bones, which are essential for the health of their developing musculoskeletal system. If your cat won’t eat bones, you can use a bone-in ground meat.</p>
+<p>Some cats are quite good at self-regulating their portions, others not so much. They still need lots of energy to fuel their chaos while growing, but we don’t want to overfeed them as they mature because excess weight causes endless health problems.</p>
+<a href="/collections/cats" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>`;
       } else if (['1year', '2years', '3years', '4years', '5years', '6years', '7years', '8years', '9years'].includes(age)) {
         message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
         <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
