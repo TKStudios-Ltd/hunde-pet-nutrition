@@ -23,12 +23,14 @@
 }
 .slider-item img {
   max-width: 100%;
+  height: auto; /* Ensure height scales proportionally */
   display: block;
+  object-fit: cover; /* Prevent image stretching */
 }
 @media (max-width: 749px) {
   .slider-item {
-    height: 250px;
-    width: auto;
+    height: auto; /* Adjust to prevent stretching */
+    width: 100%;  /* Ensure width takes up full space */
   }
   .infinite-slider-content {
     animation: infiniteScroll 20s linear infinite;
