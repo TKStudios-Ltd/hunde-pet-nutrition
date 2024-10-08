@@ -26,52 +26,6 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_zTmji6": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_hEUqiP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The heroes of HUNDE are our whole food meal balancing blends. These blends have been carefully formulated to fill common nutritional gaps in homemade diets, so you can prepare nutritionally balanced pet food at home, effortlessly. </p><p>Each bag contains over 80% freeze-dried animal protein and a selection of organic, functional superfoods, with no synthetic nutrients or other questionable additives whatsoever. </p><p>To complement our balancing blends, we have created a range of purposeful supplementary foods, including meal toppers, functional oils and organic bone broths. </p><p>HUNDE is 100% Australian owned and operated, and we personally oversee every step in the production of everything we make. We formulate our products in the Northern Rivers of NSW, we source our meat (primarily) from QLD, and we manufacture everything in our Primesafe licenced facility in regional Victoria. </p>",
-            "text_style": "body"
-          }
-        },
-        "button_6QDUW6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop All",
-            "button_link": "shopify://collections/shop",
-            "button_style_secondary": true,
-            "button_style_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "text_hEUqiP",
-        "button_6QDUW6"
-      ],
-      "custom_css": [
-        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0.5rem 0; }}",
-        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
-        ".subtitle {line-height: 1.1;}",
-        "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/clare_and_dogs_on_beach_b0d6b2be-26c2-4b1f-b385-95e80b1007db.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 40
-      }
-    },
     "image_with_text_XLARkk": {
       "type": "image-with-text",
       "blocks": {
@@ -104,12 +58,58 @@
         "text_WzBWEH"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0.5rem 0; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/clare_at_desk.jpg",
+        "image": "shopify://shop_images/ClarePip.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_zTmji6": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_hEUqiP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The heroes of HUNDE are our whole food meal balancing blends. These blends have been carefully formulated to fill common nutritional gaps in homemade diets, so you can prepare nutritionally balanced pet food at home, effortlessly. </p><p>Each bag contains over 80% freeze-dried animal protein and a selection of organic, functional superfoods, with no synthetic nutrients or other questionable additives whatsoever. </p><p>To complement our balancing blends, we have created a range of purposeful supplementary foods, including meal toppers, functional oils and organic bone broths. </p><p>HUNDE is 100% Australian owned and operated, and we personally oversee every step in the production of everything we make. We formulate our products in the Northern Rivers of NSW, we source our meat (primarily) from QLD, and we manufacture everything in our Primesafe licenced facility in regional Victoria. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_6QDUW6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/shop",
+            "button_style_secondary": true,
+            "button_style_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_hEUqiP",
+        "button_6QDUW6"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
+        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
+        ".subtitle {line-height: 1.1;}",
+        "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/clare_and_dogs_on_beach_b0d6b2be-26c2-4b1f-b385-95e80b1007db.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -120,7 +120,7 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 40
       }
     },
@@ -136,6 +136,7 @@
         },
         "caption_tqr9ND": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "To (mis)quote Mrs George, we’re not like a regular pet food company. ",
             "text_style": "subtitle",
@@ -145,7 +146,7 @@
         "text_7DP3X6": {
           "type": "text",
           "settings": {
-            "text": "<p>HUNDE was created to be more than just a range of products you can buy; it’s a community and a resource that you can keep coming back to for honest, authentic and innovative solutions to your pet problems. </p><p>We proudly make some of the best pet food and supplements money can buy, but we also place huge value on sharing our insights and wisdom whenever we can (and for free). We strive to empathetically support you and your pets on your journey to wellness, no matter your circumstances.  </p>",
+            "text": "<p>To (mis)quote Mrs George, we’re not like a regular pet food company. </p><p>HUNDE was created to be more than just a range of products you can buy; it’s a community and a resource that you can keep coming back to for honest, authentic and innovative solutions to your pet problems. </p><p>We proudly make some of the best pet food and supplements money can buy, but we also place huge value on sharing our insights and wisdom whenever we can (and for free). We strive to empathetically support you and your pets on your journey to wellness, no matter your circumstances.  </p>",
             "text_style": "body"
           }
         },
@@ -190,8 +191,8 @@
   "order": [
     "main",
     "custom_liquid_PxNGc8",
-    "image_with_text_zTmji6",
     "image_with_text_XLARkk",
+    "image_with_text_zTmji6",
     "image_with_text_KYHr3c"
   ]
 }
