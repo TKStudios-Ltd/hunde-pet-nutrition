@@ -58,7 +58,7 @@
         "text_WzBWEH"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0.5rem 0; }}",
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
@@ -66,7 +66,7 @@
         "image": "shopify://shop_images/ClarePip.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -103,7 +103,7 @@
         "button_6QDUW6"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0.5rem 0; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
         ".subtitle {line-height: 1.1;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
@@ -112,7 +112,7 @@
         "image": "shopify://shop_images/clare_and_dogs_on_beach_b0d6b2be-26c2-4b1f-b385-95e80b1007db.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -167,7 +167,7 @@
         "button_riUGjh"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0 0; }}",
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
         ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
@@ -175,7 +175,7 @@
         "image": "shopify://shop_images/pip_f30ba64c-4d19-4a4b-97ac-f57d3a5d210d.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
