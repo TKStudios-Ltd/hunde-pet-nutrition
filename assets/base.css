@@ -335,6 +335,8 @@ body {
 
 .italic-heading {
   font-family: 'Perfectly Nineties', serif !important;
+  font-weight: inherit;
+  font-style: italic;
 }
 
 h1,
@@ -987,6 +989,8 @@ summary::-webkit-details-marker {
 
 .subtitle {
   font-family: 'Perfectly Nineties', serif !important;
+  font-weight: inherit;
+  font-style: italic;
   font-size: 32px;
   letter-spacing: 0.2px;
   font-size: 1.8rem;
@@ -3868,6 +3872,8 @@ details-disclosure > details {
 }
 .js .stamped-summary-caption .stamped-summary-text {
   font-family: 'Perfectly Nineties', serif !important;
+  font-weight: inherit;
+  font-style: italic;
   font-size: 20px;
   letter-spacing: 0.2px;
   color: white;
