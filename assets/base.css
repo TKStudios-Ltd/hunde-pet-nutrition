@@ -50,7 +50,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Perfectly Nineties', sans-serif;
+    font-family: 'Perfectly Nineties', serif;
     src: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/PerfectlyNineties-Italic.woff2') format('woff2'),
         url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/PerfectlyNineties-Italic.woff') format('woff'),
          url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/PerfectlyNineties-Italic.ttf') format('truetype');
