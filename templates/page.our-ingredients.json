@@ -37,6 +37,7 @@
         },
         "text_tpapq8": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>All of the ingredients in our pet blends are functional superfoods and concentrated sources of the essential nutrients that are often lacking in homemade diets.</p><p>Our blends are primarily made from meat, with at least 80% of each bag being of animal protein origin. All of our meat is sourced locally and from the human supply chain, then freeze-dried by us. Almost all of our ingredients are Australian, with a few exceptions where the superior option was from elsewhere, such as organic kelp from the north Atlantic Ocean.</p><p>Every single thing has been selected thoughtfully, with the health of your pet in mind. </p><p>It's all killer no filler, baby.</p>"
           }
