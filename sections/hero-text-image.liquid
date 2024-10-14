@@ -9,6 +9,20 @@
     background: #FDF6DA !important;
     border-bottom: 3px solid;
   }
+  .homepage-hero-image .image-with-text .image-with-text__media-item > * {
+    border-radius: var(--media-radius) !important;
+  }
+  @media screen and (max-width: 749px) {
+    .homepage-hero-image .image-with-text .grid {
+      flex-direction: column-reverse;
+    }
+    .homepage-hero-image .image-with-text__content {
+      padding: 0 0 4rem;
+    }
+    .homepage-hero-image .image-with-text__content > * + * {
+      margin-top: 2rem;
+    }
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
