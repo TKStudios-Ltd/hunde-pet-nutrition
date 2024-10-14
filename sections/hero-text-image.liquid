@@ -2,8 +2,8 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
   .homepage-hero-image {
     background: #FDF6DA !important;
@@ -42,6 +42,7 @@
     }
     .homepage-hero-image .image-with-text__media-item {
       width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+      padding-bottom: 8rem;
     }
   }
 {%- endstyle -%}
