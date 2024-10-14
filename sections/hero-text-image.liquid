@@ -1,10 +1,6 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: 80px;
-    padding-bottom: 0;
-  }
   .homepage-hero-image {
     background: #FDF6DA !important;
     border-bottom: 3px solid;
@@ -16,7 +12,22 @@
   .homepage-hero-image .image-with-text .image-with-text__media-item > * {
     border-radius: var(--media-radius) !important;
   }
+  .homepage-hero-image .hxxl {
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+  }
+  .homepage-hero-image .hxxl::before {
+    content: url('https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_EnjoySticker.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
   @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding {
+      padding-top: 80px;
+      padding-bottom: 0;
+    }
     .homepage-hero-image .image-with-text .grid {
       flex-direction: column-reverse;
     }
@@ -41,12 +52,6 @@
       height: 135px;
       max-height: 135px !important;
       z-index: 2;
-    }
-  }
-  @media screen and (min-width: 990px) {
-    .section-{{ section.id }}-padding {
-      padding-top: 120px;
-      padding-bottom: 0;
     }
     .homepage-hero-image .image-with-text__content {
        padding: 0 5rem 14rem 0;
