@@ -51,6 +51,7 @@
         "text_LWfqMH",
         "button_AXBzMz"
       ],
+      "disabled": true,
       "custom_css": [
         "p {max-width: 580px; margin: 0 auto; font-size: 20px;}",
         "@media (max-width: 749px) {p {max-width: 280px; font-size: 16px; line-height: 1.2; } .rich-text__wrapper {width: 100%; }}",
