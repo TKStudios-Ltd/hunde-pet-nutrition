@@ -858,7 +858,20 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </div>`;
       } else if (age === '10+years') {
-        message = `<p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
+        message = `<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+        <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+          <div class="image-with-text__media image-with-text__media--adapt global-media-settings gradient color-scheme-1 image-with-text__media--placeholder placeholder">
+            <h4>Total Food Per Day</h4>
+            <h2 class="h1">${grams} grams</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_Calculator_Placeholder_New.png" alt="Image with Text" sizes="(min-width: 1100px) 500px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" fetchpriority="auto" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div id="ImageWithText--template--17348005822602__serving_with_text_RwXLh3" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container gradient color-scheme-5">
+            <h2 class="image-with-text__heading inline-richtext h1">We Recommend</h2>
+            <p class="image-with-text__text image-with-text__text--caption subtitle subtitle--large subtitle">for your bestie</p>
+            <div class="image-with-text__text rte body"><p>Depending on your unique dog, you will need to feed them up to ${grams} grams of raw food per day, spread over 2-3 meals. Of this, ${blendGrams} grams will be ${blend} Blend.</p>
 <p>We have reduced their portion slightly due to their metabolism slowing down as they age, which is typical for most dogs. Just monitor their weight and hunger levels and adjust as necessary.</p>
 <p>Up to 20% of this daily allowance can be raw meaty bones, which are fantastic for keeping teeth clean and minds calm. If they have any dental pain, skip the bones and opt for a natural toothpaste instead.</p>
 <a href="/collections/dogs" class="button--arrow">Shop the range<span class="svg-wrapper">{{ 'icon-arrow-black.svg' | inline_asset_content }}</span></a>
