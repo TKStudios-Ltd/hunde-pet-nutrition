@@ -274,13 +274,33 @@
                   <label for="weight" class="field__label">How much do they weigh in kilograms?</label>
                   <input type="number" id="weight" name="weight" class="field__input" required min="0">
                 </div>
-          
-                <div class="field">
+
+                <!-- Dog-Specific Fields -->
+                <div class="field dog-specific" style="display:none;">
                   <label class="static-field__label">How's their waistline?</label>
                   <div class="pill-radio-group" id="waistline-group">
                     <label class="pill-radio">
                       <input type="radio" name="waistline" value="underweight" required>
-                      Underweight
+                      Underweight D
+                    </label>
+                    <label class="pill-radio">
+                      <input type="radio" name="waistline" value="ideal" required>
+                      Ideal
+                    </label>
+                    <label class="pill-radio">
+                      <input type="radio" name="waistline" value="overweight" required>
+                      Overweight
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Cat-Specific Fields -->
+                <div class="field cat-specific" style="display:none;">
+                  <label class="static-field__label">How's their waistline?</label>
+                  <div class="pill-radio-group" id="waistline-group">
+                    <label class="pill-radio">
+                      <input type="radio" name="waistline" value="underweight" required>
+                      Underweight C
                     </label>
                     <label class="pill-radio">
                       <input type="radio" name="waistline" value="ideal" required>
