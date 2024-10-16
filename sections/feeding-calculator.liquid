@@ -67,7 +67,7 @@
     z-index: -1;
     transform: scale(0.5);
   }
-  .feeding-calculator .radio-input-image {
+  /* .feeding-calculator .radio-input-image {
     flex-direction: column;
     align-items: center;
     border-radius: 12px !important;
@@ -77,7 +77,14 @@
     height: 100%;
     padding: 10px;
   }
-  
+  @media (min-width: 750px) and (max-width: 999px) {
+    .feeding-calculator .radio-group-image {
+      flex-direction: column;
+    }
+    .feeding-calculator .radio-input-image {
+      width: inherit;
+      margin-bottom: 10px;
+  } */
   @media screen and (max-width: 749px) {
     .feeding-calculator .grid {
       flex-direction: column-reverse;
