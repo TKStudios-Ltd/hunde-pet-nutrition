@@ -455,6 +455,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('custom-pet-form');
   const confirmationMessage = document.getElementById('confirmation-message');
+  const dogSpecificWaistlineFields = document.querySelector('.dog-specific-waistline');
+  const catSpecificWaistlineFields = document.querySelector('.cat-specific-waistline');
   const dogSpecificFields = document.querySelector('.dog-specific');
   const catSpecificFields = document.querySelector('.cat-specific');
 
@@ -463,9 +465,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const petType = document.querySelector('input[name="pet_type"]:checked');
     if (petType) {
       if (petType.value === 'dog') {
+        dogSpecificWaistlineFields.style.display = 'block';
+        catSpecificWaistlineFields.style.display = 'none';
         dogSpecificFields.style.display = 'block';
         catSpecificFields.style.display = 'none';
       } else if (petType.value === 'cat') {
+        catSpecificWaistlineFields.style.display = 'block';
+        dogSpecificWaistlineFields.style.display = 'none';
         catSpecificFields.style.display = 'block';
         dogSpecificFields.style.display = 'none';
       }
