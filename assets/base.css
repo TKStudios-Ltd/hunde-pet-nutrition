@@ -335,8 +335,8 @@ body {
 
 .italic-heading {
   font-family: 'Perfectly Nineties', serif !important;
-  font-weight: inherit;
-  font-style: italic;
+  font-weight: inherit !important;
+  font-style: italic !important;
 }
 
 h1,
