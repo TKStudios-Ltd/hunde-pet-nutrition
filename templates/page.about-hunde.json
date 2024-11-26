@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -84,7 +84,7 @@
         "text_hEUqiP": {
           "type": "text",
           "settings": {
-            "text": "<p>The heroes of HUNDE are our whole food meal balancing blends. These blends have been carefully formulated to fill common nutritional gaps in homemade diets, so you can prepare nutritionally balanced pet food at home, effortlessly. </p><p>Each bag contains over 80% freeze-dried animal protein and a selection of organic, functional superfoods, with no synthetic nutrients or other questionable additives whatsoever. </p><p>To complement our balancing blends, we have created a range of purposeful supplementary foods, including meal toppers, functional oils and organic bone broths. </p><p>HUNDE is 100% Australian owned and operated, and we personally oversee every step in the production of everything we make. We formulate our products in the Northern Rivers of NSW, we source our meat (primarily) from QLD, and we manufacture everything in our Primesafe licenced facility in regional Victoria. </p>",
+            "text": "<p>The heroes of HUNDE are our whole food meal balancing blends. These blends have been carefully formulated to fill common nutritional gaps in homemade diets, so you can prepare nutritionally balanced pet food at home, effortlessly. </p><p>Each bag contains over 80% freeze-dried animal protein and a selection of organic, functional superfoods, with no synthetic nutrients or other questionable additives whatsoever. </p><p>HUNDE is 100% Australian owned and operated, and we personally oversee every step in the production of everything we make. We formulate our products in the Northern Rivers of NSW, we source our meat (primarily) from QLD, and we manufacture everything in our Primesafe licenced facility in regional Victoria. </p>",
             "text_style": "body"
           }
         },
