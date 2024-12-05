@@ -46,7 +46,7 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column; } .image-with-text__content {padding: 4rem 0 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/variety-tracker-graphic.svg",
+        "image": "shopify://shop_images/meal-prep-tracker-graphic.svg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
