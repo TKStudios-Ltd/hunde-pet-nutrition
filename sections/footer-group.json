@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -17,31 +17,32 @@
         "heading_CYAKL8": {
           "type": "heading",
           "settings": {
-            "heading": "Want 10% off your first order?",
+            "heading": "Get your free download!",
             "heading_size": "h1"
           }
         },
-        "paragraph_RaMxaM": {
+        "paragraph_WLNWDh": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Sign up for special offers and pet nutrition news.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
-        "email_form_jEXpUL": {
-          "type": "email_form",
+        "klaviyo_email_marketing_sms_form_embed_block_AMEFwj": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
+            "formId": "SdRuFV"
           }
         }
       },
       "block_order": [
         "heading_CYAKL8",
-        "paragraph_RaMxaM",
-        "email_form_jEXpUL"
+        "paragraph_WLNWDh",
+        "klaviyo_email_marketing_sms_form_embed_block_AMEFwj"
       ],
       "settings": {
         "color_scheme": "scheme-4",
         "full_width": true,
-        "padding_top": 100,
+        "padding_top": 64,
         "padding_bottom": 100
       }
     },
@@ -73,7 +74,7 @@
           "type": "text",
           "settings": {
             "heading": "Country",
-            "subtext": "<p>We acknowledge the Widjabul Wia-bal people of the Bundjalung Nation as the traditional owners of the land on which we live and work. We <a href=\"https:\/\/paytherent.net.au\/\" target=\"_blank\" title=\"https:\/\/paytherent.net.au\/\">pay the rent<\/a> each month.<\/p>"
+            "subtext": "<p>We acknowledge the Widjabul Wia-bal people of the Bundjalung Nation as the traditional owners of the land on which we live and work. We <a href=\"https://paytherent.net.au/\" target=\"_blank\" title=\"https://paytherent.net.au/\">pay the rent</a> each month.</p>"
           }
         }
       },
