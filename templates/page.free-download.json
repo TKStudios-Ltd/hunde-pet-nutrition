@@ -20,7 +20,7 @@
     "custom_liquid_PxNGc8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">About Us</h1></div>",
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Meal prep tracker</h1></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
@@ -29,32 +29,15 @@
     "image_with_text_XLARkk": {
       "type": "image-with-text",
       "blocks": {
-        "heading_GfrWAY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Story",
-            "heading_size": "h1"
-          }
-        },
-        "caption_iRdiwD": {
-          "type": "caption",
-          "settings": {
-            "caption": "I believe the food we feed our pets should be as unconditionally good as their love is for us.",
-            "text_style": "subtitle",
-            "text_size": "small"
-          }
-        },
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>HUNDE was founded in 2015 by Clare Kearney and her rescue kelpie, Tex Perkins. Clare is an Australian pet nutritionist and writer, who has spent the past decade working with some of Australia’s most well-known and well-respected natural pet food brands. </p><p>These days Clare is busy chasing a wild toddler and a second kelpie, so she knows better than anyone how challenging it can be to consistently provide your whole family with a nutritious and well-balanced diet. </p><p>HUNDE’s mission is to empower people to create a better life for their pets, using real food. We do that by providing the knowledge and resources to easily and confidently prepare your own nutritionally balanced pet food at home. </p>",
+            "text": "<p>Do you feed your pets a ratio, 80/10/10, or fly-by-the-seat-of-your-pants style homemade diet?</p><p>Same. </p><p>That's why we created this handy meal prep tracker that you can print out and stick on the fridge. There's a weekly and a monthly option, depending on how far ahead you like to plan (and how good your eyesight is.) </p><p>If you're really committed, laminate this badboy and get a whiteboard market to reuse it. </p><p>Just enter your email below and we'll send a printer friendly PDF straight to your inbox.</p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_GfrWAY",
-        "caption_iRdiwD",
         "text_WzBWEH"
       ],
       "custom_css": [
@@ -63,7 +46,7 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column; } .image-with-text__content {padding: 4rem 0 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/ClarePip.jpg",
+        "image": "shopify://shop_images/Weekly_Tracker_Downloads_Portrait_1080_x_1350_px_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
