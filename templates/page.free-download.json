@@ -46,7 +46,7 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column; } .image-with-text__content {padding: 4rem 0 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Weekly_Tracker_Downloads_Portrait_1080_x_1350_px_1.png",
+        "image": "shopify://shop_images/Untitled_design_1.svg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
