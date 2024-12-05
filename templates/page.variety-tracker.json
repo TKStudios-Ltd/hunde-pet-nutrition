@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_liquid_PxNGc8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Meal prep tracker</h1></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_XLARkk": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WzBWEH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you feed your pets a ratio, 80/10/10, or fly-by-the-seat-of-your-pants style homemade diet?</p><p>Same. </p><p>That's why we created this handy meal prep tracker that you can print out and stick on the fridge. There's a weekly and a monthly option, depending on how far ahead you like to plan (and how good your eyesight is). </p><p>If you're really committed, laminate this badboy and get a whiteboard marker to reuse it each week. </p><p>You can also use this tracker if you usually eyeball bulk meal preps for the freezer. </p><p>Just enter your email below and we'll send aprinter friendly PDFs straight to your inbox.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WzBWEH"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
+        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
+        "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column; } .image-with-text__content {padding: 4rem 0 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/meal-prep-tracker-graphic.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_PxNGc8",
+    "image_with_text_XLARkk"
+  ]
+}
