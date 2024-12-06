@@ -20,7 +20,7 @@
     "custom_liquid_PxNGc8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Meal prep tracker</h1></div>",
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Variety tracker</h1></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
@@ -32,7 +32,7 @@
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>Do you feed your pets a ratio, 80/10/10, or fly-by-the-seat-of-your-pants style homemade diet?</p><p>Same. </p><p>That's why we created this handy meal prep tracker that you can print out and stick on the fridge. There's a weekly and a monthly option, depending on how far ahead you like to plan (and how good your eyesight is). </p><p>If you're really committed, laminate this badboy and get a whiteboard marker to reuse it each week. </p><p>You can also use this tracker if you usually eyeball bulk meal preps for the freezer. </p><p>Just enter your email below and we'll send aprinter friendly PDFs straight to your inbox.</p>",
+            "text": "<p>Feeding a wide variety of fresh, whole foods is the single best thing you can do to proactively support your pet's health. </p><p>It can be hard to remember what we ate for breakfast, let alone what we fed the dog a week ago, so this handy tracker will help you rotate through different additions to your pets bowl, without going over the top.  </p><p>There's a weekly and a monthly option, depending on how creative you want to get (and how good your eyesight is). </p><p>Laminate this baby and re-use with a whiteboard marker if you don't fancy a trip to Officeworks every week.</p><p>Just enter your email below and we'll send printer friendly PDFs straight to your inbox.</p>",
             "text_style": "body"
           }
         }
@@ -46,7 +46,7 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column; } .image-with-text__content {padding: 4rem 0 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/meal-prep-tracker-graphic.svg",
+        "image": "shopify://shop_images/variety-tracker-graphic.svg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
