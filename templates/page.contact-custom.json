@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -38,7 +38,7 @@
         "text_99cYYk": {
           "type": "text",
           "settings": {
-            "text": "<h2>If you have any questions or feedback, holler at us on <a href=\"mailto:hello@hunde.com.au\" title=\"mailto:hello@hunde.com.au\">hello@hunde.com.au</a>.</h2><p>You can send us presents to PO Box 107, Ballina NSW 2478. </p>"
+            "text": "<h2>If you have any questions or feedback, holler at us on <a href=\"mailto:hello@hunde.com.au\" title=\"mailto:hello@hunde.com.au\">hello@hunde.com.au</a></h2>"
           }
         }
       },
