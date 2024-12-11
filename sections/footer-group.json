@@ -11,6 +11,64 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_7R9XXJ": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_ihYTdW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Start adding variety!",
+            "heading_size": "h1"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_BbB38b": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "U58NNp"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ihYTdW",
+        "klaviyo_email_marketing_sms_form_embed_block_BbB38b"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter_mzbggf": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_YMzjzE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get meal prep trackin'",
+            "heading_size": "h1"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_8XYCaf": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SdRuFV"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YMzjzE",
+        "klaviyo_email_marketing_sms_form_embed_block_8XYCaf"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "newsletter_wz6aB7": {
       "type": "newsletter",
       "blocks": {
@@ -99,6 +157,8 @@
     }
   },
   "order": [
+    "newsletter_7R9XXJ",
+    "newsletter_mzbggf",
     "newsletter_wz6aB7",
     "footer"
   ]
