@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "custom_liquid_PxNGc8": {
       "type": "custom-liquid",
       "settings": {
@@ -24,6 +16,14 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "1733884486175766b2": {
@@ -82,7 +82,7 @@
   "order": [
     "custom_liquid_PxNGc8",
     "main",
-    "1733884486175766b2",
-    "image_with_text_XLARkk"
+    "image_with_text_XLARkk",
+    "1733884486175766b2"
   ]
 }
