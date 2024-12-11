@@ -17,20 +17,25 @@
         "heading_CYAKL8": {
           "type": "heading",
           "settings": {
-            "heading": "Get your free download!",
+            "heading": "Want 10% off your first order?",
             "heading_size": "h1"
           }
         },
-        "klaviyo_email_marketing_sms_form_embed_block_AMEFwj": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+        "paragraph_MkrBTH": {
+          "type": "paragraph",
           "settings": {
-            "formId": "U58NNp"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
+        },
+        "email_form_DeCAA9": {
+          "type": "email_form",
+          "settings": {}
         }
       },
       "block_order": [
         "heading_CYAKL8",
-        "klaviyo_email_marketing_sms_form_embed_block_AMEFwj"
+        "paragraph_MkrBTH",
+        "email_form_DeCAA9"
       ],
       "settings": {
         "color_scheme": "scheme-4",
