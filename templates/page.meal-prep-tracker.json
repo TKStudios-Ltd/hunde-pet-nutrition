@@ -26,30 +26,13 @@
         "padding_bottom": 80
       }
     },
-    "1733884486175766b2": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_3xPJcf": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "SdRuFV"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_3xPJcf"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "image_with_text_XLARkk": {
       "type": "image-with-text",
       "blocks": {
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>Do you feed your pets a ratio, 80/10/10, or fly-by-the-seat-of-your-pants style homemade diet?</p><p>Same. </p><p>That's why we created this handy meal prep tracker that you can print out and stick on the fridge. There's a weekly and a monthly option, depending on how far ahead you like to plan (and how good your eyesight is). </p><p>If you're really committed, laminate this badboy and get a whiteboard marker to reuse it each week. </p><p>This tracker is perfect for using with our Vital Blend, or if you usually eyeball bulk meal-preps for the freezer. </p><p>Just enter your email below and we'll send printer friendly PDFs straight to your inbox.</p>",
+            "text": "<p>Do you feed your pets a ratio, 80/10/10, or fly-by-the-seat-of-your-pants style homemade diet?</p><p>Same. </p><p>That's why we created this handy meal prep tracker that you can print out and stick on the fridge. There's a weekly and a monthly option, depending on how far ahead you like to plan (and how good your eyesight is). </p><p>If you're really committed, laminate this badboy and get a whiteboard marker to reuse it each week. </p><p>This tracker is perfect for using with our Vital Blend, or if you usually eyeball bulk meal-preps for the freezer. </p><p></p>",
             "text_style": "body"
           }
         }
@@ -76,6 +59,23 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 40
+      }
+    },
+    "1733884486175766b2": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_3xPJcf": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SdRuFV"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_3xPJcf"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
