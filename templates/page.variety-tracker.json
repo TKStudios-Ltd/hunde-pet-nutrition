@@ -32,7 +32,7 @@
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>Feeding a wide variety of fresh, whole foods is the single best thing you can do to proactively support your pet's health. </p><p>It can be hard to remember what we ate for breakfast, let alone what we fed the dog a week ago, so this handy tracker will help you rotate through different additions to your pets bowl, without going over the top.  </p><p>There's a weekly and a monthly option, depending on how creative you want to get (and how good your eyesight is). </p><p>Laminate this baby and re-use with a whiteboard marker if you don't fancy a trip to Officeworks every week.</p><p>Just enter your email below and we'll send printer friendly PDFs straight to your inbox.</p>",
+            "text": "<p>Feeding a wide variety of fresh, whole foods is the single best thing you can do to proactively support your pet's health. </p><p>It can be hard to remember what we ate for breakfast, let alone what we fed the dog a week ago, so this handy tracker will help you rotate through different additions to your pets bowl, without going over the top.  </p><p>There's a weekly and a monthly option, depending on how creative you want to get (and how good your eyesight is). </p><p>Laminate this baby and re-use with a whiteboard marker if you don't fancy a trip to Officeworks every week.</p>",
             "text_style": "body"
           }
         }
@@ -58,13 +58,31 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 40
+        "padding_bottom": 0
+      }
+    },
+    "17338869643b0ca139": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_pn4VFD": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "U58NNp"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_pn4VFD"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
     "custom_liquid_PxNGc8",
-    "image_with_text_XLARkk"
+    "image_with_text_XLARkk",
+    "17338869643b0ca139"
   ]
 }
