@@ -1,16 +1,62 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_kiiWff": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_hKUgRf": {
+          "type": "announcement",
+          "settings": {
+            "text": "OUR WAREHOUSE IS CLOSED FOR THE HOLIDAYS! ORDERS WILL BE PROCESSED FROM 6 JANUARY",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_VKzhFn": {
+          "type": "announcement",
+          "settings": {
+            "text": "OUR WAREHOUSE IS CLOSED FOR THE HOLIDAYS! ORDERS WILL BE PROCESSED FROM 6 JANUARY",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_HFrd6p": {
+          "type": "announcement",
+          "settings": {
+            "text": "OUR WAREHOUSE IS CLOSED FOR THE HOLIDAYS! ORDERS WILL BE PROCESSED FROM 6 JANUARY",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_6HNTWy": {
+          "type": "announcement",
+          "settings": {
+            "text": "OUR WAREHOUSE IS CLOSED FOR THE HOLIDAYS! ORDERS WILL BE PROCESSED FROM 6 JANUARY",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_hKUgRf",
+        "announcement_VKzhFn",
+        "announcement_HFrd6p",
+        "announcement_6HNTWy"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -19,7 +65,7 @@
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
             "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_jhnJ3p": {
@@ -27,7 +73,7 @@
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
             "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_rxbgzA": {
@@ -35,7 +81,7 @@
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
             "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_fnjnxM": {
@@ -43,7 +89,7 @@
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
             "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_zrmNbj": {
@@ -51,7 +97,7 @@
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
             "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_4W6TdR": {
@@ -59,7 +105,7 @@
           "settings": {
             "text": "Free Domestic Shipping On Orders Over $150",
             "link": "",
-            "image": "shopify:\/\/shop_images\/Devils_HornsWeb.svg"
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         }
       },
@@ -71,6 +117,7 @@
         "announcement_zrmNbj",
         "announcement_4W6TdR"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3"
       }
@@ -96,6 +143,7 @@
     }
   },
   "order": [
+    "announcement_bar_kiiWff",
     "announcement-bar",
     "header"
   ]
