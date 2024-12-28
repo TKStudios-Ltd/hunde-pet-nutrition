@@ -38,6 +38,22 @@
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
+        "announcement_gD3PXb": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from 6 January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_xwWian": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from 6 January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
         "announcement_6HNTWy": {
           "type": "announcement",
           "settings": {
@@ -51,6 +67,8 @@
         "announcement_hKUgRf",
         "announcement_VKzhFn",
         "announcement_HFrd6p",
+        "announcement_gD3PXb",
+        "announcement_xwWian",
         "announcement_6HNTWy"
       ],
       "settings": {
