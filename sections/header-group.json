@@ -71,6 +71,7 @@
         "announcement_xwWian",
         "announcement_6HNTWy"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3"
       }
@@ -135,7 +136,6 @@
         "announcement_zrmNbj",
         "announcement_4W6TdR"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3"
       }
