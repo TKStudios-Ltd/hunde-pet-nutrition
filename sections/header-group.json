@@ -76,6 +76,70 @@
         "color_scheme": "scheme-3"
       }
     },
+    "announcement_bar_zxjR46": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_D6KzWM": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off everything! 25% off when you spend over $150! 20-23 March, while stocks last.",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_pUX9Bm": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off everything! 25% off when you spend over $150! 20-23 March, while stocks last.",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_yBqBfb": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off everything! 25% off when you spend over $150! 20-23 March, while stocks last.",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_EytVBd": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off everything! 25% off when you spend over $150! 20-23 March, while stocks last.",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_jyGL7p": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off everything! 25% off when you spend over $150! 20-23 March, while stocks last.",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_NGWBCy": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off everything! 25% off when you spend over $150! 20-23 March, while stocks last.",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_D6KzWM",
+        "announcement_pUX9Bm",
+        "announcement_yBqBfb",
+        "announcement_EytVBd",
+        "announcement_jyGL7p",
+        "announcement_NGWBCy"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -136,6 +200,7 @@
         "announcement_zrmNbj",
         "announcement_4W6TdR"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3"
       }
@@ -162,6 +227,7 @@
   },
   "order": [
     "announcement_bar_kiiWff",
+    "announcement_bar_zxjR46",
     "announcement-bar",
     "header"
   ]
