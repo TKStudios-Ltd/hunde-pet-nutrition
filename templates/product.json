@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,13 +14,11 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "stamped_reviews_star_rating_badge_XQDecn": {
           "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
@@ -40,8 +38,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -59,8 +56,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -137,6 +133,38 @@
         "mobile_content_alignment": "left",
         "padding_top": 60,
         "padding_bottom": 40
+      }
+    },
+    "1746679102e43f4ea7": {
+      "type": "apps",
+      "blocks": {
+        "tabify_product_comparison_table_XnkBNi": {
+          "type": "shopify://apps/tabify/blocks/product-comparison-table/5e5cddf4-c995-443d-8e6b-f2bf41223d1b",
+          "disabled": true,
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "title": "Us vs. Them",
+            "title_tag": "h3",
+            "title_alignment": "center",
+            "image_size": "md",
+            "image_size_mobile": "md",
+            "image_fit": "contain",
+            "column_title_alignment": "center",
+            "row_title_alignment": "left",
+            "cell_alignment": "center",
+            "primary_color": "#0ea5e9",
+            "secondary_color": "#8b5cf6",
+            "neutral_color": "#1e293b",
+            "background_color": "transparent"
+          }
+        }
+      },
+      "block_order": [
+        "tabify_product_comparison_table_XnkBNi"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image_with_text_VTjrKr": {
@@ -221,9 +249,7 @@
       "block_order": [
         "stamped_reviews_main_widget_UrgipU"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
@@ -253,6 +279,7 @@
   "order": [
     "main",
     "serving_with_text_RwXLh3",
+    "1746679102e43f4ea7",
     "image_with_text_VTjrKr",
     "17272403659935ce8b",
     "related-products"
