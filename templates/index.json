@@ -108,7 +108,7 @@
         "button_CUVJzg"
       ],
       "settings": {
-        "image": "shopify://shop_images/CaptureOneCatalog00612-Edit.jpg",
+        "image": "shopify://shop_images/FREE_3.svg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -464,7 +464,14 @@
           "settings": {
             "title": "",
             "title_color": "",
+            "title_size_v2": 0,
             "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
             "html_area": ""
