@@ -137,7 +137,6 @@
         "announcement_jyGL7p",
         "announcement_NGWBCy"
       ],
-      "disabled": true,
       "name": "Announcement - Free Norm HP",
       "settings": {
         "color_scheme": "scheme-3"
@@ -269,6 +268,7 @@
         "announcement_CqG3QP",
         "announcement_jLVHfD"
       ],
+      "disabled": true,
       "name": "Announcement - Giveaway 112025",
       "settings": {
         "color_scheme": "scheme-3"
