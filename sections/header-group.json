@@ -72,6 +72,7 @@
         "announcement_6HNTWy"
       ],
       "disabled": true,
+      "name": "Announcement - Holidays",
       "settings": {
         "color_scheme": "scheme-3"
       }
@@ -136,6 +137,8 @@
         "announcement_jyGL7p",
         "announcement_NGWBCy"
       ],
+      "disabled": true,
+      "name": "Announcement - Free Norm HP",
       "settings": {
         "color_scheme": "scheme-3"
       }
@@ -201,6 +204,72 @@
         "announcement_4W6TdR"
       ],
       "disabled": true,
+      "name": "Announcement - Free Shipping $150",
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
+    "announcement_bar_w639LW": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_VanggQ": {
+          "type": "announcement",
+          "settings": {
+            "text": "Join our giveaway from November 3 to 14",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_39YdGr": {
+          "type": "announcement",
+          "settings": {
+            "text": "Win your pets $285 worth of Hunde goods, shipped free to anywhere in Australia",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_xKgHex": {
+          "type": "announcement",
+          "settings": {
+            "text": "Join our giveaway from November 3 to 14",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_eHB3Vh": {
+          "type": "announcement",
+          "settings": {
+            "text": "Win your pets $285 worth of Hunde goods, shipped free to anywhere in Australia",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_CqG3QP": {
+          "type": "announcement",
+          "settings": {
+            "text": "Join our giveaway from November 3 to 14",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_jLVHfD": {
+          "type": "announcement",
+          "settings": {
+            "text": "Win your pets $285 worth of Hunde goods, shipped free to anywhere in Australia",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_VanggQ",
+        "announcement_39YdGr",
+        "announcement_xKgHex",
+        "announcement_eHB3Vh",
+        "announcement_CqG3QP",
+        "announcement_jLVHfD"
+      ],
+      "name": "Announcement - Giveaway 112025",
       "settings": {
         "color_scheme": "scheme-3"
       }
@@ -229,6 +298,7 @@
     "announcement_bar_kiiWff",
     "announcement_bar_zxjR46",
     "announcement-bar",
+    "announcement_bar_w639LW",
     "header"
   ]
 }
