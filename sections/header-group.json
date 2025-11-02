@@ -203,6 +203,7 @@
         "announcement_zrmNbj",
         "announcement_4W6TdR"
       ],
+      "disabled": true,
       "name": "Announcement - Free Shipping $150",
       "settings": {
         "color_scheme": "scheme-3"
@@ -268,7 +269,6 @@
         "announcement_CqG3QP",
         "announcement_jLVHfD"
       ],
-      "disabled": true,
       "name": "Announcement - Giveaway 112025",
       "settings": {
         "color_scheme": "scheme-3"
