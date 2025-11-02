@@ -137,6 +137,7 @@
         "announcement_jyGL7p",
         "announcement_NGWBCy"
       ],
+      "disabled": true,
       "name": "Announcement - Free Norm HP",
       "settings": {
         "color_scheme": "scheme-3"
@@ -202,7 +203,6 @@
         "announcement_zrmNbj",
         "announcement_4W6TdR"
       ],
-      "disabled": true,
       "name": "Announcement - Free Shipping $150",
       "settings": {
         "color_scheme": "scheme-3"
