@@ -13,61 +13,34 @@
       "type": "main-404",
       "settings": {}
     },
-    "image_banner_6DPUUf": {
-      "type": "image-banner",
+    "collage_BPA6w3": {
+      "type": "collage",
       "blocks": {
-        "heading_wJXLKD": {
-          "type": "heading",
-          "disabled": true,
+        "image_wMYcqc": {
+          "type": "image",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_nddeR7": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_UmMaXL": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/blackboard.webp"
           }
         }
       },
       "block_order": [
-        "heading_wJXLKD",
-        "text_nddeR7",
-        "buttons_UmMaXL"
+        "image_wMYcqc"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:sections.collage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/blackboard.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "main",
-    "image_banner_6DPUUf"
+    "collage_BPA6w3"
   ]
 }
