@@ -188,7 +188,7 @@
         "text_bQ7MJd": {
           "type": "text",
           "settings": {
-            "text": "<p>I promise I'll never make a product that I wouldn't feed to my own dogs. And if I wouldn't feed it to my animals, I wouldn't feed it to yours. Everything I've created, I've created for myself. Selfish? Maybe. But it's how you know that everything I make is unconditionally good, and that you can't get it anywhere else.</p>",
+            "text": "<p>I promise I'll never make a product that I wouldn't feed to my own family. And if I wouldn't feed it to my animals, I wouldn't feed it to yours. </p><p>Everything I've created, I've created for myself. Selfish? Maybe. But it's how you know that everything I make is unconditionally good, and that you can't get it anywhere else.</p>",
             "text_style": "body"
           }
         },
@@ -215,7 +215,7 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 4rem 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/ClarePip.jpg",
+        "image": "shopify://shop_images/bw_Sunny_beach_636d79e7-0d80-4560-8581-b0c9f24774b6.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
