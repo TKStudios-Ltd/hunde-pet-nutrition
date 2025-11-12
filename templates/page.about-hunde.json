@@ -109,7 +109,7 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/pip_at_car.webp",
+        "image": "shopify://shop_images/vital_on_shelf.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -172,7 +172,7 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/bw_Sunny_beach.webp",
+        "image": "shopify://shop_images/DJ_haring.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
