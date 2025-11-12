@@ -101,6 +101,13 @@
     "image_with_text_zTmji6": {
       "type": "image-with-text",
       "blocks": {
+        "heading_VXpB8z": {
+          "type": "heading",
+          "settings": {
+            "heading": "UNCONDITIONALLY GOOD",
+            "heading_size": "h1"
+          }
+        },
         "text_hEUqiP": {
           "type": "text",
           "settings": {
@@ -119,6 +126,7 @@
         }
       },
       "block_order": [
+        "heading_VXpB8z",
         "text_hEUqiP",
         "button_6QDUW6"
       ],
