@@ -107,8 +107,67 @@
         "text_bezb87",
         "button_CUVJzg"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/cat_on_bench_1.webp",
+        "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "hero_text_image_xmTmXH": {
+      "type": "hero-text-image",
+      "blocks": {
+        "heading_ph93RV": {
+          "type": "heading",
+          "settings": {
+            "heading": "MODERN PET NUTRITION, FOR MODERN PETS",
+            "heading_size": "hxxl"
+          }
+        },
+        "caption_brFB7G": {
+          "type": "caption",
+          "settings": {
+            "caption": "...and real people.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_pANKDp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our signature meal balancing blends fill typical nutritional gaps in homemade pet food, in one easy step. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_PLkbCR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/shop",
+            "button_style_secondary": true,
+            "button_style_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ph93RV",
+        "caption_brFB7G",
+        "text_pANKDp",
+        "button_PLkbCR"
+      ],
+      "name": "Homepage Hero – v2",
+      "settings": {
+        "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -192,7 +251,7 @@
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
@@ -516,6 +575,7 @@
   "order": [
     "homepage_hero_PCCT9Y",
     "hero_text_image_Qp44Mn",
+    "hero_text_image_xmTmXH",
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "featured_collection_inline_cEayYb",
