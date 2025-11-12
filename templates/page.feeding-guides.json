@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -61,7 +61,32 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 0
+      }
+    },
+    "collage_jNxDWB": {
+      "type": "collage",
+      "blocks": {
+        "image_NzbCX4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dusk_meal_prep.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_NzbCX4"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection_gfdD3E": {
@@ -194,8 +219,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collection_list_hX4jwp": {
@@ -249,8 +274,9 @@
   "order": [
     "main",
     "feeding_calculator_98MG4U",
-    "featured_collection_gfdD3E",
+    "collage_jNxDWB",
     "collapsible_content_KQRAxC",
+    "featured_collection_gfdD3E",
     "rich_text_q6wDTw",
     "collection_list_hX4jwp"
   ]
