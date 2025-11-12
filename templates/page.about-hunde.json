@@ -78,6 +78,26 @@
         "padding_bottom": 40
       }
     },
+    "image_with_text_hUALVT": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Sunny_tex.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_with_text_zTmji6": {
       "type": "image-with-text",
       "blocks": {
@@ -192,6 +212,7 @@
     "main",
     "custom_liquid_PxNGc8",
     "image_with_text_XLARkk",
+    "image_with_text_hUALVT",
     "image_with_text_zTmji6",
     "image_with_text_KYHr3c"
   ]
