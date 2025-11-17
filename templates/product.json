@@ -216,7 +216,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/clare-in-garden.webp",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "top",
