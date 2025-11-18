@@ -154,7 +154,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop All",
-            "button_link": "shopify://collections/shop",
+            "button_link": "shopify://collections",
             "button_style_secondary": true,
             "button_style_arrow": false
           }
