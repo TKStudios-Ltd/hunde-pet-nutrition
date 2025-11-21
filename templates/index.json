@@ -57,6 +57,7 @@
         "@media (max-width: 749px) {p {max-width: 280px; font-size: 16px; line-height: 1.2; } .rich-text__wrapper {width: 100%; }}",
         "@media (min-width: 750px) {.rich-text__buttons {margin-top: 5rem; }}"
       ],
+      "name": "Homepage Hero - Original",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -108,7 +109,7 @@
         "button_CUVJzg"
       ],
       "disabled": true,
-      "name": "Homepage Hero – Original",
+      "name": "Homepage Hero – Standard",
       "settings": {
         "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
         "height": "adapt",
@@ -122,6 +123,59 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "homepage_hero_YRP4qG": {
+      "type": "homepage-hero",
+      "blocks": {
+        "heading_UVNyM4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modern pet food solutions, for modern pets",
+            "heading_size": "hxxl"
+          }
+        },
+        "caption_WVtTDV": {
+          "type": "caption",
+          "settings": {
+            "caption": "Meal balancers and functional foods for dogs + cats",
+            "text_style": "subtitle"
+          }
+        },
+        "text_XYWdGz": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>HUNDE is empowering you to confidently feed your pets a nutritionally balanced, homemade diet</p>"
+          }
+        },
+        "button_PCfV4r": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/shop",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UVNyM4",
+        "caption_WVtTDV",
+        "text_XYWdGz",
+        "button_PCfV4r"
+      ],
+      "disabled": true,
+      "name": "BF Homepage Hero",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 150,
         "padding_bottom": 100
       }
     },
@@ -166,7 +220,7 @@
         "text_pANKDp",
         "button_PLkbCR"
       ],
-      "name": "Homepage Hero – v2",
+      "name": "Homepage Hero – Current",
       "settings": {
         "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
         "height": "adapt",
@@ -576,6 +630,7 @@
   "order": [
     "homepage_hero_PCCT9Y",
     "hero_text_image_Qp44Mn",
+    "homepage_hero_YRP4qG",
     "hero_text_image_xmTmXH",
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
