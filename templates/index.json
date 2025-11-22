@@ -240,18 +240,6 @@
     "collection_list_wk6pQ6": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_6KWhyF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dogs"
-          }
-        },
-        "featured_collection_9EwLQK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cats"
-          }
-        },
         "featured_collection_tMBGU3": {
           "type": "featured_collection",
           "settings": {
@@ -263,13 +251,25 @@
           "settings": {
             "collection": "extras"
           }
+        },
+        "featured_collection_6KWhyF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dogs"
+          }
+        },
+        "featured_collection_9EwLQK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cats"
+          }
         }
       },
       "block_order": [
-        "featured_collection_6KWhyF",
-        "featured_collection_9EwLQK",
         "featured_collection_tMBGU3",
-        "featured_collection_zbmVk8"
+        "featured_collection_zbmVk8",
+        "featured_collection_6KWhyF",
+        "featured_collection_9EwLQK"
       ],
       "custom_css": [
         ".collection-list-wrapper .card .card__information {background: white;}"
@@ -316,6 +316,31 @@
         "padding_bottom": 40
       }
     },
+    "172637089614ee2655": {
+      "type": "apps",
+      "blocks": {
+        "stamped_reviews_main_widget_Tzdk8b": {
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "take_questions": 0,
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_reviews_main_widget_Tzdk8b"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "featured_collection_inline_cEayYb": {
       "type": "featured-collection-inline",
       "settings": {
@@ -359,7 +384,7 @@
           "type": "caption",
           "settings": {
             "caption": "Pet Nutrition Essentials",
-            "text_style": "caption-with-letter-spacing",
+            "text_style": "subtitle",
             "text_size": "medium"
           }
         },
@@ -389,7 +414,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 80,
@@ -400,30 +425,6 @@
         "background_image_4": "shopify://shop_images/Sunny_dogs_beach_0a5d316f-a57e-4ab4-a83e-be710a410d93.webp",
         "background_image_5": "shopify://shop_images/blackboard.webp",
         "background_image_6": "shopify://shop_images/green_goddess__1080x1440_d24a1ce1-da8a-4a67-b316-13b423fc44b2.png"
-      }
-    },
-    "172637089614ee2655": {
-      "type": "apps",
-      "blocks": {
-        "stamped_reviews_main_widget_Tzdk8b": {
-          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "stamped_reviews_main_widget_Tzdk8b"
-      ],
-      "custom_css": [],
-      "settings": {
-        "include_margins": true
       }
     },
     "featured_collection_FArktn": {
@@ -634,9 +635,9 @@
     "hero_text_image_xmTmXH",
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
+    "172637089614ee2655",
     "featured_collection_inline_cEayYb",
     "parallax_images_text_4zxyNq",
-    "172637089614ee2655",
     "featured_collection_FArktn",
     "multicolumn_MB4Ncx",
     "custom_liquid_JPaN66",
