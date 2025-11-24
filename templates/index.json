@@ -67,65 +67,6 @@
         "padding_bottom": 100
       }
     },
-    "hero_text_image_Qp44Mn": {
-      "type": "hero-text-image",
-      "blocks": {
-        "heading_E4QiXz": {
-          "type": "heading",
-          "settings": {
-            "heading": "MODERN PET FOOD SOLUTIONS FOR MODERN PETS",
-            "heading_size": "hxxl"
-          }
-        },
-        "caption_MgjyTQ": {
-          "type": "caption",
-          "settings": {
-            "caption": "... and real people",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_bezb87": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We make meal balancers and functional foods for dogs and cats, so you can feed them a nutritionally balanced homemade diet, effortlessly.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_CUVJzg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop All",
-            "button_link": "shopify://collections/shop",
-            "button_style_secondary": true,
-            "button_style_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_E4QiXz",
-        "caption_MgjyTQ",
-        "text_bezb87",
-        "button_CUVJzg"
-      ],
-      "disabled": true,
-      "name": "Homepage Hero – Standard",
-      "settings": {
-        "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "hero_text_image_3hpxNQ": {
       "type": "hero-text-image",
       "blocks": {
@@ -181,6 +122,65 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "hero_text_image_Qp44Mn": {
+      "type": "hero-text-image",
+      "blocks": {
+        "heading_E4QiXz": {
+          "type": "heading",
+          "settings": {
+            "heading": "MODERN PET FOOD SOLUTIONS FOR MODERN PETS",
+            "heading_size": "hxxl"
+          }
+        },
+        "caption_MgjyTQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "... and real people",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_bezb87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We make meal balancers and functional foods for dogs and cats, so you can feed them a nutritionally balanced homemade diet, effortlessly.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_CUVJzg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/shop",
+            "button_style_secondary": true,
+            "button_style_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_E4QiXz",
+        "caption_MgjyTQ",
+        "text_bezb87",
+        "button_CUVJzg"
+      ],
+      "disabled": true,
+      "name": "Homepage Hero – Standard",
+      "settings": {
+        "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -635,10 +635,10 @@
     }
   },
   "order": [
-    "homepage_hero_PCCT9Y",
-    "hero_text_image_Qp44Mn",
-    "hero_text_image_3hpxNQ",
     "hero_text_image_xmTmXH",
+    "hero_text_image_3hpxNQ",
+    "hero_text_image_Qp44Mn",
+    "homepage_hero_PCCT9Y",
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "172637089614ee2655",
