@@ -9,61 +9,61 @@
  */
 {
   "sections": {
-    "homepage_hero_PCCT9Y": {
-      "type": "homepage-hero",
+    "hero_text_image_xmTmXH": {
+      "type": "hero-text-image",
       "blocks": {
-        "heading_YTMtzy": {
+        "heading_ph93RV": {
           "type": "heading",
           "settings": {
-            "heading": "Modern pet food solutions, for modern pets",
+            "heading": "MODERN PET NUTRITION, FOR MODERN PETS",
             "heading_size": "hxxl"
           }
         },
-        "caption_ABcVJd": {
+        "caption_brFB7G": {
           "type": "caption",
           "settings": {
-            "caption": "Meal balancers and functional foods for dogs + cats",
-            "text_style": "subtitle"
+            "caption": "...and real people.",
+            "text_style": "subtitle",
+            "text_size": "medium"
           }
         },
-        "text_LWfqMH": {
+        "text_pANKDp": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>HUNDE is empowering you to confidently feed your pets a nutritionally balanced, homemade diet</p>"
+            "text": "<p>Our signature meal balancing blends fill typical nutritional gaps in homemade pet food, in one easy step. </p>",
+            "text_style": "body"
           }
         },
-        "button_AXBzMz": {
+        "button_PLkbCR": {
           "type": "button",
           "settings": {
             "button_label": "Shop All",
-            "button_link": "shopify://collections/shop",
+            "button_link": "shopify://collections",
             "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_arrow": false
           }
         }
       },
       "block_order": [
-        "heading_YTMtzy",
-        "caption_ABcVJd",
-        "text_LWfqMH",
-        "button_AXBzMz"
+        "heading_ph93RV",
+        "caption_brFB7G",
+        "text_pANKDp",
+        "button_PLkbCR"
       ],
-      "disabled": true,
-      "custom_css": [
-        "p {max-width: 580px; margin: 0 auto; font-size: 20px;}",
-        "@media (max-width: 749px) {p {max-width: 280px; font-size: 16px; line-height: 1.2; } .rich-text__wrapper {width: 100%; }}",
-        "@media (min-width: 750px) {.rich-text__buttons {margin-top: 5rem; }}"
-      ],
-      "name": "Homepage Hero - Original",
+      "name": "Homepage Hero – Current",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 150,
+        "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
         "padding_bottom": 100
       }
     },
@@ -185,61 +185,61 @@
         "padding_bottom": 100
       }
     },
-    "hero_text_image_xmTmXH": {
-      "type": "hero-text-image",
+    "homepage_hero_PCCT9Y": {
+      "type": "homepage-hero",
       "blocks": {
-        "heading_ph93RV": {
+        "heading_YTMtzy": {
           "type": "heading",
           "settings": {
-            "heading": "MODERN PET NUTRITION, FOR MODERN PETS",
+            "heading": "Modern pet food solutions, for modern pets",
             "heading_size": "hxxl"
           }
         },
-        "caption_brFB7G": {
+        "caption_ABcVJd": {
           "type": "caption",
           "settings": {
-            "caption": "...and real people.",
-            "text_style": "subtitle",
-            "text_size": "medium"
+            "caption": "Meal balancers and functional foods for dogs + cats",
+            "text_style": "subtitle"
           }
         },
-        "text_pANKDp": {
+        "text_LWfqMH": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Our signature meal balancing blends fill typical nutritional gaps in homemade pet food, in one easy step. </p>",
-            "text_style": "body"
+            "text": "<p>HUNDE is empowering you to confidently feed your pets a nutritionally balanced, homemade diet</p>"
           }
         },
-        "button_PLkbCR": {
+        "button_AXBzMz": {
           "type": "button",
           "settings": {
             "button_label": "Shop All",
-            "button_link": "shopify://collections",
+            "button_link": "shopify://collections/shop",
             "button_style_secondary": true,
-            "button_style_arrow": false
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_ph93RV",
-        "caption_brFB7G",
-        "text_pANKDp",
-        "button_PLkbCR"
+        "heading_YTMtzy",
+        "caption_ABcVJd",
+        "text_LWfqMH",
+        "button_AXBzMz"
       ],
-      "name": "Homepage Hero – Current",
+      "disabled": true,
+      "custom_css": [
+        "p {max-width: 580px; margin: 0 auto; font-size: 20px;}",
+        "@media (max-width: 749px) {p {max-width: 280px; font-size: 16px; line-height: 1.2; } .rich-text__wrapper {width: 100%; }}",
+        "@media (min-width: 750px) {.rich-text__buttons {margin-top: 5rem; }}"
+      ],
+      "name": "Homepage Hero - Original",
       "settings": {
-        "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 150,
         "padding_bottom": 100
       }
     },

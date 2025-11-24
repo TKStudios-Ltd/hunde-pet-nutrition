@@ -11,6 +11,284 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_jhnJ3p": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_rxbgzA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_fnjnxM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_zrmNbj": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_4W6TdR": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_npzJd8": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_9VLcYL": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_d9pVRc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_jhnJ3p",
+        "announcement_rxbgzA",
+        "announcement_fnjnxM",
+        "announcement_zrmNbj",
+        "announcement_4W6TdR",
+        "announcement_npzJd8",
+        "announcement_9VLcYL",
+        "announcement_d9pVRc"
+      ],
+      "name": "Announcement - Free Shipping $200",
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
+    "announcement_bar_Q8ftY8": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_VxrEcF": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_9EEKaq": {
+          "type": "announcement",
+          "settings": {
+            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_nYjFBe": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_W8Lgmf": {
+          "type": "announcement",
+          "settings": {
+            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_gLVNW9": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_FQ6CWn": {
+          "type": "announcement",
+          "settings": {
+            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_E3RTfK": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_B9eK8K": {
+          "type": "announcement",
+          "settings": {
+            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_3R9Gjj": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_zkUf8Q": {
+          "type": "announcement",
+          "settings": {
+            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_LxGtk3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Domestic Shipping On Orders Over $200",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_TYQTmd": {
+          "type": "announcement",
+          "settings": {
+            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_VxrEcF",
+        "announcement_9EEKaq",
+        "announcement_nYjFBe",
+        "announcement_W8Lgmf",
+        "announcement_gLVNW9",
+        "announcement_FQ6CWn",
+        "announcement_E3RTfK",
+        "announcement_B9eK8K",
+        "announcement_3R9Gjj",
+        "announcement_zkUf8Q",
+        "announcement_LxGtk3",
+        "announcement_TYQTmd"
+      ],
+      "disabled": true,
+      "name": "Announcement - BF + Free Shipping $200",
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
+    "announcement_bar_zxjR46": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_D6KzWM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free wild rabbit hide twist when you spend $150",
+            "link": "shopify://products/wild-rabbit-hide-with-fur",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_kVPr6V": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free 250g functional topper when you spend $400",
+            "link": "shopify://collections/extras",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_zM4iRP": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free wild rabbit hide twist when you spend $150",
+            "link": "shopify://products/wild-rabbit-hide-with-fur",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_pUX9Bm": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free 250g functional topper when you spend $400",
+            "link": "shopify://collections/extras",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_H68Ejc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free wild rabbit hide twist when you spend $150",
+            "link": "shopify://products/wild-rabbit-hide-with-fur",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_fBzJJ3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free 250g functional topper when you spend $400",
+            "link": "shopify://collections/extras",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_D6KzWM",
+        "announcement_kVPr6V",
+        "announcement_zM4iRP",
+        "announcement_pUX9Bm",
+        "announcement_H68Ejc",
+        "announcement_fBzJJ3"
+      ],
+      "disabled": true,
+      "name": "Announcement - BF Free Gifts",
+      "settings": {
+        "color_scheme": "scheme-4"
+      }
+    },
     "announcement_bar_kiiWff": {
       "type": "announcement-bar",
       "blocks": {
@@ -77,137 +355,6 @@
         "color_scheme": "scheme-3"
       }
     },
-    "announcement_bar_zxjR46": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_D6KzWM": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Norm. Hocus Pocus freakshake when you spend $100 before Midnight on Halloween",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_pUX9Bm": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Norm. Hocus Pocus freakshake when you spend $100 before Midnight on Halloween",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_yBqBfb": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Norm. Hocus Pocus freakshake when you spend $100 before Midnight on Halloween",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_EytVBd": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Norm. Hocus Pocus freakshake when you spend $100 before Midnight on Halloween",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_jyGL7p": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Norm. Hocus Pocus freakshake when you spend $100 before Midnight on Halloween",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_NGWBCy": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Norm. Hocus Pocus freakshake when you spend $100 before Midnight on Halloween",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_D6KzWM",
-        "announcement_pUX9Bm",
-        "announcement_yBqBfb",
-        "announcement_EytVBd",
-        "announcement_jyGL7p",
-        "announcement_NGWBCy"
-      ],
-      "disabled": true,
-      "name": "Announcement - Free Norm HP",
-      "settings": {
-        "color_scheme": "scheme-3"
-      }
-    },
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_jhnJ3p": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_rxbgzA": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_fnjnxM": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_zrmNbj": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_4W6TdR": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0",
-        "announcement_jhnJ3p",
-        "announcement_rxbgzA",
-        "announcement_fnjnxM",
-        "announcement_zrmNbj",
-        "announcement_4W6TdR"
-      ],
-      "name": "Announcement - Free Shipping $150",
-      "settings": {
-        "color_scheme": "scheme-3"
-      }
-    },
     "announcement_bar_w639LW": {
       "type": "announcement-bar",
       "blocks": {
@@ -258,6 +405,13 @@
             "link": "shopify://pages/hunde-giveaway-november-2025",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
+        },
+        "announcement_tFN4PE": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -266,7 +420,8 @@
         "announcement_xKgHex",
         "announcement_eHB3Vh",
         "announcement_CqG3QP",
-        "announcement_jLVHfD"
+        "announcement_jLVHfD",
+        "announcement_tFN4PE"
       ],
       "disabled": true,
       "name": "Announcement - Giveaway 112025",
@@ -295,9 +450,10 @@
     }
   },
   "order": [
-    "announcement_bar_kiiWff",
-    "announcement_bar_zxjR46",
     "announcement-bar",
+    "announcement_bar_Q8ftY8",
+    "announcement_bar_zxjR46",
+    "announcement_bar_kiiWff",
     "announcement_bar_w639LW",
     "header"
   ]
