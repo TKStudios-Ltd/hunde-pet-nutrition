@@ -29,14 +29,6 @@
     "image_with_text_XLARkk": {
       "type": "image-with-text",
       "blocks": {
-        "heading_GfrWAY": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
         "caption_iRdiwD": {
           "type": "caption",
           "settings": {
@@ -45,17 +37,24 @@
             "text_size": "medium"
           }
         },
+        "heading_GfrWAY": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>We're slinging your classic <strong>spend and save</strong> sale, with seriously (and increasingly) generous discounts as you add to cart.</p><p><strong>10% OFF UNDER $100</strong><em><strong>:</strong></em><strong> </strong>no one misses out so we've got 10% off storewide for everyone, no matter your budget. Enter the code <strong>BF10%OFF</strong> at checkout.</p><p><strong>20% OFF OVER $100:</strong> if you spend $100 that bumps up to 20% off so for orders between $100-199, enter the code <strong>BF20%OFF </strong>at checkout.<br/><br/><strong>25% OFF OVER $200: </strong>If you're out to spoil someone, you'll get 25% off! Just plug in the code BF20%OFF for orders between $200-299.<br/><br/><strong>30% OFF OVER $300: </strong>Hey big spender! If you crack the big 3-0-0 we'll up it to a massive 30% off! Any order over $300, use the code <strong>BF30%OFF</strong></p>",
+            "text": "<p>We're slinging your classic <strong>spend and save</strong> sale, with seriously (and increasingly) generous discounts as you add to cart.</p><p><strong>10% OFF UNDER $100: </strong>no one misses out so we've got 10% off storewide for everyone, no matter your budget. Enter the code <strong>BF10%OFF</strong> at checkout.</p><p><strong>20% OFF OVER $100:</strong> if you spend $100 that bumps up to 20% off so for orders between $100-199, enter the code <strong>BF20%OFF </strong>at checkout.<br/><br/><strong>25% OFF OVER $200: </strong>If you're out to spoil someone, you'll get 25% off! Just plug in the code BF20%OFF for orders between $200-299.<br/><br/><strong>30% OFF OVER $300: </strong>Hey big spender! If you crack the big 3-0-0 we'll up it to a massive 30% off! For orders over $300, use the code <strong>BF30%OFF</strong></p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_GfrWAY",
         "caption_iRdiwD",
+        "heading_GfrWAY",
         "text_WzBWEH"
       ],
       "custom_css": [
@@ -105,14 +104,14 @@
         "heading_VXpB8z": {
           "type": "heading",
           "settings": {
-            "heading": "UNCONDITIONALLY GOOD.",
-            "heading_size": "h1"
+            "heading": "FREE GIFTS FOR YOU!",
+            "heading_size": "h2"
           }
         },
         "text_hEUqiP": {
           "type": "text",
           "settings": {
-            "text": "<p>The Hunde range of products launched in 2021 with our signature whole food <a href=\"/collections/meal-balancers\" title=\"Meal Balancers\">meal balancing blends</a>. These blends have been carefully formulated to fill common nutritional gaps in homemade diets, for balanced pet food at home in one easy step. </p><p>These are complemented by our growing range of <a href=\"/collections/extras\" title=\"Extras\">functional toppers and natural treats</a>, which have been curated and sourced to effectively tackle or prevent common health complaints that modern pets experience.</p><p>All of our products are crafted with palatability at front of mind, with up to 80% freeze-dried animal protein in our meal balancing blends. </p>",
+            "text": "<p>We've introduced a new range of <a href=\"https://hunde.com.au/collections/treats\" title=\"https://hunde.com.au/collections/treats\">all natural, gently-air dried treats and chews</a>, and we're giving away <strong>a free wild rabbit hide twist when you spend $150</strong>.</p><p>If you spend $400 we'll throw in a ful sized functional topper of your choice; <a href=\"https://hunde.com.au/products/green-goddess-functional-topper\" title=\"https://hunde.com.au/products/green-goddess-functional-topper\">Green Goddess</a> or <a href=\"https://hunde.com.au/products/old-soul-functional-topper\" title=\"https://hunde.com.au/products/old-soul-functional-topper\">Old Soul</a>.</p>",
             "text_style": "body"
           }
         },
