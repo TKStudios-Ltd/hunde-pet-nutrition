@@ -20,7 +20,7 @@
     "custom_liquid_PxNGc8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Our story</h1></div>",
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">BLACK FRIDAY IS HERE!</h1></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
@@ -33,14 +33,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Our Story",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "caption_iRdiwD": {
           "type": "caption",
           "settings": {
-            "caption": "\"I believe the food we feed our pets should be as unconditionally good as their love is for us.\"",
+            "caption": "...and we've got all the details here for you in one place.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -48,7 +48,7 @@
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>HUNDE was founded in 2015 by Clare Kearney and her rescue kelpie, Tex Perkins. Clare is an Australian pet nutritionist and published writer, who has spent the past decade consulting with pet-owning clients and some of Australia’s most well-known and well-respected natural pet food brands. </p><p>Hunde’s mission is to empower people to create a better life for their pets by addressing common health concerns, using real food. </p><p>We believe everyone should have access to unconditionally good pet food, no matter their circumstances. </p>",
+            "text": "<p>We're slinging your classic <strong>spend and save</strong> sale, with seriously (and increasingly) generous discounts as you add to cart.</p><p><strong>10% OFF UNDER $100</strong><em><strong>:</strong></em><strong> </strong>no one misses out so we've got 10% off storewide for everyone, no matter your budget. Enter the code <strong>BF10%OFF</strong> at checkout.</p><p><strong>20% OFF OVER $100:</strong> if you spend $100 that bumps up to 20% off so for orders between $100-199, enter the code <strong>BF20%OFF </strong>at checkout.<br/><br/><strong>25% OFF OVER $200: </strong>If you're out to spoil someone, you'll get 25% off! Just plug in the code BF20%OFF for orders between $200-299.<br/><br/><strong>30% OFF OVER $300: </strong>Hey big spender! If you crack the big 3-0-0 we'll up it to a massive 30% off! Any order over $300, use the code <strong>BF30%OFF</strong></p>",
             "text_style": "body"
           }
         }
