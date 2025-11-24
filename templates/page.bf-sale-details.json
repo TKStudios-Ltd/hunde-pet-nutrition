@@ -39,6 +39,7 @@
         },
         "heading_GfrWAY": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "",
             "heading_size": "h1"
@@ -50,12 +51,22 @@
             "text": "<p>We're slinging your classic <strong>spend and save</strong> sale, with seriously (and increasingly) generous discounts as you add to cart.</p><p><strong>10% OFF UNDER $100: </strong>no one misses out so we've got 10% off storewide for everyone, no matter your budget. Enter the code <strong>BF10%OFF</strong> at checkout.</p><p><strong>20% OFF OVER $100:</strong> if you spend $100 that bumps up to 20% off so for orders between $100-199, enter the code <strong>BF20%OFF </strong>at checkout.<br/><br/><strong>25% OFF OVER $200: </strong>If you're out to spoil someone, you'll get 25% off! Just plug in the code BF20%OFF for orders between $200-299.<br/><br/><strong>30% OFF OVER $300: </strong>Hey big spender! If you crack the big 3-0-0 we'll up it to a massive 30% off! For orders over $300, use the code <strong>BF30%OFF</strong></p>",
             "text_style": "body"
           }
+        },
+        "button_jFWimV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the sale",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false,
+            "button_style_arrow": true
+          }
         }
       },
       "block_order": [
         "caption_iRdiwD",
         "heading_GfrWAY",
-        "text_WzBWEH"
+        "text_WzBWEH",
+        "button_jFWimV"
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
@@ -63,10 +74,10 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column; } .image-with-text__content {padding: 4rem 0 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/clare-in-garden.webp",
-        "height": "adapt",
+        "image": "shopify://shop_images/Calculating_savings....png",
+        "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -104,14 +115,14 @@
         "heading_VXpB8z": {
           "type": "heading",
           "settings": {
-            "heading": "FREE GIFTS FOR YOU!",
-            "heading_size": "h2"
+            "heading": "FREE GIFTS ON US!",
+            "heading_size": "h1"
           }
         },
         "text_hEUqiP": {
           "type": "text",
           "settings": {
-            "text": "<p>We've introduced a new range of <a href=\"https://hunde.com.au/collections/treats\" title=\"https://hunde.com.au/collections/treats\">all natural, gently-air dried treats and chews</a>, and we're giving away <strong>a free wild rabbit hide twist when you spend $150</strong>.</p><p>If you spend $400 we'll throw in a ful sized functional topper of your choice; <a href=\"https://hunde.com.au/products/green-goddess-functional-topper\" title=\"https://hunde.com.au/products/green-goddess-functional-topper\">Green Goddess</a> or <a href=\"https://hunde.com.au/products/old-soul-functional-topper\" title=\"https://hunde.com.au/products/old-soul-functional-topper\">Old Soul</a>.</p>",
+            "text": "<p>We've introduced a new range of <a href=\"https://hunde.com.au/collections/treats\" title=\"https://hunde.com.au/collections/treats\">all natural, gently-air dried treats and chews</a>, and we're giving away <strong>a free wild rabbit hide twist when you spend $150</strong>.</p><p>PLUS we'll throw in a <strong>full-sized 250g functional topper</strong> <strong>when you spend $400</strong>; your choice between <a href=\"https://hunde.com.au/products/green-goddess-functional-topper\" title=\"https://hunde.com.au/products/green-goddess-functional-topper\">Green Goddess</a> or <a href=\"https://hunde.com.au/products/old-soul-functional-topper\" title=\"https://hunde.com.au/products/old-soul-functional-topper\">Old Soul</a>.</p><p>Last but not least, we'll also sling you a <strong>20% off voucher if you spend over $400</strong>, to use on your next order. </p><p>Free gifts will be added to your cart automatically once you hit the mark, and we'll email you the voucher once the sale is done and dusted.</p><p>And as always we've got <strong>free Australian shipping on orders over $200</strong>.  </p>",
             "text_style": "body"
           }
         },
@@ -137,8 +148,8 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/vital_on_shelf.webp",
-        "height": "adapt",
+        "image": "shopify://shop_images/1_ea27f4cf-e03e-4ebe-93b3-b64e6fe47c7a.png",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -158,7 +169,7 @@
         "heading_m948Ed": {
           "type": "heading",
           "settings": {
-            "heading": "We're here to help",
+            "heading": "The deets",
             "heading_size": "h1"
           }
         },
@@ -174,7 +185,7 @@
         "text_7DP3X6": {
           "type": "text",
           "settings": {
-            "text": "<p>To (mis)quote Mrs George, we’re not like a regular pet food company. </p><p>Hunde is 100% Australian owned and operated, and we personally oversee every step in the production of everything we make. We formulate our products in the Northern Rivers of NSW, we source our meat (primarily) from QLD, and we manufacture everything in our Primesafe licenced facility in regional Victoria. </p><p>But Hunde was created to be more than just a range of products you can buy; it’s a community and a resource that you can keep coming back to for honest, authentic and innovative solutions to your pet problems. </p><p>We proudly make some of the best pet food and supplements money can buy, but we also place huge value on sharing our insights and wisdom whenever we can (and for free). </p>",
+            "text": "<p>Our Black Friday ales starts at 10am Wednesday 26 November and ends at midnight Monday 1 December 2025 (AEDT). </p><p>Free gifts will be added automatically at checkout and are applied when the sales threshold ($150 or $400) is reached after all discounts have been applied and before shipping.  </p><p>Discount codes must be entered to redeem the savings. </p><p>Discounts cannot be combined; no further discounts apply.</p><p>Stocks are strictly limited; no rainchecks. </p>",
             "text_style": "body"
           }
         },
@@ -200,8 +211,8 @@
         "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/DJ_haring.webp",
-        "height": "adapt",
+        "image": "shopify://shop_images/2_c32c22ea-bf69-4cea-b49b-ebcdf61120c0.png",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
