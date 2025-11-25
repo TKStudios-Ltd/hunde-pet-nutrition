@@ -98,6 +98,7 @@
         "announcement_9VLcYL",
         "announcement_d9pVRc"
       ],
+      "disabled": true,
       "name": "Announcement - Free Shipping $200",
       "settings": {
         "color_scheme": "scheme-3"
@@ -217,7 +218,6 @@
         "announcement_LxGtk3",
         "announcement_TYQTmd"
       ],
-      "disabled": true,
       "name": "Announcement - BF + Free Shipping $200",
       "settings": {
         "color_scheme": "scheme-3"
@@ -283,7 +283,6 @@
         "announcement_H68Ejc",
         "announcement_fBzJJ3"
       ],
-      "disabled": true,
       "name": "Announcement - BF Free Gifts",
       "settings": {
         "color_scheme": "scheme-4"
