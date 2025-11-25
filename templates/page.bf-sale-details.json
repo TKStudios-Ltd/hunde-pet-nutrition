@@ -48,14 +48,14 @@
         "text_WzBWEH": {
           "type": "text",
           "settings": {
-            "text": "<p>We're slinging your classic <strong>spend and save</strong> sale, with seriously (and increasingly) generous discounts as you add to cart.</p><p><strong>10% OFF UNDER $100: </strong>no one misses out so we've got 10% off storewide for everyone, no matter your budget. Enter the code <strong>BF10%OFF</strong> at checkout.</p><p><strong>20% OFF OVER $100:</strong> if you spend $100 that bumps up to 20% off so for orders between $100-199, enter the code <strong>BF20%OFF </strong>at checkout.<br/><br/><strong>25% OFF OVER $200: </strong>If you're out to spoil someone, you'll get 25% off! Just plug in the code BF20%OFF for orders between $200-299.<br/><br/><strong>30% OFF OVER $300: </strong>Hey big spender! If you crack the big 3-0-0 we'll up it to a massive 30% off! For orders over $300, use the code <strong>BF30%OFF</strong></p>",
+            "text": "<p>We're slinging your classic <strong>spend and save</strong> sale, with seriously (and increasingly) generous discounts as you add to cart.</p><p><strong>10% OFF UNDER $100: </strong>no one misses out so we've got 10% off storewide for everyone, no matter your budget. Enter the code <strong>BF10%OFF</strong> at checkout.</p><p><strong>20% OFF OVER $100:</strong> if you spend $100 that bumps up to 20% off, just enter the code <strong>BF20%OFF </strong>at checkout for orders between $100-199.<br/><br/><strong>25% OFF OVER $200: </strong>If you're out to spoil someone, you'll get 25% off! Just plug in the code <strong>BF20%OFF</strong> if your order is between $200-299.<br/><br/><strong>30% OFF OVER $300: </strong>Hey big spender! If you crack the big 3-0-0 we'll up it to a massive 30% off! For orders over $300, use the code <strong>BF30%OFF at checkout.</strong></p>",
             "text_style": "body"
           }
         },
         "button_jFWimV": {
           "type": "button",
           "settings": {
-            "button_label": "Shop the sale",
+            "button_label": "Grab a bargain",
             "button_link": "shopify://collections",
             "button_style_secondary": false,
             "button_style_arrow": true
@@ -129,7 +129,7 @@
         "button_6QDUW6": {
           "type": "button",
           "settings": {
-            "button_label": "Shop All",
+            "button_label": "Get them a gift",
             "button_link": "shopify://collections",
             "button_style_secondary": false,
             "button_style_arrow": true
