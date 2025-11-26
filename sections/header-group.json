@@ -223,71 +223,6 @@
         "color_scheme": "scheme-3"
       }
     },
-    "announcement_bar_zxjR46": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_D6KzWM": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free wild rabbit hide twist when you spend $150",
-            "link": "shopify://products/wild-rabbit-hide-with-fur",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_kVPr6V": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free 250g functional topper when you spend $400",
-            "link": "shopify://collections/extras",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_zM4iRP": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free wild rabbit hide twist when you spend $150",
-            "link": "shopify://products/wild-rabbit-hide-with-fur",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_pUX9Bm": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free 250g functional topper when you spend $400",
-            "link": "shopify://collections/extras",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_H68Ejc": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free wild rabbit hide twist when you spend $150",
-            "link": "shopify://products/wild-rabbit-hide-with-fur",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_fBzJJ3": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free 250g functional topper when you spend $400",
-            "link": "shopify://collections/extras",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_D6KzWM",
-        "announcement_kVPr6V",
-        "announcement_zM4iRP",
-        "announcement_pUX9Bm",
-        "announcement_H68Ejc",
-        "announcement_fBzJJ3"
-      ],
-      "name": "Announcement - BF Free Gifts",
-      "settings": {
-        "color_scheme": "scheme-4"
-      }
-    },
     "announcement_bar_kiiWff": {
       "type": "announcement-bar",
       "blocks": {
@@ -446,14 +381,79 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "announcement_bar_zxjR46": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_D6KzWM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free wild rabbit hide twist when you spend $150",
+            "link": "shopify://products/wild-rabbit-hide-with-fur",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_kVPr6V": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free 250g functional topper when you spend $400",
+            "link": "shopify://collections/extras",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_zM4iRP": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free wild rabbit hide twist when you spend $150",
+            "link": "shopify://products/wild-rabbit-hide-with-fur",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_pUX9Bm": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free 250g functional topper when you spend $400",
+            "link": "shopify://collections/extras",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_H68Ejc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free wild rabbit hide twist when you spend $150",
+            "link": "shopify://products/wild-rabbit-hide-with-fur",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_fBzJJ3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free 250g functional topper when you spend $400",
+            "link": "shopify://collections/extras",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_D6KzWM",
+        "announcement_kVPr6V",
+        "announcement_zM4iRP",
+        "announcement_pUX9Bm",
+        "announcement_H68Ejc",
+        "announcement_fBzJJ3"
+      ],
+      "name": "Announcement - BF Free Gifts",
+      "settings": {
+        "color_scheme": "scheme-4"
+      }
     }
   },
   "order": [
     "announcement-bar",
     "announcement_bar_Q8ftY8",
-    "announcement_bar_zxjR46",
     "announcement_bar_kiiWff",
     "announcement_bar_w639LW",
-    "header"
+    "header",
+    "announcement_bar_zxjR46"
   ]
 }
