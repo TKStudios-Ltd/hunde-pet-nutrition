@@ -1,0 +1,228 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_liquid_PxNGc8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Our story</h1></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_XLARkk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GfrWAY": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "caption_iRdiwD": {
+          "type": "caption",
+          "settings": {
+            "caption": "\"I believe the food we feed our pets should be as unconditionally good as their love is for us.\"",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_WzBWEH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HUNDE was founded in 2015 by Clare Kearney and her rescue kelpie, Tex Perkins. Clare is an Australian pet nutritionist and published writer, who has spent the past decade consulting with pet-owning clients and some of Australia’s most well-known and well-respected natural pet food brands. </p><p>Hunde’s mission is to empower people to create a better life for their pets by addressing common health concerns, using real food. </p><p>We believe everyone should have access to unconditionally good pet food, no matter their circumstances. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GfrWAY",
+        "caption_iRdiwD",
+        "text_WzBWEH"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
+        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
+        "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column; } .image-with-text__content {padding: 4rem 0 0; } .image-with-text__content > * + * {margin-top: 2rem; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/clare-in-garden.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_hUALVT": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/clare-in-garden.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_zTmji6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VXpB8z": {
+          "type": "heading",
+          "settings": {
+            "heading": "UNCONDITIONALLY GOOD.",
+            "heading_size": "h1"
+          }
+        },
+        "text_hEUqiP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Hunde range of products launched in 2021 with our signature whole food <a href=\"/collections/meal-balancers\" title=\"Meal Balancers\">meal balancing blends</a>. These blends have been carefully formulated to fill common nutritional gaps in homemade diets, for balanced pet food at home in one easy step. </p><p>These are complemented by our growing range of <a href=\"/collections/extras\" title=\"Extras\">functional toppers and natural treats</a>, which have been curated and sourced to effectively tackle or prevent common health complaints that modern pets experience.</p><p>All of our products are crafted with palatability at front of mind, with up to 80% freeze-dried animal protein in our meal balancing blends. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_6QDUW6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false,
+            "button_style_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_VXpB8z",
+        "text_hEUqiP",
+        "button_6QDUW6"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 7rem 0.5rem 0; }}",
+        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
+        ".subtitle {line-height: 1.1;}",
+        "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/vital_on_shelf.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_KYHr3c": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_m948Ed": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're here to help",
+            "heading_size": "h1"
+          }
+        },
+        "caption_tqr9ND": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "To (mis)quote Mrs George, we’re not like a regular pet food company. ",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "text_7DP3X6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To (mis)quote Mrs George, we’re not like a regular pet food company. </p><p>Hunde is 100% Australian owned and operated, and we personally oversee every step in the production of everything we make. We formulate our products in the Northern Rivers of NSW, we source our meat (primarily) from QLD, and we manufacture everything in our Primesafe licenced facility in regional Victoria. </p><p>But Hunde was created to be more than just a range of products you can buy; it’s a community and a resource that you can keep coming back to for honest, authentic and innovative solutions to your pet problems. </p><p>We proudly make some of the best pet food and supplements money can buy, but we also place huge value on sharing our insights and wisdom whenever we can (and for free). </p>",
+            "text_style": "body"
+          }
+        },
+        "button_riUGjh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_style_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_m948Ed",
+        "caption_tqr9ND",
+        "text_7DP3X6",
+        "button_riUGjh"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0.5rem 7rem; }}",
+        ".image-with-text .image-with-text__media-item > * {border-radius: var(--media-radius) !important;}",
+        "@media (max-width: 749px) {.image-with-text .grid {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 4rem; } .image-with-text__content > * + * {margin-top: 2rem; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DJ_haring.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_PxNGc8",
+    "image_with_text_XLARkk",
+    "image_with_text_hUALVT",
+    "image_with_text_zTmji6",
+    "image_with_text_KYHr3c"
+  ]
+}
