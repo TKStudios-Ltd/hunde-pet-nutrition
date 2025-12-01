@@ -50,7 +50,6 @@
         "text_pANKDp",
         "button_PLkbCR"
       ],
-      "disabled": true,
       "name": "Homepage Hero – Current",
       "settings": {
         "image": "shopify://shop_images/Essential_glass_shelf_1.webp",
@@ -109,6 +108,7 @@
         "text_8gUXab",
         "button_fxMA77"
       ],
+      "disabled": true,
       "name": "BF Homepage Hero ",
       "settings": {
         "image": "shopify://shop_images/Launch_e.png",
