@@ -476,7 +476,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "The latest from the blog...",
-        "heading_size": "hxl",
+        "heading_size": "h2",
         "blog": "hunde",
         "post_limit": 4,
         "columns_desktop": 4,
@@ -585,7 +585,7 @@
           "settings": {
             "title": "",
             "title_color": "#000000",
-            "title_size_v2": 20,
+            "title_size_v2": 60,
             "alignment": "center",
             "instafeed_margin_top": 50,
             "instafeed_margin_bottom": 0,
