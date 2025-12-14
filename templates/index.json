@@ -347,123 +347,6 @@
         "include_margins": true
       }
     },
-    "featured_collection_inline_cEayYb": {
-      "type": "featured-collection-inline",
-      "settings": {
-        "title": "MEAL",
-        "heading_size": "hxl",
-        "subtitle": "Toppers",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "functional-foods",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 80
-      }
-    },
-    "parallax_images_text_4zxyNq": {
-      "type": "parallax-images-text",
-      "blocks": {
-        "heading_HaFPXE": {
-          "type": "heading",
-          "settings": {
-            "heading": "healthy + happy lives together",
-            "heading_size": "h0"
-          }
-        },
-        "caption_M7KxwR": {
-          "type": "caption",
-          "settings": {
-            "caption": "Pet Nutrition Essentials",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_CcMqHi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>HUNDE was born from the belief that the food we feed our pets should be as unconditionally good as their love is for us. Our range features meal balancing blends and functional foods for dogs and cats, as well as recipes and advice on how to tackle common challenges our pets face, with real food.</p>"
-          }
-        },
-        "button_DGWFHN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Who We are",
-            "button_link": "shopify://pages/about",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_HaFPXE",
-        "caption_M7KxwR",
-        "text_CcMqHi",
-        "button_DGWFHN"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "background_image_1": "shopify://shop_images/green_goddess_bench_square.webp",
-        "background_image_2": "shopify://shop_images/cat_raw_meal.webp",
-        "background_image_3": "shopify://shop_images/Pip_bag_vital.webp",
-        "background_image_4": "shopify://shop_images/Sunny_dogs_beach_0a5d316f-a57e-4ab4-a83e-be710a410d93.webp",
-        "background_image_5": "shopify://shop_images/blackboard.webp",
-        "background_image_6": "shopify://shop_images/green_goddess__1080x1440_d24a1ce1-da8a-4a67-b316-13b423fc44b2.png"
-      }
-    },
-    "featured_collection_FArktn": {
-      "type": "featured-collection",
-      "custom_css": [
-        "@media (max-width: 749px) {.h1 {max-width: 300px; }}"
-      ],
-      "settings": {
-        "title": "Best Selling Bundles",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "bundles",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 40
-      }
-    },
     "multicolumn_MB4Ncx": {
       "type": "multicolumn",
       "blocks": {
@@ -515,15 +398,6 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_JPaN66": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"icon-row scroll-trigger animate--slide-in\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow.svg\" class=\"hide-mob\" width=\"100%\" height=\"100%\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow_Mob.svg\" class=\"hide-desk\" width=\"100%\" height=\"100%\"></div>",
-        "color_scheme": "",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "scrolling_image_slider_wDbnnh": {
       "type": "scrolling-image-slider",
       "blocks": {
@@ -560,6 +434,44 @@
       ],
       "settings": {}
     },
+    "custom_liquid_JPaN66": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"icon-row scroll-trigger animate--slide-in\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow.svg\" class=\"hide-mob\" width=\"100%\" height=\"100%\"><img src=\"https://cdn.shopify.com/s/files/1/0557/0884/4170/files/HUNDE_IconRow_Mob.svg\" class=\"hide-desk\" width=\"100%\" height=\"100%\"></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "featured_collection_inline_cEayYb": {
+      "type": "featured-collection-inline",
+      "settings": {
+        "title": "MEAL",
+        "heading_size": "hxl",
+        "subtitle": "Toppers",
+        "description": "<p>You don't need to go full DIY to gain the benefits of fresh foods</p>",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "functional-foods",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
     "featured_blog_XYzgPt": {
       "type": "featured-blog",
       "settings": {
@@ -574,7 +486,95 @@
         "show_author": false,
         "show_view_all": true,
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_FArktn": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media (max-width: 749px) {.h1 {max-width: 300px; }}"
+      ],
+      "settings": {
+        "title": "Best Selling Bundles",
+        "heading_size": "h1",
+        "description": "<p>Combining complementary products to give you the best outcome for your pet and your wallet. </p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bundles",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "parallax_images_text_4zxyNq": {
+      "type": "parallax-images-text",
+      "blocks": {
+        "heading_HaFPXE": {
+          "type": "heading",
+          "settings": {
+            "heading": "healthy + happy lives together",
+            "heading_size": "h0"
+          }
+        },
+        "caption_M7KxwR": {
+          "type": "caption",
+          "settings": {
+            "caption": "Pet Nutrition Essentials",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_CcMqHi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HUNDE was born from the belief that the food we feed our pets should be as unconditionally good as their love is for us. Our range features meal balancing blends and functional foods for dogs and cats, as well as recipes and advice on how to tackle common challenges our pets face, with real food.</p>"
+          }
+        },
+        "button_DGWFHN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Who We are",
+            "button_link": "shopify://pages/about",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HaFPXE",
+        "caption_M7KxwR",
+        "text_CcMqHi",
+        "button_DGWFHN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "background_image_1": "shopify://shop_images/green_goddess_bench_square.webp",
+        "background_image_2": "shopify://shop_images/cat_raw_meal.webp",
+        "background_image_3": "shopify://shop_images/Pip_bag_vital.webp",
+        "background_image_4": "shopify://shop_images/Sunny_dogs_beach_0a5d316f-a57e-4ab4-a83e-be710a410d93.webp",
+        "background_image_5": "shopify://shop_images/blackboard.webp",
+        "background_image_6": "shopify://shop_images/green_goddess__1080x1440_d24a1ce1-da8a-4a67-b316-13b423fc44b2.png"
       }
     },
     "172619133319155516": {
@@ -587,7 +587,7 @@
             "title_color": "#000000",
             "title_size_v2": 20,
             "alignment": "center",
-            "instafeed_margin_top": 0,
+            "instafeed_margin_top": 50,
             "instafeed_margin_bottom": 0,
             "instafeed_margin_sides": 0,
             "show_instagram_link": false,
@@ -642,13 +642,13 @@
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "172637089614ee2655",
-    "featured_collection_inline_cEayYb",
-    "parallax_images_text_4zxyNq",
-    "featured_collection_FArktn",
     "multicolumn_MB4Ncx",
-    "custom_liquid_JPaN66",
     "scrolling_image_slider_wDbnnh",
+    "custom_liquid_JPaN66",
+    "featured_collection_inline_cEayYb",
     "featured_blog_XYzgPt",
+    "featured_collection_FArktn",
+    "parallax_images_text_4zxyNq",
     "172619133319155516",
     "rich_text_tQfJwH"
   ]
