@@ -583,17 +583,17 @@
         "instafeed_app_block_XpWCfq": {
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "Follow us on the 'gram",
+            "title": "",
             "title_color": "#000000",
             "title_size_v2": 20,
             "alignment": "center",
             "instafeed_margin_top": 0,
             "instafeed_margin_bottom": 0,
             "instafeed_margin_sides": 0,
-            "show_instagram_link": true,
+            "show_instagram_link": false,
             "link_alignment": "left",
             "link_color": "#000000",
-            "background_color": "#eb6a4b",
+            "background_color": "#ffffff",
             "feed_id": "",
             "html_area": ""
           }
