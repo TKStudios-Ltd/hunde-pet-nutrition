@@ -563,7 +563,7 @@
     "featured_blog_XYzgPt": {
       "type": "featured-blog",
       "settings": {
-        "heading": "<strong>The latest from the blog</strong>",
+        "heading": "<strong>The latest from the blog...</strong>",
         "heading_size": "hxl",
         "blog": "hunde",
         "post_limit": 4,
