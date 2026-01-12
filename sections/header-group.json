@@ -77,25 +77,6 @@
         "color_scheme": "scheme-4"
       }
     },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-center",
-        "menu": "main-menu-1",
-        "menu_type_desktop": "drawer",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -186,6 +167,25 @@
       "name": "Announcement - Free Shipping $150",
       "settings": {
         "color_scheme": "scheme-3"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "drawer",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "announcement_bar_Q8ftY8": {
@@ -451,8 +451,8 @@
   },
   "order": [
     "announcement_bar_kiiWff",
-    "header",
     "announcement-bar",
+    "header",
     "announcement_bar_Q8ftY8",
     "announcement_bar_w639LW",
     "announcement_bar_zxjR46"
