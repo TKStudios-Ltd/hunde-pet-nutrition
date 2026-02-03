@@ -83,15 +83,15 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_jhnJ3p": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
+            "text": "AFTERPAY and PAY-IN-4 available",
             "link": "",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
@@ -99,56 +99,56 @@
         "announcement_rxbgzA": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_fnjnxM": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "AFTERPAY and PAY-IN-4 available",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_zrmNbj": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_4W6TdR": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "AFTERPAY and PAY-IN-4 available",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_npzJd8": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_9VLcYL": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "AFTERPAY and PAY-IN-4 available",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         },
         "announcement_d9pVRc": {
           "type": "announcement",
           "settings": {
-            "text": "Free Domestic Shipping On Orders Over $150",
-            "link": "",
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
             "image": "shopify://shop_images/Devils_HornsWeb.svg"
           }
         }
