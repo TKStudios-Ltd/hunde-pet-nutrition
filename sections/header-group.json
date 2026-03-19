@@ -77,6 +77,117 @@
         "color_scheme": "scheme-4"
       }
     },
+    "announcement_bar_zxjR46": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_UFtLnF": {
+          "type": "announcement",
+          "settings": {
+            "text": "AFTERPAY DAY SALE | MARCH 19-22",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_kVPr6V": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off (almost) everything, no bundles",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_D6KzWM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping + a gift when you spend $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_rjTBfk": {
+          "type": "announcement",
+          "settings": {
+            "text": "AFTERPAY DAY SALE | MARCH 19-22",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_xMkr9K": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off (almost) everything, no bundles",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_3xhUDM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping + a gift when you spend $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_GGBBYw": {
+          "type": "announcement",
+          "settings": {
+            "text": "AFTERPAY DAY SALE | MARCH 19-22",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_hPazCq": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off (almost) everything, no bundles",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_KyW7X7": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping + a gift when you spend $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_UFtLnF",
+        "announcement_kVPr6V",
+        "announcement_D6KzWM",
+        "announcement_rjTBfk",
+        "announcement_xMkr9K",
+        "announcement_3xhUDM",
+        "announcement_GGBBYw",
+        "announcement_hPazCq",
+        "announcement_KyW7X7"
+      ],
+      "name": "Announcement - BF Free Gifts",
+      "settings": {
+        "color_scheme": "scheme-4"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "drawer",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -164,28 +275,10 @@
         "announcement_9VLcYL",
         "announcement_d9pVRc"
       ],
+      "disabled": true,
       "name": "Announcement - Free Shipping $150",
       "settings": {
         "color_scheme": "scheme-3"
-      }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-center",
-        "menu": "main-menu-1",
-        "menu_type_desktop": "drawer",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "announcement_bar_Q8ftY8": {
@@ -381,80 +474,14 @@
       "settings": {
         "color_scheme": "scheme-3"
       }
-    },
-    "announcement_bar_zxjR46": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_D6KzWM": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free wild rabbit hide twist when you spend $150",
-            "link": "shopify://products/wild-rabbit-hide-with-fur",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_kVPr6V": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free 250g functional topper when you spend $400",
-            "link": "shopify://collections/extras",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_zM4iRP": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free wild rabbit hide twist when you spend $150",
-            "link": "shopify://products/wild-rabbit-hide-with-fur",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_pUX9Bm": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free 250g functional topper when you spend $400",
-            "link": "shopify://collections/extras",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_H68Ejc": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free wild rabbit hide twist when you spend $150",
-            "link": "shopify://products/wild-rabbit-hide-with-fur",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_fBzJJ3": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free 250g functional topper when you spend $400",
-            "link": "shopify://collections/extras",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_D6KzWM",
-        "announcement_kVPr6V",
-        "announcement_zM4iRP",
-        "announcement_pUX9Bm",
-        "announcement_H68Ejc",
-        "announcement_fBzJJ3"
-      ],
-      "disabled": true,
-      "name": "Announcement - BF Free Gifts",
-      "settings": {
-        "color_scheme": "scheme-4"
-      }
     }
   },
   "order": [
     "announcement_bar_kiiWff",
-    "announcement-bar",
+    "announcement_bar_zxjR46",
     "header",
+    "announcement-bar",
     "announcement_bar_Q8ftY8",
-    "announcement_bar_w639LW",
-    "announcement_bar_zxjR46"
+    "announcement_bar_w639LW"
   ]
 }
