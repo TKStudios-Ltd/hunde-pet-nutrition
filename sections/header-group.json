@@ -138,6 +138,7 @@
         },
         "announcement_hPazCq": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "20% off (almost) everything, no bundles",
             "link": "shopify://collections",
@@ -146,6 +147,7 @@
         },
         "announcement_KyW7X7": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free shipping + a gift when you spend $150",
             "link": "shopify://collections",
@@ -164,7 +166,7 @@
         "announcement_hPazCq",
         "announcement_KyW7X7"
       ],
-      "name": "Announcement - BF Free Gifts",
+      "name": "Announcement - AP Day",
       "settings": {
         "color_scheme": "scheme-4"
       }
