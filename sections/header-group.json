@@ -11,6 +11,117 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_jhnJ3p": {
+          "type": "announcement",
+          "settings": {
+            "text": "AFTERPAY and PAY-IN-4 available",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_rxbgzA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_fnjnxM": {
+          "type": "announcement",
+          "settings": {
+            "text": "AFTERPAY and PAY-IN-4 available",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_zrmNbj": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_4W6TdR": {
+          "type": "announcement",
+          "settings": {
+            "text": "AFTERPAY and PAY-IN-4 available",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_npzJd8": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_9VLcYL": {
+          "type": "announcement",
+          "settings": {
+            "text": "AFTERPAY and PAY-IN-4 available",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_d9pVRc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_jhnJ3p",
+        "announcement_rxbgzA",
+        "announcement_fnjnxM",
+        "announcement_zrmNbj",
+        "announcement_4W6TdR",
+        "announcement_npzJd8",
+        "announcement_9VLcYL",
+        "announcement_d9pVRc"
+      ],
+      "name": "Announcement - Free Shipping $150",
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "drawer",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "announcement_bar_kiiWff": {
       "type": "announcement-bar",
       "blocks": {
@@ -166,121 +277,10 @@
         "announcement_hPazCq",
         "announcement_KyW7X7"
       ],
+      "disabled": true,
       "name": "Announcement - AP Day",
       "settings": {
         "color_scheme": "scheme-4"
-      }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-center",
-        "menu": "main-menu-1",
-        "menu_type_desktop": "drawer",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_jhnJ3p": {
-          "type": "announcement",
-          "settings": {
-            "text": "AFTERPAY and PAY-IN-4 available",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_rxbgzA": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_fnjnxM": {
-          "type": "announcement",
-          "settings": {
-            "text": "AFTERPAY and PAY-IN-4 available",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_zrmNbj": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_4W6TdR": {
-          "type": "announcement",
-          "settings": {
-            "text": "AFTERPAY and PAY-IN-4 available",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_npzJd8": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_9VLcYL": {
-          "type": "announcement",
-          "settings": {
-            "text": "AFTERPAY and PAY-IN-4 available",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_d9pVRc": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0",
-        "announcement_jhnJ3p",
-        "announcement_rxbgzA",
-        "announcement_fnjnxM",
-        "announcement_zrmNbj",
-        "announcement_4W6TdR",
-        "announcement_npzJd8",
-        "announcement_9VLcYL",
-        "announcement_d9pVRc"
-      ],
-      "disabled": true,
-      "name": "Announcement - Free Shipping $150",
-      "settings": {
-        "color_scheme": "scheme-3"
       }
     },
     "announcement_bar_Q8ftY8": {
@@ -479,10 +479,10 @@
     }
   },
   "order": [
+    "announcement-bar",
+    "header",
     "announcement_bar_kiiWff",
     "announcement_bar_zxjR46",
-    "header",
-    "announcement-bar",
     "announcement_bar_Q8ftY8",
     "announcement_bar_w639LW"
   ]
