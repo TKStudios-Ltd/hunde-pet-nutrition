@@ -237,6 +237,19 @@
           "beta_version": false,
           "custom_code": "<script>\n    // custom code here\n</script>"
         }
+      },
+      "2993056048391974366": {
+        "type": "shopify://apps/revenuehunt-recommender-quiz/blocks/chat-button/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+        "disabled": false,
+        "settings": {
+          "quiz_id": "W0HXmO6",
+          "chat_color": "#2552a3",
+          "chat_hide": true,
+          "chat_dot": true,
+          "chat_greeting": "Need help? Take our quiz!",
+          "quiz_width": "100",
+          "quiz_height": "100"
+        }
       }
     },
     "color_schemes": {
