@@ -244,7 +244,7 @@
         "settings": {
           "quiz_id": "W0HXmO6",
           "chat_color": "#2552a3",
-          "chat_hide": true,
+          "chat_hide": false,
           "chat_dot": true,
           "chat_greeting": "Need help? Take our quiz!",
           "quiz_width": "100",
