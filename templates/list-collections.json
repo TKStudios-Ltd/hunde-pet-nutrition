@@ -13,7 +13,7 @@
       "type": "main-list-collections",
       "settings": {
         "title": "SHOP BY TYPE",
-        "sort": "products_low",
+        "sort": "products_high",
         "image_ratio": "square",
         "columns_desktop": 4,
         "columns_mobile": "2"
