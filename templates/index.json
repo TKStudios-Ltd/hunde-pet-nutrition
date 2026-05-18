@@ -246,18 +246,6 @@
     "collection_list_wk6pQ6": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_tMBGU3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "meal-balancers"
-          }
-        },
-        "featured_collection_zbmVk8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "extras"
-          }
-        },
         "featured_collection_6KWhyF": {
           "type": "featured_collection",
           "settings": {
@@ -269,13 +257,25 @@
           "settings": {
             "collection": "cats"
           }
+        },
+        "featured_collection_tMBGU3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meal-balancers"
+          }
+        },
+        "featured_collection_zbmVk8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "extras"
+          }
         }
       },
       "block_order": [
-        "featured_collection_tMBGU3",
-        "featured_collection_zbmVk8",
         "featured_collection_6KWhyF",
-        "featured_collection_9EwLQK"
+        "featured_collection_9EwLQK",
+        "featured_collection_tMBGU3",
+        "featured_collection_zbmVk8"
       ],
       "custom_css": [
         ".collection-list-wrapper .card .card__information {background: white;}"
