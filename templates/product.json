@@ -42,6 +42,7 @@
         },
         "comparable_products_add_to_compare_K4baEj": {
           "type": "shopify://apps/comparable-products/blocks/add_to_compare/a0463732-e49b-4c6e-b22b-3158b9b069a8",
+          "disabled": true,
           "settings": {
             "product": "{{product}}",
             "element_type": "checkbox",
