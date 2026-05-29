@@ -55,6 +55,7 @@
         },
         "comparable_products_product_specs_table_j9Ktb9": {
           "type": "shopify://apps/comparable-products/blocks/product_specs_table/a0463732-e49b-4c6e-b22b-3158b9b069a8",
+          "disabled": true,
           "settings": {
             "product": "{{product}}",
             "heading_text": ""
