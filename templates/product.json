@@ -53,6 +53,13 @@
             "custom_liquid": "<p class=\"product--description\">{{ product.metafields.custom.description | newline_to_br }}</p>\n\n<img class=\"product--icons\" src=\"{{ product.metafields.custom.icons }}\" alt=\"Product icon\">\n\n<div class=\"product-tabbed-content\">\n  <ul class=\"product-tabs\">\n    <li class=\"product-tab-link active\" data-tab=\"benefits-tab\">Benefits</li>\n    <li class=\"product-tab-link\" data-tab=\"ingredients-tab\">Ingredients</li>\n  </ul>\n\n  <!-- Benefits Tab Content -->\n  <div id=\"benefits-tab\" class=\"product-tab-content active\">\n    <ul>\n    {% assign benefits = product.metafields.custom.benefits_tab | newline_to_br | split: \"<br />\" %}\n    {% for benefit in benefits %}\n      {% if benefit != '' and benefit != ' ' %}\n        <li>{{ benefit | strip }}</li>\n      {% endif %}\n    {% endfor %}\n  </ul>\n\n  </div>\n\n  <!-- Ingredients Tab Content -->\n  <div id=\"ingredients-tab\" class=\"product-tab-content\">\n      <div class=\"custom-ingredients\">\n        {{ product.metafields.custom.ingredients | newline_to_br }}\n      </div>\n  </div>\n</div>"
           }
         },
+        "comparable_products_product_specs_table_j9Ktb9": {
+          "type": "shopify://apps/comparable-products/blocks/product_specs_table/a0463732-e49b-4c6e-b22b-3158b9b069a8",
+          "settings": {
+            "product": "{{product}}",
+            "heading_text": ""
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -67,6 +74,7 @@
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_GTCmnr",
+        "comparable_products_product_specs_table_j9Ktb9",
         "description"
       ],
       "settings": {
