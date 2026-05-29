@@ -270,6 +270,7 @@
       "block_order": [
         "comparable_products_auto_comparison_table_CLJDdE"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
