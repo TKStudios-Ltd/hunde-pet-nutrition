@@ -248,6 +248,31 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "1780037375ec9a0e83": {
+      "type": "apps",
+      "blocks": {
+        "comparable_products_auto_comparison_table_CLJDdE": {
+          "type": "shopify://apps/comparable-products/blocks/auto_comparison_table/a0463732-e49b-4c6e-b22b-3158b9b069a8",
+          "settings": {
+            "product": "{{product}}",
+            "show_recommendations": false,
+            "show_recommendations_limit": 3,
+            "heading_text": "",
+            "highlight_type": "background_color_border",
+            "highlight_color": "#3fba9e",
+            "sort_by": "featured",
+            "compare_variants": false,
+            "currect_product_badge": ""
+          }
+        }
+      },
+      "block_order": [
+        "comparable_products_auto_comparison_table_CLJDdE"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -256,6 +281,7 @@
     "1746679102e43f4ea7",
     "image_with_text_VTjrKr",
     "17272403659935ce8b",
-    "related-products"
+    "related-products",
+    "1780037375ec9a0e83"
   ]
 }
