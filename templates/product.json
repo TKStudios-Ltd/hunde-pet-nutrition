@@ -280,7 +280,7 @@
             "show_recommendations": false,
             "show_recommendations_limit": 3,
             "heading_text": "",
-            "highlight_type": "background_color_border",
+            "highlight_type": "no_highlight",
             "highlight_color": "#3fba9e",
             "sort_by": "featured",
             "compare_variants": false,
