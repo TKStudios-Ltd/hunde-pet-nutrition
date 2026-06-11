@@ -20,10 +20,67 @@
     "custom_liquid_PxNGc8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Our story</h1></div>",
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"h0\">Recipe library</h1></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "multirow_6wzdNz": {
+      "type": "multirow",
+      "blocks": {
+        "row_JHNNxg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Photo_12-11-2025_6_34_05_pm_fdad984e-9bda-4880-93de-6698f43f1010.jpg",
+            "caption": "Caption",
+            "heading": "Raw recipes for dogs",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_dWndAx": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_xFgKKF": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_JHNNxg",
+        "row_dWndAx",
+        "row_xFgKKF"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "image_with_text_XLARkk": {
@@ -65,7 +122,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/clare-session.webp",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -220,6 +277,7 @@
   "order": [
     "main",
     "custom_liquid_PxNGc8",
+    "multirow_6wzdNz",
     "image_with_text_XLARkk",
     "image_with_text_hUALVT",
     "image_with_text_zTmji6",
