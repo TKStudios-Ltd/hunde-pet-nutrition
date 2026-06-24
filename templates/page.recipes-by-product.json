@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "multirow_bBCkEN": {
+      "type": "multirow",
+      "blocks": {
+        "row_wkpHy9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Photo_30-5-2026_6_08_35_pm.jpg",
+            "caption": "A lean recipe for everyone",
+            "heading": "Kangaroo and Wild blend",
+            "text": "<p>This raw recipe is suitable for fast growing puppies and freshly weaned kittens, as well as older animals all the way through to senior dogs and cats. </p>",
+            "button_label": "RECIPE",
+            "button_link": ""
+          }
+        },
+        "row_MGkTMB": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_8nMMnp": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_cmbrYE": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_qnGNEB": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_wkpHy9",
+        "row_MGkTMB",
+        "row_8nMMnp",
+        "row_cmbrYE",
+        "row_qnGNEB"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_iPGiUL": {
+      "type": "collage",
+      "blocks": {
+        "image_FM3McM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/corner_bench_essential.webp"
+          }
+        },
+        "product_RwgDaa": {
+          "type": "product",
+          "settings": {
+            "product": "essential-blend-for-dogs",
+            "second_image": true
+          }
+        },
+        "collection_MLi3HD": {
+          "type": "collection",
+          "settings": {
+            "collection": "meal-balancers"
+          }
+        }
+      },
+      "block_order": [
+        "image_FM3McM",
+        "product_RwgDaa",
+        "collection_MLi3HD"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "start with our best seller",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_xbUJ8E": {
+      "type": "multirow",
+      "blocks": {
+        "row_Yf67LE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Photo_30-5-2026_6_08_35_pm.jpg",
+            "caption": "A lean recipe for everyone",
+            "heading": "Kangaroo and Wild blend",
+            "text": "<p>This raw recipe is suitable for fast growing puppies and freshly weaned kittens, as well as older animals all the way through to senior dogs and cats. </p>",
+            "button_label": "RECIPE",
+            "button_link": ""
+          }
+        },
+        "row_wQdJJa": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_CyJL6f": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_4TnrT8": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Yf67LE",
+        "row_wQdJJa",
+        "row_CyJL6f",
+        "row_4TnrT8"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multirow_bBCkEN",
+    "collage_iPGiUL",
+    "multirow_xbUJ8E"
+  ]
+}
