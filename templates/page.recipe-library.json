@@ -60,13 +60,24 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "row_qnGNEB": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_wkpHy9",
         "row_MGkTMB",
         "row_8nMMnp",
-        "row_cmbrYE"
+        "row_cmbrYE",
+        "row_qnGNEB"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -139,46 +150,6 @@
             "button_link": ""
           }
         },
-        "row_3EgQ3r": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_wLrY68": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_rCTakY": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_FL6ziL": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
         "row_wQdJJa": {
           "type": "row",
           "settings": {
@@ -212,10 +183,6 @@
       },
       "block_order": [
         "row_Yf67LE",
-        "row_3EgQ3r",
-        "row_wLrY68",
-        "row_rCTakY",
-        "row_FL6ziL",
         "row_wQdJJa",
         "row_CyJL6f",
         "row_4TnrT8"
