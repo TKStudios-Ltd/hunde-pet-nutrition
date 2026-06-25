@@ -122,72 +122,6 @@
         "padding_bottom": 20
       }
     },
-    "announcement_bar_kiiWff": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_hKUgRf": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_VKzhFn": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_HFrd6p": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_gD3PXb": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_xwWian": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_6HNTWy": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_hKUgRf",
-        "announcement_VKzhFn",
-        "announcement_HFrd6p",
-        "announcement_gD3PXb",
-        "announcement_xwWian",
-        "announcement_6HNTWy"
-      ],
-      "disabled": true,
-      "name": "Announcement - Holidays",
-      "settings": {
-        "color_scheme": "scheme-4"
-      }
-    },
     "announcement_bar_zxjR46": {
       "type": "announcement-bar",
       "blocks": {
@@ -266,8 +200,73 @@
         "announcement_mM8H6i",
         "announcement_cwkNT3"
       ],
-      "disabled": true,
       "name": "Mid-year sale June 2026",
+      "settings": {
+        "color_scheme": "scheme-4"
+      }
+    },
+    "announcement_bar_kiiWff": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_hKUgRf": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_VKzhFn": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_HFrd6p": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_gD3PXb": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_xwWian": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_6HNTWy": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_hKUgRf",
+        "announcement_VKzhFn",
+        "announcement_HFrd6p",
+        "announcement_gD3PXb",
+        "announcement_xwWian",
+        "announcement_6HNTWy"
+      ],
+      "disabled": true,
+      "name": "Announcement - Holidays",
       "settings": {
         "color_scheme": "scheme-4"
       }

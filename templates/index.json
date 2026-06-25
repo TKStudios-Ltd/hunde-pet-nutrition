@@ -50,6 +50,7 @@
         "text_pANKDp",
         "button_PLkbCR"
       ],
+      "disabled": true,
       "name": "Homepage Hero – Current",
       "settings": {
         "image": "shopify://shop_images/kelpies_eating_treats_BW.jpg",
@@ -108,7 +109,6 @@
         "text_8gUXab",
         "button_fxMA77"
       ],
-      "disabled": true,
       "name": "Homepage Hero 26-28 June",
       "settings": {
         "image": "shopify://shop_images/Website_header_mid-year_sale.png",
