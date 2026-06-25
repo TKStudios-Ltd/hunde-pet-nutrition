@@ -194,73 +194,63 @@
         "announcement_UFtLnF": {
           "type": "announcement",
           "settings": {
-            "text": "AFTERPAY DAY SALE | MARCH 19-22",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
-        "announcement_kVPr6V": {
+        "announcement_Pcq8fh": {
           "type": "announcement",
           "settings": {
-            "text": "20% off (almost) everything, no bundles",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
-        "announcement_D6KzWM": {
+        "announcement_9HEByV": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping + a gift when you spend $150",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
-        "announcement_rjTBfk": {
+        "announcement_FgA3C6": {
           "type": "announcement",
           "settings": {
-            "text": "AFTERPAY DAY SALE | MARCH 19-22",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
-        "announcement_xMkr9K": {
+        "announcement_6pVPdz": {
           "type": "announcement",
           "settings": {
-            "text": "20% off (almost) everything, no bundles",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
-        "announcement_3xhUDM": {
+        "announcement_ygiDah": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping + a gift when you spend $150",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
-        "announcement_GGBBYw": {
+        "announcement_mM8H6i": {
           "type": "announcement",
           "settings": {
-            "text": "AFTERPAY DAY SALE | MARCH 19-22",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
         },
-        "announcement_hPazCq": {
+        "announcement_cwkNT3": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "20% off (almost) everything, no bundles",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_KyW7X7": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Free shipping + a gift when you spend $150",
+            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
             "link": "shopify://collections",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
@@ -268,222 +258,25 @@
       },
       "block_order": [
         "announcement_UFtLnF",
-        "announcement_kVPr6V",
-        "announcement_D6KzWM",
-        "announcement_rjTBfk",
-        "announcement_xMkr9K",
-        "announcement_3xhUDM",
-        "announcement_GGBBYw",
-        "announcement_hPazCq",
-        "announcement_KyW7X7"
+        "announcement_Pcq8fh",
+        "announcement_9HEByV",
+        "announcement_FgA3C6",
+        "announcement_6pVPdz",
+        "announcement_ygiDah",
+        "announcement_mM8H6i",
+        "announcement_cwkNT3"
       ],
       "disabled": true,
-      "name": "Announcement - AP Day",
+      "name": "Mid-year sale June 2026",
       "settings": {
         "color_scheme": "scheme-4"
-      }
-    },
-    "announcement_bar_Q8ftY8": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_VxrEcF": {
-          "type": "announcement",
-          "settings": {
-            "text": "$10 flat rate domestic shipping. Free on orders over $200.",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_9EEKaq": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_nYjFBe": {
-          "type": "announcement",
-          "settings": {
-            "text": "$10 flat rate domestic shipping. Free on orders over $200.",
-            "link": "https://hunde.com.au/collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_W8Lgmf": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_gLVNW9": {
-          "type": "announcement",
-          "settings": {
-            "text": "$10 flat rate domestic shipping. Free on orders over $200.",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_FQ6CWn": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_E3RTfK": {
-          "type": "announcement",
-          "settings": {
-            "text": "$10 flat rate domestic shipping. Free on orders over $200.",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_B9eK8K": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_3R9Gjj": {
-          "type": "announcement",
-          "settings": {
-            "text": "$10 flat rate domestic shipping. Free on orders over $200.",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_zkUf8Q": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_LxGtk3": {
-          "type": "announcement",
-          "settings": {
-            "text": "$10 flat rate domestic shipping. Free on orders over $200.",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_TYQTmd": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY SALE ON 26.11 - 1.12",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_VxrEcF",
-        "announcement_9EEKaq",
-        "announcement_nYjFBe",
-        "announcement_W8Lgmf",
-        "announcement_gLVNW9",
-        "announcement_FQ6CWn",
-        "announcement_E3RTfK",
-        "announcement_B9eK8K",
-        "announcement_3R9Gjj",
-        "announcement_zkUf8Q",
-        "announcement_LxGtk3",
-        "announcement_TYQTmd"
-      ],
-      "disabled": true,
-      "name": "Announcement - BF + Free Shipping $200",
-      "settings": {
-        "color_scheme": "scheme-3"
-      }
-    },
-    "announcement_bar_w639LW": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_VanggQ": {
-          "type": "announcement",
-          "settings": {
-            "text": "Enter our giveaway, running from 3 to 14 November 2025",
-            "link": "shopify://pages/hunde-giveaway-november-2025",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_39YdGr": {
-          "type": "announcement",
-          "settings": {
-            "text": "Win your pets $285 worth of Hunde goodies, shipped free to anywhere in Australia",
-            "link": "shopify://pages/hunde-giveaway-november-2025",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_xKgHex": {
-          "type": "announcement",
-          "settings": {
-            "text": "Enter our giveaway, running from 3 to 14 November 2025",
-            "link": "shopify://pages/hunde-giveaway-november-2025",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_eHB3Vh": {
-          "type": "announcement",
-          "settings": {
-            "text": "Win your pets $285 worth of Hunde goodies, shipped free to anywhere in Australia",
-            "link": "shopify://pages/hunde-giveaway-november-2025",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_CqG3QP": {
-          "type": "announcement",
-          "settings": {
-            "text": "Enter our giveaway, running from 3 to 14 November 2025",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_jLVHfD": {
-          "type": "announcement",
-          "settings": {
-            "text": "Win your pets $285 worth of Hunde goodies, shipped free to anywhere in Australia",
-            "link": "shopify://pages/hunde-giveaway-november-2025",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_tFN4PE": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_VanggQ",
-        "announcement_39YdGr",
-        "announcement_xKgHex",
-        "announcement_eHB3Vh",
-        "announcement_CqG3QP",
-        "announcement_jLVHfD",
-        "announcement_tFN4PE"
-      ],
-      "disabled": true,
-      "name": "Announcement - Giveaway 112025",
-      "settings": {
-        "color_scheme": "scheme-3"
       }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "announcement_bar_kiiWff",
     "announcement_bar_zxjR46",
-    "announcement_bar_Q8ftY8",
-    "announcement_bar_w639LW"
+    "announcement_bar_kiiWff"
   ]
 }

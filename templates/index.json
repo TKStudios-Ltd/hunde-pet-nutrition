@@ -73,14 +73,14 @@
         "heading_LmnNL6": {
           "type": "heading",
           "settings": {
-            "heading": "BLACK FRIDAY SALE ON NOW",
+            "heading": "SALE ON NOW!",
             "heading_size": "hxxl"
           }
         },
         "caption_zdLWDz": {
           "type": "caption",
           "settings": {
-            "caption": "Up to 30% off everything!",
+            "caption": "Up to 20% off everything!",
             "text_style": "subtitle",
             "text_size": "large"
           }
@@ -88,7 +88,7 @@
         "text_8gUXab": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Free gifts when you spend $150 and $400</strong></p><p>Click <a href=\"https://hunde.com.au/pages/black-friday-2025\" target=\"_blank\" title=\"Black Friday 2025 Details\"><strong>HERE</strong></a><strong> </strong>for all of the details on our biggest sale of the year!</p>",
+            "text": "<p>Get <strong>15% off </strong>when you spend up to $150! Code <strong>EOFY15</strong></p><p>Get <strong>20% off </strong>when you spend over $150! Code <strong>EOFY20</strong></p><p>Sale on until midnight June 28 AEST.</p>",
             "text_style": "body"
           }
         },
@@ -109,9 +109,9 @@
         "button_fxMA77"
       ],
       "disabled": true,
-      "name": "BF Homepage Hero ",
+      "name": "Homepage Hero 26-28 June",
       "settings": {
-        "image": "shopify://shop_images/Launch_e.png",
+        "image": "shopify://shop_images/Website_header_mid-year_sale.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
