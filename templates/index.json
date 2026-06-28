@@ -50,7 +50,6 @@
         "text_pANKDp",
         "button_PLkbCR"
       ],
-      "disabled": true,
       "name": "Homepage Hero – Current",
       "settings": {
         "image": "shopify://shop_images/kelpies_eating_treats_BW.jpg",
@@ -109,6 +108,7 @@
         "text_8gUXab",
         "button_fxMA77"
       ],
+      "disabled": true,
       "name": "Homepage Hero 26-28 June",
       "settings": {
         "image": "shopify://shop_images/Website_header_mid-year_sale.png",
@@ -132,7 +132,7 @@
         "heading_E4QiXz": {
           "type": "heading",
           "settings": {
-            "heading": "MODERN PET FOOD SOLUTIONS FOR MODERN PETS",
+            "heading": "",
             "heading_size": "hxxl"
           }
         },
@@ -241,6 +241,81 @@
         "full_width": true,
         "padding_top": 150,
         "padding_bottom": 100
+      }
+    },
+    "slideshow_xhyjdX": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_nbH7HH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/basket_essential.webp",
+            "heading": "100% whole food meal balancers",
+            "heading_size": "h1",
+            "subheading": "Making nutritionally complete pet food at home is easier than ever with our pet nutritionist-formulated meal completing blends, filled with freeze-dried organ meats and functional superfoods.",
+            "button_label": "LEARN MORE",
+            "link": "shopify://products/essential-blend-for-dogs",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VwUpyP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/vital_on_shelf.webp",
+            "heading": "100% whole food meal balancers",
+            "heading_size": "h1",
+            "subheading": "Making nutritionally complete pet food at home is easier than ever with our pet nutritionist-formulated meal completing blends, filled with freeze-dried organ meats and functional superfoods.",
+            "button_label": "LEARN MORE",
+            "link": "shopify://products/essential-blend-for-dogs",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_BL4rKG": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nbH7HH",
+        "slide_VwUpyP",
+        "slide_BL4rKG"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "collection_list_wk6pQ6": {
@@ -639,6 +714,7 @@
     "hero_text_image_3hpxNQ",
     "hero_text_image_Qp44Mn",
     "homepage_hero_PCCT9Y",
+    "slideshow_xhyjdX",
     "collection_list_wk6pQ6",
     "featured_collection_grid_3Xr3wa",
     "172637089614ee2655",
