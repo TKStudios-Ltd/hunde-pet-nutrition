@@ -246,33 +246,33 @@
     "slideshow_xhyjdX": {
       "type": "slideshow",
       "blocks": {
+        "slide_VwUpyP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cat_on_bench_1.webp",
+            "heading": "targeted nutrition for healthier pets",
+            "heading_size": "h1",
+            "subheading": "Balance homemade pet food effortlessly with our meal completing blends",
+            "button_label": "LEARN MORE",
+            "link": "shopify://products/essential-blend-for-dogs",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_nbH7HH": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/basket_essential.webp",
             "heading": "100% whole food meal balancers",
             "heading_size": "h1",
-            "subheading": "Making nutritionally complete pet food at home is easier than ever with our pet nutritionist-formulated meal completing blends, filled with freeze-dried organ meats and functional superfoods.",
+            "subheading": "Making nutritionally complete pet food at home has never been more within reach. Our meal completing blends are made from freeze-dried organ meats and functional superfoods, to ensure your pet is getting everything they need from their diet.",
             "button_label": "LEARN MORE",
-            "link": "shopify://products/essential-blend-for-dogs",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_VwUpyP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/vital_on_shelf.webp",
-            "heading": "100% whole food meal balancers",
-            "heading_size": "h1",
-            "subheading": "Making nutritionally complete pet food at home is easier than ever with our pet nutritionist-formulated meal completing blends, filled with freeze-dried organ meats and functional superfoods.",
-            "button_label": "LEARN MORE",
-            "link": "shopify://products/essential-blend-for-dogs",
+            "link": "shopify://collections/meal-balancers",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -301,8 +301,8 @@
         }
       },
       "block_order": [
-        "slide_nbH7HH",
         "slide_VwUpyP",
+        "slide_nbH7HH",
         "slide_BL4rKG"
       ],
       "disabled": true,
