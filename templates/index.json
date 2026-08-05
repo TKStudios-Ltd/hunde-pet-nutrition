@@ -15,14 +15,14 @@
         "heading_ph93RV": {
           "type": "heading",
           "settings": {
-            "heading": "MODERN PET NUTRITION, FOR MODERN PETS",
+            "heading": "MODERN PET FOOD, FOR MODERN PETS",
             "heading_size": "hxxl"
           }
         },
         "caption_brFB7G": {
           "type": "caption",
           "settings": {
-            "caption": "...and real people.",
+            "caption": "",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -30,7 +30,7 @@
         "text_pANKDp": {
           "type": "text",
           "settings": {
-            "text": "<p>Nutritionist founded and formulated, our signature meal balancing blends fill typical nutritional gaps in homemade pet food, in one easy step. </p>",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -266,6 +266,7 @@
         },
         "slide_nbH7HH": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/basket_essential.webp",
             "heading": "100% whole food meal balancers",
@@ -284,6 +285,7 @@
         },
         "slide_BL4rKG": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "Image slide",
             "heading_size": "h1",
@@ -309,12 +311,12 @@
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "counter",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
-        "image_behavior": "ambient",
-        "show_text_below": true,
+        "image_behavior": "none",
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
     },
