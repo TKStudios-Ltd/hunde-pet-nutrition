@@ -197,6 +197,7 @@
         },
         "caption_ABcVJd": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "Meal balancers and functional foods for dogs + cats",
             "text_style": "subtitle"
@@ -236,8 +237,8 @@
       "name": "Homepage Hero - Original",
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 150,
         "padding_bottom": 100

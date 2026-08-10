@@ -128,82 +128,117 @@
         "announcement_UFtLnF": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "100+ 5-star reviews",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         },
-        "announcement_Pcq8fh": {
+        "announcement_t4yXh9": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "Pet nutritionist-founded and formulated",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         },
-        "announcement_9HEByV": {
+        "announcement_f4Gjmf": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "100+ 5-star reviews",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         },
-        "announcement_FgA3C6": {
+        "announcement_jzfDxM": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "Pet nutritionist-founded and formulated",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         },
-        "announcement_6pVPdz": {
+        "announcement_39mMg7": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "100+ 5-star reviews",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         },
-        "announcement_ygiDah": {
+        "announcement_P7HmWG": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "Pet nutritionist-founded and formulated",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         },
-        "announcement_mM8H6i": {
+        "announcement_G88KH3": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "100+ 5-star reviews",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         },
-        "announcement_cwkNT3": {
+        "announcement_iWx4hC": {
           "type": "announcement",
           "settings": {
-            "text": "OUR MID-YEAR SALE IS ON! June 26-28",
+            "text": "Pet nutritionist-founded and formulated",
             "link": "shopify://collections",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
+          }
+        },
+        "announcement_6peBxP": {
+          "type": "announcement",
+          "settings": {
+            "text": "100+ 5-star reviews",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
+          }
+        },
+        "announcement_RDQX6e": {
+          "type": "announcement",
+          "settings": {
+            "text": "Pet nutritionist-founded and formulated",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
+          }
+        },
+        "announcement_dGfz9T": {
+          "type": "announcement",
+          "settings": {
+            "text": "100+ 5-star reviews",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
+          }
+        },
+        "announcement_rpEtnm": {
+          "type": "announcement",
+          "settings": {
+            "text": "Pet nutritionist-founded and formulated",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/HUNDE_Review-Star-4.svg"
           }
         }
       },
       "block_order": [
         "announcement_UFtLnF",
-        "announcement_Pcq8fh",
-        "announcement_9HEByV",
-        "announcement_FgA3C6",
-        "announcement_6pVPdz",
-        "announcement_ygiDah",
-        "announcement_mM8H6i",
-        "announcement_cwkNT3"
+        "announcement_t4yXh9",
+        "announcement_f4Gjmf",
+        "announcement_jzfDxM",
+        "announcement_39mMg7",
+        "announcement_P7HmWG",
+        "announcement_G88KH3",
+        "announcement_iWx4hC",
+        "announcement_6peBxP",
+        "announcement_RDQX6e",
+        "announcement_dGfz9T",
+        "announcement_rpEtnm"
       ],
-      "disabled": true,
-      "name": "Mid-year sale June 2026",
+      "name": "Social proof",
       "settings": {
-        "color_scheme": "scheme-4"
+        "color_scheme": "scheme-5"
       }
     },
     "announcement_bar_kiiWff": {
