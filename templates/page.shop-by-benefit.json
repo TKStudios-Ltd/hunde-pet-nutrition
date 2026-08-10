@@ -11,13 +11,63 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "collection_list_3pJVhg": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_y3gpyp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gut-health"
+          }
+        },
+        "featured_collection_deAVhj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skin-and-coat"
+          }
+        },
+        "featured_collection_jGdeWU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dental-health"
+          }
+        },
+        "featured_collection_eQtyGT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "immune-support"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_y3gpyp",
+        "featured_collection_deAVhj",
+        "featured_collection_jGdeWU",
+        "featured_collection_eQtyGT"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Shop by benefit",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_list_3pJVhg"
   ]
 }
