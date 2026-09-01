@@ -9,6 +9,50 @@
  */
 {
   "sections": {
+    "homepage_hero_yFhmy8": {
+      "type": "homepage-hero",
+      "blocks": {
+        "heading_76gdPG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modern pet nutrition, for modern pets",
+            "heading_size": "hxxl"
+          }
+        },
+        "text_V3H76b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>And real people. </p>"
+          }
+        },
+        "button_BLAFRW": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/best-sellers",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_76gdPG",
+        "text_V3H76b",
+        "button_BLAFRW"
+      ],
+      "disabled": true,
+      "name": "Homepage Hero",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 50
+      }
+    },
     "hero_text_image_xmTmXH": {
       "type": "hero-text-image",
       "blocks": {
@@ -111,7 +155,6 @@
       "disabled": true,
       "name": "Homepage Hero 26-28 June",
       "settings": {
-        "image": "shopify://shop_images/Website_header_mid-year_sale.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -713,6 +756,7 @@
     }
   },
   "order": [
+    "homepage_hero_yFhmy8",
     "hero_text_image_xmTmXH",
     "hero_text_image_3hpxNQ",
     "hero_text_image_Qp44Mn",
