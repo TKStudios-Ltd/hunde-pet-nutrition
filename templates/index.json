@@ -59,7 +59,7 @@
         "heading_ph93RV": {
           "type": "heading",
           "settings": {
-            "heading": "MODERN PET FOOD, FOR MODERN PETS",
+            "heading": "MODERN PET NUTRITION, FOR MODERN PETS",
             "heading_size": "hxxl"
           }
         },
@@ -364,54 +364,33 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "collection_list_wk6pQ6": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_6KWhyF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dogs"
-          }
-        },
-        "featured_collection_9EwLQK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cats"
-          }
-        },
-        "featured_collection_tMBGU3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "meal-balancers"
-          }
-        },
-        "featured_collection_zbmVk8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "functional-foods"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_6KWhyF",
-        "featured_collection_9EwLQK",
-        "featured_collection_tMBGU3",
-        "featured_collection_zbmVk8"
-      ],
-      "custom_css": [
-        ".collection-list-wrapper .card .card__information {background: white;}"
-      ],
+    "featured_collection_Tk3zp3": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
+        "title": "Bestsellers",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 4,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 0
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection_grid_3Xr3wa": {
@@ -435,7 +414,7 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -612,6 +591,7 @@
     },
     "featured_collection_FArktn": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 749px) {.h1 {max-width: 300px; }}"
       ],
@@ -762,7 +742,7 @@
     "hero_text_image_Qp44Mn",
     "homepage_hero_PCCT9Y",
     "slideshow_xhyjdX",
-    "collection_list_wk6pQ6",
+    "featured_collection_Tk3zp3",
     "featured_collection_grid_3Xr3wa",
     "172637089614ee2655",
     "multicolumn_MB4Ncx",
