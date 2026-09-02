@@ -41,7 +41,7 @@
     rgba(var(--color-foreground), 0.15) var(--percent)
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgb(242, 194, 10);}
 }
 
 .rating-text {
