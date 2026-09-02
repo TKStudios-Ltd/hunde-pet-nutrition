@@ -59,6 +59,6 @@
   }
 
   .rating-text {
-    display: none;
+    display: inline-block;
   }
 }
