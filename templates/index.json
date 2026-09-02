@@ -393,6 +393,12 @@
         "padding_bottom": 36
       }
     },
+    "1788308428edd29920": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "featured_collection_grid_3Xr3wa": {
       "type": "featured-collection-grid",
       "settings": {
@@ -743,6 +749,7 @@
     "homepage_hero_PCCT9Y",
     "slideshow_xhyjdX",
     "featured_collection_Tk3zp3",
+    "1788308428edd29920",
     "featured_collection_grid_3Xr3wa",
     "172637089614ee2655",
     "multicolumn_MB4Ncx",
