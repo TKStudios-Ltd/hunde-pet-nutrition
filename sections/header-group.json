@@ -11,6 +11,89 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_kBtzpw": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_gdKe6q": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_Qycezi": {
+          "type": "announcement",
+          "settings": {
+            "text": "Grab any 2 natural treats, get a 3rd free",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_gCqhyV": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_qBN9r4": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free cow face + Aussie shipping on orders over $150",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_YPiBQG": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_FNDA3E": {
+          "type": "announcement",
+          "settings": {
+            "text": "Grab any 2 natural treats, get a 3rd free",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_bLJeYe": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_pHEVrK": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free cow face + Aussie shipping on orders over $150",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_gdKe6q",
+        "announcement_Qycezi",
+        "announcement_gCqhyV",
+        "announcement_qBN9r4",
+        "announcement_YPiBQG",
+        "announcement_FNDA3E",
+        "announcement_bLJeYe",
+        "announcement_pHEVrK"
+      ],
+      "name": "Announcement - Halloween sale 2026",
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -98,6 +181,7 @@
         "announcement_9VLcYL",
         "announcement_d9pVRc"
       ],
+      "disabled": true,
       "name": "Announcement - Free Shipping $150",
       "settings": {
         "color_scheme": "scheme-3"
@@ -306,79 +390,13 @@
       "settings": {
         "color_scheme": "scheme-4"
       }
-    },
-    "announcement_bar_kBtzpw": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_gdKe6q": {
-          "type": "announcement",
-          "settings": {
-            "text": "(trick or) Treat Sale is ON NOW!",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_Qycezi": {
-          "type": "announcement",
-          "settings": {
-            "text": "Grab any 2 treats, get a 3rd free",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_qBN9r4": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free cow face + Aussie shipping on orders over $150",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_wgNebp": {
-          "type": "announcement",
-          "settings": {
-            "text": "(trick or) Treat Sale is ON NOW!",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_FNDA3E": {
-          "type": "announcement",
-          "settings": {
-            "text": "Grab any 2 treats, get a 3rd free",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_pHEVrK": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free cow face + Aussie shipping on orders over $150",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_gdKe6q",
-        "announcement_Qycezi",
-        "announcement_qBN9r4",
-        "announcement_wgNebp",
-        "announcement_FNDA3E",
-        "announcement_pHEVrK"
-      ],
-      "disabled": true,
-      "name": "Announcement - Halloween sale 2026",
-      "settings": {
-        "color_scheme": "scheme-4"
-      }
     }
   },
   "order": [
+    "announcement_bar_kBtzpw",
     "announcement-bar",
     "header",
     "announcement_bar_zxjR46",
-    "announcement_bar_kiiWff",
-    "announcement_bar_kBtzpw"
+    "announcement_bar_kiiWff"
   ]
 }
