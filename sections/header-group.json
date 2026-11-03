@@ -103,109 +103,6 @@
         "color_scheme": "scheme-3"
       }
     },
-    "announcement_bar_kBtzpw": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_gdKe6q": {
-          "type": "announcement",
-          "settings": {
-            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_Qycezi": {
-          "type": "announcement",
-          "settings": {
-            "text": "Grab any 2 natural treats, get a 3rd free",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_gCqhyV": {
-          "type": "announcement",
-          "settings": {
-            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_qBN9r4": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free cow face + Aussie shipping on orders over $150",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_YPiBQG": {
-          "type": "announcement",
-          "settings": {
-            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_FNDA3E": {
-          "type": "announcement",
-          "settings": {
-            "text": "Grab any 2 natural treats, get a 3rd free",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_bLJeYe": {
-          "type": "announcement",
-          "settings": {
-            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_pHEVrK": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free cow face + Aussie shipping on orders over $150",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_gdKe6q",
-        "announcement_Qycezi",
-        "announcement_gCqhyV",
-        "announcement_qBN9r4",
-        "announcement_YPiBQG",
-        "announcement_FNDA3E",
-        "announcement_bLJeYe",
-        "announcement_pHEVrK"
-      ],
-      "disabled": true,
-      "name": "Announcement - Halloween sale 2026",
-      "settings": {
-        "color_scheme": "scheme-3"
-      }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-center",
-        "menu": "main-menu-1",
-        "menu_type_desktop": "mega",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "announcement_bar_zxjR46": {
       "type": "announcement-bar",
       "blocks": {
@@ -325,6 +222,109 @@
         "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9"
       }
     },
+    "announcement_bar_kBtzpw": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_gdKe6q": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_Qycezi": {
+          "type": "announcement",
+          "settings": {
+            "text": "Grab any 2 natural treats, get a 3rd free",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_gCqhyV": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_qBN9r4": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free cow face + Aussie shipping on orders over $150",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_YPiBQG": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_FNDA3E": {
+          "type": "announcement",
+          "settings": {
+            "text": "Grab any 2 natural treats, get a 3rd free",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_bLJeYe": {
+          "type": "announcement",
+          "settings": {
+            "text": "(TRICK OR) TREAT SALE IS ON NOW!",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_pHEVrK": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free cow face + Aussie shipping on orders over $150",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_gdKe6q",
+        "announcement_Qycezi",
+        "announcement_gCqhyV",
+        "announcement_qBN9r4",
+        "announcement_YPiBQG",
+        "announcement_FNDA3E",
+        "announcement_bLJeYe",
+        "announcement_pHEVrK"
+      ],
+      "disabled": true,
+      "name": "Announcement - Halloween sale 2026",
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "announcement_bar_kiiWff": {
       "type": "announcement-bar",
       "blocks": {
@@ -394,9 +394,9 @@
   },
   "order": [
     "announcement-bar",
-    "announcement_bar_kBtzpw",
-    "header",
     "announcement_bar_zxjR46",
-    "announcement_bar_kiiWff"
+    "header",
+    "announcement_bar_kiiWff",
+    "announcement_bar_kBtzpw"
   ]
 }
