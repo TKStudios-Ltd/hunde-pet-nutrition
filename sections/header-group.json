@@ -103,6 +103,25 @@
         "color_scheme": "scheme-3"
       }
     },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "announcement_bar_zxjR46": {
       "type": "announcement-bar",
       "blocks": {
@@ -222,6 +241,72 @@
         "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9"
       }
     },
+    "announcement_bar_kiiWff": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_hKUgRf": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_VKzhFn": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_HFrd6p": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_gD3PXb": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_xwWian": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_6HNTWy": {
+          "type": "announcement",
+          "settings": {
+            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_hKUgRf",
+        "announcement_VKzhFn",
+        "announcement_HFrd6p",
+        "announcement_gD3PXb",
+        "announcement_xwWian",
+        "announcement_6HNTWy"
+      ],
+      "disabled": true,
+      "name": "Announcement - Holidays",
+      "settings": {
+        "color_scheme": "scheme-4"
+      }
+    },
     "announcement_bar_kBtzpw": {
       "type": "announcement-bar",
       "blocks": {
@@ -305,97 +390,12 @@
       "settings": {
         "color_scheme": "scheme-3"
       }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-center",
-        "menu": "main-menu-1",
-        "menu_type_desktop": "mega",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "announcement_bar_kiiWff": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_hKUgRf": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_VKzhFn": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_HFrd6p": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_gD3PXb": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_xwWian": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        },
-        "announcement_6HNTWy": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
-            "link": "",
-            "image": "shopify://shop_images/Untitled_design_2.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_hKUgRf",
-        "announcement_VKzhFn",
-        "announcement_HFrd6p",
-        "announcement_gD3PXb",
-        "announcement_xwWian",
-        "announcement_6HNTWy"
-      ],
-      "disabled": true,
-      "name": "Announcement - Holidays",
-      "settings": {
-        "color_scheme": "scheme-4"
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "announcement_bar_zxjR46",
     "header",
+    "announcement_bar_zxjR46",
     "announcement_bar_kiiWff",
     "announcement_bar_kBtzpw"
   ]
