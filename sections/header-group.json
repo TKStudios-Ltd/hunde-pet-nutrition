@@ -241,6 +241,20 @@
         "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9"
       }
     },
+    "scrolling_image_slider_3zaTyb": {
+      "type": "scrolling-image-slider",
+      "blocks": {
+        "image_block_BKmGVN": {
+          "type": "image_block",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_block_BKmGVN"
+      ],
+      "name": "Infinite Image Slider",
+      "settings": {}
+    },
     "announcement_bar_kiiWff": {
       "type": "announcement-bar",
       "blocks": {
@@ -396,6 +410,7 @@
     "announcement-bar",
     "header",
     "announcement_bar_zxjR46",
+    "scrolling_image_slider_3zaTyb",
     "announcement_bar_kiiWff",
     "announcement_bar_kBtzpw"
   ]
