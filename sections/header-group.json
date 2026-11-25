@@ -11,117 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_jhnJ3p": {
-          "type": "announcement",
-          "settings": {
-            "text": "Afterpay available",
-            "link": "",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_rxbgzA": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_fnjnxM": {
-          "type": "announcement",
-          "settings": {
-            "text": "Afterpay available",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_zrmNbj": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_4W6TdR": {
-          "type": "announcement",
-          "settings": {
-            "text": "Afterpay available",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_npzJd8": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_9VLcYL": {
-          "type": "announcement",
-          "settings": {
-            "text": "Afterpay available",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        },
-        "announcement_d9pVRc": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free domestic shipping on orders over $150",
-            "link": "shopify://collections",
-            "image": "shopify://shop_images/Devils_HornsWeb.svg"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0",
-        "announcement_jhnJ3p",
-        "announcement_rxbgzA",
-        "announcement_fnjnxM",
-        "announcement_zrmNbj",
-        "announcement_4W6TdR",
-        "announcement_npzJd8",
-        "announcement_9VLcYL",
-        "announcement_d9pVRc"
-      ],
-      "name": "Announcement - Free Shipping $150",
-      "settings": {
-        "color_scheme": "scheme-3"
-      }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-center",
-        "menu": "main-menu-1",
-        "menu_type_desktop": "mega",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "announcement_bar_zxjR46": {
       "type": "announcement-bar",
       "blocks": {
@@ -236,9 +125,121 @@
         "announcement_dGfz9T",
         "announcement_rpEtnm"
       ],
+      "disabled": true,
       "name": "Social proof",
       "settings": {
         "color_scheme": "scheme-4128db30-0cc1-4950-b74a-bfa9c35e0bf9"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_jhnJ3p": {
+          "type": "announcement",
+          "settings": {
+            "text": "Afterpay available",
+            "link": "",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_rxbgzA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_fnjnxM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Afterpay available",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_zrmNbj": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_4W6TdR": {
+          "type": "announcement",
+          "settings": {
+            "text": "Afterpay available",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_npzJd8": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_9VLcYL": {
+          "type": "announcement",
+          "settings": {
+            "text": "Afterpay available",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        },
+        "announcement_d9pVRc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free domestic shipping on orders over $150",
+            "link": "shopify://collections",
+            "image": "shopify://shop_images/Devils_HornsWeb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_jhnJ3p",
+        "announcement_rxbgzA",
+        "announcement_fnjnxM",
+        "announcement_zrmNbj",
+        "announcement_4W6TdR",
+        "announcement_npzJd8",
+        "announcement_9VLcYL",
+        "announcement_d9pVRc"
+      ],
+      "name": "Announcement - Free Shipping $150",
+      "settings": {
+        "color_scheme": "scheme-4"
       }
     },
     "announcement_bar_kiiWff": {
@@ -247,7 +248,55 @@
         "announcement_hKUgRf": {
           "type": "announcement",
           "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "text": "Black Friday Sale 26-30 November",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_V3t4iV": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Sale 26-30 November",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_UnKeHn": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Sale 26-30 November",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_EL779g": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Sale 26-30 November",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_zzG8YQ": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Sale 26-30 November",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_FFHtCa": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Sale 26-30 November",
+            "link": "",
+            "image": "shopify://shop_images/Untitled_design_2.svg"
+          }
+        },
+        "announcement_MPUiT7": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Sale 26-30 November",
             "link": "",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
@@ -255,7 +304,7 @@
         "announcement_VKzhFn": {
           "type": "announcement",
           "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "text": "Black Friday Sale 26-30 November",
             "link": "",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
@@ -263,7 +312,7 @@
         "announcement_HFrd6p": {
           "type": "announcement",
           "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "text": "Black Friday Sale 26-30 November",
             "link": "",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
@@ -271,7 +320,7 @@
         "announcement_gD3PXb": {
           "type": "announcement",
           "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "text": "Our warehouse is closed for the holidays! Orders will be procBlack Friday Sale 26-30 Novemberessed from mid-January",
             "link": "",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
@@ -279,7 +328,7 @@
         "announcement_xwWian": {
           "type": "announcement",
           "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "text": "Black Friday Sale 26-30 November",
             "link": "",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
@@ -287,7 +336,7 @@
         "announcement_6HNTWy": {
           "type": "announcement",
           "settings": {
-            "text": "Our warehouse is closed for the holidays! Orders will be processed from mid-January",
+            "text": "Black Friday Sale 26-30 November",
             "link": "",
             "image": "shopify://shop_images/Untitled_design_2.svg"
           }
@@ -295,16 +344,21 @@
       },
       "block_order": [
         "announcement_hKUgRf",
+        "announcement_V3t4iV",
+        "announcement_UnKeHn",
+        "announcement_EL779g",
+        "announcement_zzG8YQ",
+        "announcement_FFHtCa",
+        "announcement_MPUiT7",
         "announcement_VKzhFn",
         "announcement_HFrd6p",
         "announcement_gD3PXb",
         "announcement_xwWian",
         "announcement_6HNTWy"
       ],
-      "disabled": true,
       "name": "Announcement - Holidays",
       "settings": {
-        "color_scheme": "scheme-4"
+        "color_scheme": "scheme-3"
       }
     },
     "announcement_bar_kBtzpw": {
