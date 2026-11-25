@@ -469,6 +469,35 @@
         "padding_bottom": 40
       }
     },
+    "featured_collection_inline_cEayYb": {
+      "type": "featured-collection-inline",
+      "settings": {
+        "title": "MEAL",
+        "heading_size": "hxl",
+        "subtitle": "Toppers",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "functional-foods",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
     "172637089614ee2655": {
       "type": "apps",
       "blocks": {
@@ -588,35 +617,6 @@
         "color_scheme": "scheme-1",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "featured_collection_inline_cEayYb": {
-      "type": "featured-collection-inline",
-      "settings": {
-        "title": "MEAL",
-        "heading_size": "hxl",
-        "subtitle": "Toppers",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "functional-foods",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 80
       }
     },
     "featured_blog_XYzgPt": {
@@ -792,11 +792,11 @@
     "featured_collection_Tk3zp3",
     "1788308428edd29920",
     "featured_collection_grid_3Xr3wa",
+    "featured_collection_inline_cEayYb",
     "172637089614ee2655",
     "multicolumn_MB4Ncx",
     "scrolling_image_slider_wDbnnh",
     "custom_liquid_JPaN66",
-    "featured_collection_inline_cEayYb",
     "featured_blog_XYzgPt",
     "featured_collection_FArktn",
     "parallax_images_text_4zxyNq",
