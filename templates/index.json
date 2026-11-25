@@ -50,6 +50,7 @@
         "text_pANKDp",
         "button_PLkbCR"
       ],
+      "disabled": true,
       "name": "Homepage Hero – Current",
       "settings": {
         "image": "shopify://shop_images/glow-up-150-rh.webp",
@@ -172,7 +173,6 @@
         "slide_VwUpyP",
         "slide_nbH7HH"
       ],
-      "disabled": true,
       "name": "Black Friday Slideshow",
       "settings": {
         "layout": "full_bleed",
